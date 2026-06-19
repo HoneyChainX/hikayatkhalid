@@ -1,0 +1,5 @@
+# Local $0 video pipeline for Hikayat Khalid
+gTTS>=2.5            # free Arabic text-to-speech (Google Translate TTS)
+mutagen>=1.47        # accurate mp3 duration
+imageio-ffmpeg>=0.5  # bundles a static ffmpeg binary (no system install needed)
+requests>=2.31       # used by upload_to_supabase.py
