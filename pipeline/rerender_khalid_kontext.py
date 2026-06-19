@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-FREE Khalid-consistency pass using Flux.1 Kontext (open weights) on a public
-Hugging Face Space — no API key, no credits.
+FREE Khalid-consistency pass using Flux.1 Kontext (open weights) on public
+Hugging Face Spaces — no API key, no credits.
 
 It edits a fixed reference of Khalid (khalid_v1.png, placed on a 16:9 white
 canvas) into each scene, so Khalid's face / kufi / thobe stay identical
@@ -9,12 +9,15 @@ shot-to-shot. Only shots that contain KHALID are re-rendered; the others keep
 their flux images. Outputs overwrite build/ep01/img/shotNN.jpg (originals are
 backed up to build/ep01/img_flux/). Re-run to resume — finished shots are skipped.
 
-    pip install gradio_client imageio-ffmpeg
+Anonymous HF ZeroGPU has a small per-IP quota, so this ROTATES across several
+mirror Kontext Spaces; when one is out of quota it moves to the next. For an
+uninterrupted run, set HF_TOKEN (free) or KONTEXT_SPACES to your own list.
+
+    pip install gradio_client imageio-ffmpeg huggingface_hub
     python3 pipeline/rerender_khalid_kontext.py
     python3 pipeline/build_ep01.py          # restitch the MP4 with the new frames
 
-Env: KONTEXT_SPACE (default black-forest-labs/FLUX.1-Kontext-dev),
-     KHALID_SHOTS="1,4,26" to limit which shots.
+Env: KONTEXT_SPACES="a,b,c" (override mirror list), KHALID_SHOTS="1,4,26" (limit).
 """
 import json
 import os
@@ -32,8 +35,20 @@ IMG = BUILD / "img"
 FREE = BUILD / "kontext"
 FREE.mkdir(parents=True, exist_ok=True)
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
-SPACE = os.environ.get("KONTEXT_SPACE", "black-forest-labs/FLUX.1-Kontext-dev")
 CANVAS = BUILD / "free" / "khalid_canvas.png"
+
+_DEFAULT_SPACES = [
+    "black-forest-labs/FLUX.1-Kontext-Dev",
+    "black-forest-labs/FLUX.1-Kontext-dev",
+    "Nymbo/FLUX.1-Kontext-Dev",
+    "akhaliq/FLUX.1-Kontext-dev",
+    "ginigen/FLUX.1-Kontext-Dev",
+    "joztt31/black-forest-labs-FLUX.1-Kontext-dev",
+    "Swagcrew/black-forest-labs-FLUX.1-Kontext-dev",
+    "coasttmetal/black-forest-labs-FLUX.1-Kontext-dev",
+    "Gvqlo10c/black-forest-labs-FLUX.1-Kontext-dev",
+]
+SPACES = [s for s in os.environ.get("KONTEXT_SPACES", "").split(",") if s] or _DEFAULT_SPACES
 
 SHOTS = json.loads((ROOT / "pipeline" / "ep01_shotlist.json").read_text(encoding="utf-8"))
 ONLY = {int(x) for x in os.environ.get("KHALID_SHOTS", "").split(",") if x.strip().isdigit()}
@@ -44,7 +59,6 @@ def log(*a):
 
 
 def ensure_canvas():
-    """Front view of Khalid on a 1280x720 white canvas (drives 16:9 output)."""
     if CANVAS.exists():
         return
     CANVAS.parent.mkdir(parents=True, exist_ok=True)
@@ -58,13 +72,19 @@ def ensure_canvas():
 
 
 def edit_prompt(shot):
-    scene = shot["visual_prompt"].replace("[STYLE]", "").strip()
+    vp = shot["visual_prompt"]
+    scene = vp.replace("[STYLE]", "").strip()
+    extra = []
+    if "NOOR" in vp:
+        extra.append("the little girl NOOR has a light-blue headscarf and a light-blue dress")
+    if "TETA" in vp:
+        extra.append("the grandmother TETA has a cream hijab, thin glasses and olive clothes")
+    extras = (" In this scene " + "; ".join(extra) + ".") if extra else ""
     return ("Keep this same boy character completely unchanged — identical face, olive-and-gold "
             "kufi cap, black thobe with gold embroidery, small brown satchel. Replace the plain "
-            f"white background with this full scene (the boy is KHALID): {scene} "
-            "Draw any little girl as NOOR (light-blue headscarf and dress) and any grandmother as "
-            "TETA (cream hijab, glasses, olive clothes). Flat 2D cartoon children's storybook "
-            "style, warm cheerful colors, simple background, no text or letters.")
+            f"white background with this full scene (the boy is KHALID): {scene}" + extras +
+            " Do not add any other people who are not described. Flat 2D cartoon children's "
+            "storybook style, warm cheerful colors, simple background, no text or letters.")
 
 
 def extract(res):
@@ -80,12 +100,13 @@ def main():
     targets = [s for s in SHOTS if "KHALID" in s["visual_prompt"]]
     if ONLY:
         targets = [s for s in targets if int(s["scene_id"]) in ONLY]
-    log(f"space={SPACE}  Khalid shots to render: {[s['scene_id'] for s in targets]}")
+    log(f"spaces={len(SPACES)}  Khalid shots: {[s['scene_id'] for s in targets]}")
 
     if not (IMG.parent / "img_flux").exists():
         shutil.copytree(IMG, IMG.parent / "img_flux")
         log("backed up flux images -> build/ep01/img_flux/")
 
+    sidx = 0
     client = None
     done, failed = [], []
     for shot in targets:
@@ -96,10 +117,12 @@ def main():
             log(f"shot {sid:02d} already done, skip")
             continue
         ok = False
-        for attempt in range(4):
+        for attempt in range(len(SPACES) + 2):
             try:
                 if client is None:
-                    client = Client(SPACE, verbose=False)
+                    client = Client(SPACES[sidx], hf_token=os.environ.get("HF_TOKEN"),
+                                    verbose=False)
+                    log(f"  connected to {SPACES[sidx]}")
                 t = time.time()
                 res = client.predict(
                     input_image=handle_file(str(CANVAS)),
@@ -110,16 +133,17 @@ def main():
                 shutil.copy(p, webp)
                 subprocess.run([FFMPEG, "-y", "-i", str(webp), "-q:v", "3", str(out)],
                                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-                log(f"shot {sid:02d} OK ({time.time()-t:.0f}s)")
+                log(f"shot {sid:02d} OK via {SPACES[sidx]} ({time.time()-t:.0f}s)")
                 ok = True
                 break
             except Exception as e:
-                wait = 10 * (attempt + 1) ** 2
-                log(f"shot {sid:02d} attempt {attempt+1} failed: {repr(e)[:160]} -> wait {wait}s")
+                msg = repr(e)[:140]
+                sidx = (sidx + 1) % len(SPACES)        # rotate to next mirror
                 client = None
-                time.sleep(wait)
+                log(f"shot {sid:02d} attempt {attempt+1} failed: {msg} -> next space {SPACES[sidx]}")
+                time.sleep(5)
         (done if ok else failed).append(sid)
-        time.sleep(2)
+        time.sleep(1)
 
     log(f"DONE. rendered={len(done)} {done}  failed={failed}")
     if failed:
