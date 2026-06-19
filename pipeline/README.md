@@ -78,6 +78,20 @@ python3 pipeline/rerender_khalid_nim.py && python3 pipeline/build_ep01.py
 The identical quality is also available via the Gemini free tier ("nano-banana"
 / Gemini Flash Image) with your existing Gemini key.
 
+**Recommended runner — `rerender_balancer.py`:** a smart multi-backend balancer
+that spreads the shots across whichever free identity-locking backends are
+healthy (HF Kontext / NVIDIA NIM / Gemini), health-gating each one (auto-skip on
+quota or error, auto-resume when it recovers). It maximizes free throughput and
+needs no single backend to carry the whole job:
+
+```bash
+# enable whatever you have; unset ones are simply skipped
+export HF_TOKEN=...           # optional, lifts the HF anonymous cap
+export NVIDIA_API_KEY=...     # optional, NVIDIA NIM
+export GEMINI_API_KEY=...     # optional, Gemini nano-banana
+python3 pipeline/rerender_balancer.py && python3 pipeline/build_ep01.py
+```
+
 ## Quality notes / upgrade path
 
 This is a **first-draft** quality bar that proves the full assembly:
