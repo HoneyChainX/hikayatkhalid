@@ -47,15 +47,33 @@ export SUPABASE_SERVICE_ROLE_KEY="...."   # paste locally, do not commit
 python3 pipeline/upload_to_supabase.py
 ```
 
+## Free Khalid-consistency pass (`rerender_khalid_kontext.py`)
+
+Locks Khalid's face/outfit across shots for **$0 — no API key, no credits**,
+using **Flux.1 Kontext** (open weights) on a public Hugging Face Space. It edits
+the locked reference `khalid_v1.png` (placed on a 16:9 white canvas) into each
+scene, so the same Khalid appears in every shot. Only the 22 shots containing
+KHALID are re-rendered; the rest keep their flux images.
+
+```bash
+pip install gradio_client imageio-ffmpeg
+python3 pipeline/rerender_khalid_kontext.py   # writes build/ep01/img/shotNN.jpg (flux backed up to img_flux/)
+python3 pipeline/build_ep01.py                # restitch the MP4 with the consistent frames
+```
+
+Resumable (finished shots are skipped) and rate-limit tolerant (retries with
+backoff on the Space's free GPU quota). The *same* identity-locking quality is
+available via the Gemini API's free tier ("nano-banana" / Gemini Flash Image)
+with your existing Gemini key — point `KONTEXT_SPACE` logic at that if you
+prefer a non-queued path.
+
 ## Quality notes / upgrade path
 
 This is a **first-draft** quality bar that proves the full assembly:
 
-- **Character consistency** rides on textual descriptors only (Pollinations/flux
-  is text-to-image), so Khalid is recognizable but not pixel-identical
-  shot-to-shot — the same limitation noted in the project handoff. To fix, swap
-  `fetch_image()` for a reference-capable model (Higgsfield with `khalid_v1.png`,
-  or Cloudflare flux) — the rest of the pipeline is unchanged.
+- **Character consistency**: the base build's images are text-to-image
+  (Pollinations/flux), so Khalid is recognizable but not pixel-identical
+  shot-to-shot. **Fixed for free** by `rerender_khalid_kontext.py` (below).
 - **Voices** are a single free Arabic TTS, differentiated by subtle per-speaker
   pitch. Swap `synth_tts()` for ElevenLabs (Khalid voice
   `rzNH3PV43Tk38jg31TS6`) once those voices are cloned.
