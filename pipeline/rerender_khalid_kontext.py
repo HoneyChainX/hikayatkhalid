@@ -120,8 +120,14 @@ def main():
         for attempt in range(len(SPACES) + 2):
             try:
                 if client is None:
-                    client = Client(SPACES[sidx], hf_token=os.environ.get("HF_TOKEN"),
-                                    verbose=False)
+                    # gradio_client auto-reads HF_TOKEN from the env when set;
+                    # pass it explicitly only if this version supports the kwarg.
+                    tok = os.environ.get("HF_TOKEN")
+                    try:
+                        client = Client(SPACES[sidx], hf_token=tok, verbose=False) if tok \
+                            else Client(SPACES[sidx], verbose=False)
+                    except TypeError:
+                        client = Client(SPACES[sidx], verbose=False)
                     log(f"  connected to {SPACES[sidx]}")
                 t = time.time()
                 res = client.predict(
