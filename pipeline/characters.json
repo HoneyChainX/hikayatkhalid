@@ -1,0 +1,41 @@
+{
+  "style": "flat 2D vector cartoon, soft rounded shapes, clean bold outlines, warm cheerful color palette, gentle soft lighting, wholesome Islamic children's storybook illustration, expressive friendly faces, simple uncluttered background, high quality",
+  "negative": "no text, no letters, no words, no caption, no watermark, no signature, no photorealism, no scary or dark themes, no violence, no gore, no clutter, not creepy",
+  "characters": {
+    "khalid": {
+      "match": ["KHALID", "Khalid"],
+      "descriptor": "Khalid is a cheerful 7-year-old Arab Muslim boy with short neat deep-black hair, large warm brown eyes, soft wheat skin, wearing an elegant black thobe with luminous gold floral and geometric embroidery on collar, cuffs and hem, and an olive-and-gold geometric kufi cap"
+    },
+    "noor": {
+      "match": ["NOOR", "Noor"],
+      "descriptor": "Noor is a sweet 5-year-old Arab Muslim girl with big innocent eyes, rosy cheeks, a small soft-blue headscarf and a light-blue dress"
+    },
+    "teta": {
+      "match": ["TETA", "Teta"],
+      "descriptor": "Teta is a kind elderly grandmother with warm caring eyes, thin glasses, a cream hijab, cozy olive-and-maroon clothes and a gentle wise smile"
+    },
+    "lantern": {
+      "match": ["lantern", "fanous"],
+      "descriptor": "an ornate antique Arabian brass-and-gold lantern (fanous) with intricate Islamic geometric patterns, emitting a warm magical golden glow"
+    }
+  },
+  "speaker_pitch": {
+    "خالد": 1.0,
+    "نور": 1.0,
+    "تيتا": 1.0,
+    "راوٍ": 1.0,
+    "خالد ونور": 1.0,
+    "خالد ونور وتيتا": 1.0
+  },
+  "elevenlabs_voices": {
+    "خالد": "rzNH3PV43Tk38jg31TS6",
+    "نور": "cgSgspJ2msm6clMCkdW9",
+    "تيتا": "EXAVITQu4vr4xnSDxMaL",
+    "راوٍ": "ocqVw6LVSdCxCra4XhMH",
+    "خالد ونور": "rzNH3PV43Tk38jg31TS6",
+    "خالد ونور وتيتا": "EXAVITQu4vr4xnSDxMaL",
+    "_default": "ocqVw6LVSdCxCra4XhMH"
+  },
+  "cover_prompt": "Warm storybook cover illustration: a cheerful 7-year-old Arab Muslim boy (black thobe with gold embroidery, olive-gold kufi cap), a sweet little girl in a light-blue headscarf and dress, and a kind smiling grandmother in a cream hijab, gathered together in a sunny garden around an ornate glowing golden Arabian lantern that radiates warm magical light, a small friendly cat nearby",
+  "endcard_prompt": "A single ornate antique Arabian brass-and-gold lantern (fanous) with intricate Islamic geometric patterns glowing with a warm magical golden light, floating gently in a soft cozy dark-blue night background with tiny sparkles, peaceful and heartwarming"
+}
