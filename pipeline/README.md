@@ -61,11 +61,22 @@ python3 pipeline/rerender_khalid_kontext.py   # writes build/ep01/img/shotNN.jpg
 python3 pipeline/build_ep01.py                # restitch the MP4 with the consistent frames
 ```
 
-Resumable (finished shots are skipped) and rate-limit tolerant (retries with
-backoff on the Space's free GPU quota). The *same* identity-locking quality is
-available via the Gemini API's free tier ("nano-banana" / Gemini Flash Image)
-with your existing Gemini key — point `KONTEXT_SPACE` logic at that if you
-prefer a non-queued path.
+Resumable (finished shots are skipped) and rate-limit tolerant (it rotates across
+mirror Spaces on quota errors). Anonymous HF ZeroGPU has a small per-IP daily
+budget shared across all spaces, so for an uninterrupted run set a free
+`HF_TOKEN`.
+
+**No-quota alternative — `rerender_khalid_nim.py`:** the *same* FLUX.1 Kontext
+model is hosted on **NVIDIA NIM** (`ai.api.nvidia.com`), which runs on free
+credits with no shared GPU wall. Get a free key at build.nvidia.com, then:
+
+```bash
+export NVIDIA_API_KEY="nvapi-..."
+python3 pipeline/rerender_khalid_nim.py && python3 pipeline/build_ep01.py
+```
+
+The identical quality is also available via the Gemini free tier ("nano-banana"
+/ Gemini Flash Image) with your existing Gemini key.
 
 ## Quality notes / upgrade path
 
