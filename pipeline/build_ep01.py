@@ -40,10 +40,12 @@ except Exception:  # pragma: no cover
 
 # ----------------------------------------------------------------------------- paths/config
 ROOT = Path(__file__).resolve().parents[1]
-BUILD = ROOT / "build" / "ep01"
+EP = os.environ.get("EPISODE", "ep01")
+BUILD = ROOT / "build" / EP
 IMG = BUILD / "img"
 AUD = BUILD / "audio"
 CLIPS = BUILD / "clips"
+CLIPS_ANIM = BUILD / "clips_anim"        # animated clips (Path A/B) — preferred if present
 for d in (IMG, AUD, CLIPS):
     d.mkdir(parents=True, exist_ok=True)
 
@@ -54,7 +56,7 @@ CHARS = json.loads((ROOT / "pipeline" / "characters.json").read_text(encoding="u
 def _load_shotlist():
     # prefer the working copy pulled from Supabase; fall back to the committed
     # snapshot so the build is reproducible from a clean checkout.
-    for p in (BUILD / "shotlist.json", ROOT / "pipeline" / "ep01_shotlist.json"):
+    for p in (BUILD / "shotlist.json", ROOT / "pipeline" / f"{EP}_shotlist.json"):
         if p.exists():
             return json.loads(p.read_text(encoding="utf-8"))
     raise SystemExit("no shotlist found (build/ep01/shotlist.json or pipeline/ep01_shotlist.json)")
@@ -206,6 +208,33 @@ def make_clip(img: Path, audio: Path, pitch, dur, out: Path, zoom_in):
     return rc == 0 and out.exists()
 
 
+def probe_dur(path: Path):
+    rc, o = run([FFMPEG, "-i", str(path)])
+    m = re.search(r"Duration: (\d+):(\d+):(\d+\.\d+)", o)
+    if m:
+        h, mi, s = m.groups()
+        return int(h) * 3600 + int(mi) * 60 + float(s)
+    return None
+
+
+def make_from_clip(clip_in: Path, audio: Path, dur, out: Path):
+    """Fit an animated clip to `dur` (freeze-pad if short, trim if long) + the voice track."""
+    cdur = probe_dur(clip_in) or dur
+    pad = max(0.0, dur - cdur)
+    fout = max(dur - 0.45, 0.1)
+    vf = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}"
+          + (f",tpad=stop_mode=clone:stop_duration={pad:.2f}" if pad > 0.05 else "")
+          + f",fade=t=in:st=0:d=0.4,fade=t=out:st={fout:.2f}:d=0.4,format=yuv420p[v]")
+    afil = "[1:a]aformat=sample_rates=44100:channel_layouts=stereo[a]"
+    cmd = [FFMPEG, "-y", "-i", str(clip_in), "-i", str(audio),
+           "-filter_complex", vf + ";" + afil, "-map", "[v]", "-map", "[a]",
+           "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p", "-r", str(FPS),
+           "-c:a", "aac", "-ar", "44100", "-ac", "2", "-b:a", "160k", "-t", f"{dur:.2f}",
+           "-movflags", "+faststart", str(out)]
+    rc, o = run(cmd)
+    return rc == 0 and out.exists()
+
+
 def make_title_clip(img: Path, dur, out: Path, zoom_in=True):
     fc = (vfilter(dur, zoom_in) + ";"
           "[1:a]aformat=sample_rates=44100:channel_layouts=stereo[a]")
@@ -273,7 +302,11 @@ def main():
         dur = max(adur + TAIL, MIN_DUR)
         pitch = CHARS["speaker_pitch"].get(speaker, 1.0)
         clip = CLIPS / f"shot{sid:02d}.mp4"
-        ok = make_clip(img, aud, pitch, dur, clip, zoom_in=(sid % 2 == 0))
+        anim = CLIPS_ANIM / f"shot{sid:02d}.mp4"
+        if anim.exists():
+            ok = make_from_clip(anim, aud, dur, clip)        # animated (Path A/B)
+        else:
+            ok = make_clip(img, aud, pitch, dur, clip, zoom_in=(sid % 2 == 0))  # Ken-Burns draft
         if not ok:
             log(f"  -> clip FAILED for shot {sid}")
             continue
