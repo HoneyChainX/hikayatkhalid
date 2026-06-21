@@ -16,7 +16,7 @@ python3 pipeline/produce_episode.py
 
 | Stage | Script | Needs (any) | Output |
 |---|---|---|---|
-| 1 Script + shotlist | n8n Workflow A (+ shariah gate) | sheikh-approved `source_text` | `episodes.shotlist_json` |
+| 1 Script + shotlist | `write_script.py` *(or n8n Workflow A)* | sheikh-approved `source_text` + `GEMINI_API_KEY` | `episodes` → `shari_review` (human gate) |
 | 2 Keyframes (consistent) | `rerender_balancer.py` | `HF_TOKEN` / `NVIDIA_API_KEY` / `GEMINI_API_KEY` (or a GPU box) | `build/<ep>/img/shotNN.jpg` |
 | 3 **Animate** | `animate_fal.py` **or** `comfy/animate_episode.py` | `FAL_KEY` (cloud) **or** `COMFY_URL` (GPU) | `build/<ep>/clips_anim/shotNN.mp4` |
 | 4 Voices | `revoice_elevenlabs.py` | `ELEVENLABS_API_KEY` | `build/<ep>/audio/shotNN.mp3` |
@@ -37,10 +37,15 @@ Both write `build/<ep>/clips_anim/shotNN.mp4`; the assembler prefers those over 
 
 ## Producing all 10 episodes
 
-1. **Approve** ep02–ep10 `source_text` → `docs/SHARIAH_REVIEW_ep02-ep10.md` (the only human gate).
-2. Run **Workflow A/B** per approved episode → its `shotlist_json`.
-3. For each episode: `EPISODE=epNN python3 pipeline/produce_episode.py`.
-4. Finish in **DaVinci Resolve** (free) — color, Arabic animated subtitles, 4K.
+1. **Approve** ep02–ep10 `source_text` → `docs/SHARIAH_REVIEW_ep02-ep10.md`.
+2. Write each approved text into `backlog.source_text`, then draft the script:
+   `EPISODE=epNN python3 pipeline/write_script.py` *(or n8n Workflow A)* → `shari_review`.
+3. **Shariah gate** (human) reviews the draft → mark `episodes.script_status='approved'`.
+4. Produce: `EPISODE=epNN python3 pipeline/produce_episode.py`.
+5. Finish in **DaVinci Resolve** (free) — color, Arabic animated subtitles, 4K.
+
+> Two gates by design: the sheikh approves `source_text` (step 1) **and** the
+> drafted script (step 3) before any media is generated.
 
 Budget for all 10 (Path B): **~$12–18 of GPU time**; voices ~$1; DaVinci $0.
 
