@@ -1,0 +1,68 @@
+{
+  "_README": {
+    "class_type": "Note",
+    "inputs": {},
+    "_meta": {
+      "title": "REPLACE-ME: this is a classic LTX-Video image-to-video reference graph. For LTX-2.3 GGUF, open ComfyUI > Workflow > Templates > 'LTX-2 Image to Video', set the node titles KEYFRAME/POSITIVE/NEGATIVE/SAMPLER/LENGTH, then Export (API) over this file. The orchestrator patches by those titles, so any LTX/Wan i2v template works."
+    }
+  },
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": { "ckpt_name": "ltx-video-2b-v0.9.5.safetensors" },
+    "_meta": { "title": "LTXV Checkpoint" }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": { "clip_name": "t5xxl_fp16.safetensors", "type": "ltxv" },
+    "_meta": { "title": "T5 Text Encoder" }
+  },
+  "3": {
+    "class_type": "LoadImage",
+    "inputs": { "image": "keyframe.jpg", "upload": "image" },
+    "_meta": { "title": "KEYFRAME" }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": { "clip": ["2", 0], "text": "placeholder positive (patched per shot)" },
+    "_meta": { "title": "POSITIVE" }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": { "clip": ["2", 0], "text": "placeholder negative (patched)" },
+    "_meta": { "title": "NEGATIVE" }
+  },
+  "6": {
+    "class_type": "LTXVImgToVideo",
+    "inputs": {
+      "vae": ["1", 2], "image": ["3", 0], "positive": ["4", 0], "negative": ["5", 0],
+      "width": 768, "height": 512, "length": 97, "batch_size": 1
+    },
+    "_meta": { "title": "LENGTH" }
+  },
+  "7": {
+    "class_type": "LTXVConditioning",
+    "inputs": { "positive": ["6", 0], "negative": ["6", 1], "frame_rate": 24 },
+    "_meta": { "title": "LTXV Conditioning" }
+  },
+  "8": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": ["1", 0], "positive": ["7", 0], "negative": ["7", 1], "latent_image": ["6", 2],
+      "seed": 7001, "steps": 30, "cfg": 3.0, "sampler_name": "euler", "scheduler": "normal", "denoise": 1.0
+    },
+    "_meta": { "title": "SAMPLER" }
+  },
+  "9": {
+    "class_type": "VAEDecode",
+    "inputs": { "samples": ["8", 0], "vae": ["1", 2] },
+    "_meta": { "title": "VAE Decode" }
+  },
+  "10": {
+    "class_type": "VHS_VideoCombine",
+    "inputs": {
+      "images": ["9", 0], "frame_rate": 24, "loop_count": 0, "filename_prefix": "hikayat",
+      "format": "video/h264-mp4", "pingpong": false, "save_output": true
+    },
+    "_meta": { "title": "SAVE" }
+  }
+}
