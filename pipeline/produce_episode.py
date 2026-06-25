@@ -69,15 +69,23 @@ def main():
             print("\033[93m!! voices: set ELEVENLABS_API_KEY (or pre-place audio).\033[0m")
 
     if "animate" in STAGES:
-        if n("clips_anim/*.mp4") >= 1:
-            print("==> animate: clips present, skip")
-        elif os.environ.get("FAL_KEY") or os.environ.get("FAL_API_KEY"):
-            run("pipeline/animate_fal.py", "Stage 3 animate (Path A · fal.ai cloud)")
+        run("pipeline/route_shots.py", "Stage 3a route shots (hybrid: puppet / wan_s2v / wan_i2v)")
+        if env("DASHSCOPE_KEY", "DASHSCOPE_API_KEY"):
+            # Hybrid (chosen): Wan handles story shots (lip-sync + motion); modern-frame
+            # cast dialogue is produced in Adobe Character Animator and dropped into clips_anim/.
+            run("pipeline/animate_wan.py", "Stage 3 animate (hybrid · Wan S2V/i2v for story shots)")
+            print("\033[96m   note: puppet (modern-frame cast) shots come from Adobe Character "
+                  "Animator → place them in build/<ep>/clips_anim/shotNN.mp4\033[0m")
+        elif env("FAL_KEY", "FAL_API_KEY"):
+            run("pipeline/animate_fal.py", "Stage 3 animate (Path A · fal.ai cloud, all shots)")
         elif os.environ.get("COMFY_URL"):
             run("pipeline/comfy/animate_episode.py", "Stage 3 animate (Path B · ComfyUI GPU)")
+        elif n("clips_anim/*.mp4") >= 1:
+            print("==> animate: clips already present (e.g. Character Animator puppets); "
+                  "no cloud backend set — assembling with what's on disk.")
         else:
-            print("\033[93m!! animate: no FAL_KEY and no COMFY_URL — assembling stills draft "
-                  "instead of animation.\033[0m")
+            print("\033[93m!! animate: no DASHSCOPE_KEY / FAL_KEY / COMFY_URL and no clips on disk "
+                  "— assembling stills draft instead of animation.\033[0m")
 
     if "assemble" in STAGES:
         run("pipeline/build_ep01.py", "Stage 6 assemble")
