@@ -56,5 +56,25 @@ commercial use, watermarks, or depletes. The video, ironically, **validates the 
 - **Zero-setup, start now:** **higgsfield** (already connected/proven) or **Muapi** (cheaper gateway).
 - Free *cloud* tiers (Kling/Hailuo/Luma/etc.) = **test-only**; don't ship monetized clips from them.
 
+## E. MalvaAI directory (category: AI Video, by rating) — verified
+
+The directory's top-rated "free" video tools, fact-checked for **commercial use + automatability**:
+
+| Tool | What it is | Verified reality | Fit for us |
+|---|---|---|---|
+| **Vheer** (vheer.com) | Free browser suite incl. **Flux Kontext editor** for character consistency + bg-changer + i2v | **Unlimited, no signup, no watermark, 1080p, commercial use OK** (ad-supported) | ⭐ **Real win for Stage 2 keyframes** — a free, no-quota, commercial-safe **Flux Kontext** path (replaces the HF ZeroGPU ~7/day grind). **Manual/web only → not headless**, so for *keyframes*, not automated video. |
+| **Hunyuan Video** (Tencent) | Open-source 13B video model | Commercial use **allowed**, you keep output rights — **but license excludes EU/UK/South Korea**; custom (not Apache) license | ✅ Path-B engine **if the creator isn't in EU/UK/SK**; otherwise **Wan 2.2 (Apache-2.0) is the cleaner default**. |
+| **Wan 2.6 / wan.video** | Newer Wan; 4K + camera controls | Open family (Wan 2.2 = Apache-2.0); wan.video cloud is a product tier | ✅ Same Path-B engine family as already planned |
+| **Qwen AI / Meta AI** | Alibaba multimodal / Meta Animate-Restyle (WhatsApp/IG) | Consumer platforms; commercial ToS + automatability + content-policy uncertain | ➖ Consumer toys, **not** a production API for a monetized kids' channel |
+
+**Net new value:** **Vheer** makes **Stage 2 (consistent keyframes) effectively free** and commercial-safe.
+Combined with Path-B video (~$1/ep GPU) + free assembly (ffmpeg/DaVinci), a realistic floor is **~$1–2/ep**,
+well under the $5 ceiling. Everything else just re-confirms the open-source-on-GPU = Path-B conclusion.
+
+**Recurring caveat across all three sources:** directories rate by "free + quality" and **ignore
+automatability** (web-only tools can't plug into our headless pipeline) and **our hard rules** (no tool
+enforces no-prophet / source-only — that stays in our prompts + QA + gates).
+
 Sources: aivideobootcamp.com free-tools guide; higgsfield.ai 2026 model comparisons; muapi.ai docs/credits;
+HunyuanVideo LICENSE (Tencent Community License); vheer.com/flux-kontext; malvaai.com AI-Video directory;
 repo READMEs (open-generative-ai, Open-AI-Design-Agent).
