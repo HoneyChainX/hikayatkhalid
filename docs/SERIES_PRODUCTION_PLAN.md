@@ -16,6 +16,28 @@ this repo. Last updated: 2026-06-19.*
 
 ---
 
+## 0.5 ✅ Proven end-to-end (2026-06-25)
+
+Stage 3 (animate) is **no longer theoretical** — it has been run on a real ep01
+keyframe with a live backend:
+
+- **What:** `build/ep01/img/shot01.jpg` (the existing consistent keyframe) → animated
+  → `build/ep01/clips_anim/shot01.mp4` (5.0 s, 1280×720, 24 fps), then muxed with the
+  real ElevenLabs Arabic voice → `clips_anim/shot01_voiced_demo.mp4`.
+- **How:** **higgsfield** image-to-video, model **`kling3_0_turbo`**, `start_image` = the
+  keyframe, gentle motion prompt. Driven directly through the connected higgsfield MCP
+  (upload keyframe → `media_confirm` → `generate_video` → download the result mp4).
+- **Result:** character stayed perfectly on-model (boy raises hand to wipe his brow —
+  exactly the prompted motion); fully safe content; the assembler (`build_ep01.py`) picks
+  up `clips_anim/shotNN.mp4` over the stills automatically.
+- **Measured cost:** **7.5 credits / 5 s clip** at 720p (kling turbo). Seedance 2.0 Fast
+  via higgsfield measured at 14–17.5 credits/clip (better identity, ~2× the price).
+
+So the only remaining gate to produce the **full animated season** is funding a video
+backend — not engineering. See the path table below for the cheapest route to the $5/ep ceiling.
+
+---
+
 ## 1. The pipeline (6 stages)
 
 ```
@@ -48,7 +70,19 @@ Stages **1, 2, 5** already exist in this repo. The animated series adds **3, 4, 
 | Setup | minutes | a few hours (one-time graph) | a few hours + GPU |
 | Best when | start **today**, no HW | a **recurring series**, no HW buy | you already have an RTX |
 
-**Recommendation:** prototype on **A** (running today), scale the series on **B**. Path B turns "$5/ep" into "**~$1/ep at 4K, unlimited**" with no hardware purchase.
+**Path D · higgsfield (MCP — connected RIGHT NOW).** No new key needed; already
+authenticated in this session. `kling3_0_turbo` i2v measured at **7.5 cr / 5 s clip**
+(≈ **$0.36/clip** at the $95/2 000-cr top-up). A ~20-shot episode ≈ **150 cr ≈ $7**;
+animating only the ~14 hero shots (Ken-Burns stills for the rest) lands **≈ $5/ep**.
+Best for: the proof (done), hero shots, and fast iterations without provisioning anything.
+Seedance via higgsfield is ~2× (better identity).
+
+**Recommendation:** the proof is done on **D** (higgsfield, today, no setup). For the
+**full 10-episode season at the $5/ep ceiling**, **Path A (fal.ai Seedance Fast, ~$4–5/ep
+for every shot animated)** is the cheapest turnkey route — `animate_fal.py` is already
+wired into `produce_episode.py`; it just needs a `FAL_KEY`. If you'd rather not add a key,
+fund higgsfield credits and I drive the whole season straight through the MCP. Path **B**
+(rented RTX) still wins on a long recurring series: **~$1/ep at 4K, unlimited**.
 
 ---
 
