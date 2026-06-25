@@ -75,6 +75,39 @@ well under the $5 ceiling. Everything else just re-confirms the open-source-on-G
 automatability** (web-only tools can't plug into our headless pipeline) and **our hard rules** (no tool
 enforces no-prophet / source-only — that stays in our prompts + QA + gates).
 
+## F. Alibaba & Adobe (deep dive)
+
+### Alibaba — strongest cost + a lip-sync bonus
+- **Wan (Apache-2.0)** — cleanest license: free commercial use, no attribution. Two ways to run:
+  - **Self-host on GPU** = Path B (free generation).
+  - **Alibaba Cloud Model Studio / DashScope API** = **~$0.10–0.15 per 5 s 720p clip** (Wan 2.6 ≈ $0.07/s via Atlas Cloud) — **cheapest managed cloud**, ~2.5× under higgsfield, no GPU to manage. Friction: account is China-market-oriented.
+  - ⇒ A **~$4–5/ep cloud path with Apache rights** — wire as a `DASHSCOPE_KEY` backend beside `animate_fal.py`.
+- ⭐⭐ **Wan 2.2-S2V (Speech-to-Video)** — makes a **lip-synced talking character from one portrait + an audio clip.** Feed Khalid's keyframe + the ElevenLabs Arabic line → a talking, lip-synced Khalid. **Collapses Stage 3+4 for dialogue shots** (Teta narrating, kids speaking) — a major fit for our narration-heavy format.
+- **Qwen** (Qwen-Image / Qwen3.5-Omni) — capable multimodal/image; secondary to Wan for us.
+
+### Adobe — commercial-safe, and a different philosophy
+- **Adobe Firefly** — **commercially safe by design** (trained on licensed Adobe Stock + public domain; Adobe indemnifies output). The cleanest commercial guarantee of any *cloud* tool. Image-to-video (incl. layered PSD input). Pricing: $9.99/$29.99/$199.99 mo by credits; **unlimited image/video for Creative Cloud All-Apps subscribers (Feb 2026).** Caveat: Firefly's look skews stock/realistic — less ideal for a stylized 3D-Pixar cartoon than Wan/Kling/Seedance.
+- ⭐⭐ **Adobe Character Animator** — a **fundamentally different approach** worth serious consideration:
+  - Rig each character **once** as a layered puppet (from PS/AI art), then animate via **auto lip-sync from prerecorded audio** (Sensei assigns visemes to phonemes) + behaviors.
+  - **Perfect, drift-free consistency** across every shot and every episode (it's the *same* puppet) — eliminates the #1 problem of generative i2v.
+  - **Near-zero marginal cost per episode** after the one-time rig; classic, proven cartoon-series workflow.
+  - Tradeoffs: upfront rigging effort; 2D-puppet motion + flat-cartoon aesthetic (not 3D-generative scenes); paid via Creative Cloud.
+
+### The two philosophies (the real strategic choice)
+
+| | **Generative i2v** (Wan / Kling / Seedance / Veo / higgsfield) | **Rigged puppet** (Adobe Character Animator) |
+|---|---|---|
+| Consistency | Fights drift; needs keyframe anchoring + QA | **Perfect** (same puppet every frame) |
+| Look | Cinematic / 3D-ish, varied | 2D flat-cartoon, uniform |
+| Cost/ep | recurring (~$1 GPU → ~$5 cloud) | **~$0 after one-time rig** (CC sub) |
+| Setup | low | higher (rig Khalid/Noor/Teta once) |
+| Lip-sync | separate (or Wan-S2V) | **built-in auto lip-sync** |
+| Best for | story-world scenes, variety | recurring narration-driven series ⭐ |
+
+For a **recurring, narration-driven kids' series**, Character Animator (puppet backbone) + occasional
+generative i2v for "story-world" scenes is a very strong, low-cost, perfectly-consistent combo.
+
 Sources: aivideobootcamp.com free-tools guide; higgsfield.ai 2026 model comparisons; muapi.ai docs/credits;
-HunyuanVideo LICENSE (Tencent Community License); vheer.com/flux-kontext; malvaai.com AI-Video directory;
+HunyuanVideo LICENSE; vheer.com/flux-kontext; malvaai.com AI-Video directory; Alibaba Cloud Model Studio
+(Wan i2v + Wan2.2-S2V docs, DashScope pricing); Adobe Firefly (commercial-use + pricing) & Character Animator;
 repo READMEs (open-generative-ai, Open-AI-Design-Agent).
