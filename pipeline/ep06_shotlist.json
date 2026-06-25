@@ -1,0 +1,210 @@
+[
+  {
+    "scene_id": 1,
+    "speaker": "خالد",
+    "line": "أسرع يا نور! لن تستطيعي اللحاق بي!",
+    "visual_prompt": "[ANIMATION STYLE] Khalid running and playing soccer enthusiastically, laughing and jumping. Noor struggling to follow him, trying to catch the ball.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 2,
+    "speaker": "الأم",
+    "line": "خالد، نور! هيا يا أبطال، الفطور جاهز!",
+    "visual_prompt": "[ANIMATION STYLE] Khalid's mother preparing breakfast in the kitchen. She calls out lovingly from a distance.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 3,
+    "speaker": "خالد ونور",
+    "line": "نور: ماما تنادي يا خالد! خالد: دقيقة واحدة يا نور! سأسجل هدفاً أولاً!",
+    "visual_prompt": "[ANIMATION STYLE] Khalid hears his mother but doesn't stop, skillfully dribbling the ball. Noor stops, panting.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 4,
+    "speaker": "الأم",
+    "line": "خالد! نور! هيا، الفطور سيبرد!",
+    "visual_prompt": "[ANIMATION STYLE] The mother waits, then calls out again, a little louder, with a smile.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 5,
+    "speaker": "خالد ونور",
+    "line": "نور: ماما زعلانة يا خالد! خالد: ليس الآن يا نور، أريد أن أفوز!",
+    "visual_prompt": "[ANIMATION STYLE] Khalid is still engrossed in playing, ignoring the call. Noor looks at him with wonder, then gently pulls his shirt.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 6,
+    "speaker": "تيتا والأم",
+    "line": "تيتا: ما بك يا ابنتي؟ الأم: أنادي على خالد منذ مدة، وهو منشغل باللعب لا يجيب. تيتا: الأطفال أحياناً ينسون كل شيء حين يلعبون. سأذهب لأحضره.",
+    "visual_prompt": "[ANIMATION STYLE] Teta enters the kitchen and finds the mother standing. They converse.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 7,
+    "speaker": "تيتا وخالد",
+    "line": "تيتا: خالد حبيبي، ألم تسمع نداء أمك؟ خالد: أهلاً تيتا! كنت ألعب، ونسيت... تيتا: نسيانك يا بني جعل أمك تشعر بالحزن. أتعرف يا خالد، إجابة الأم أهم من أي لعب أو عمل آخر.",
+    "visual_prompt": "[ANIMATION STYLE] Teta goes to the garden and finds Khalid still playing. She smiles gently. Khalid suddenly stops and looks at her. Teta pats his head.",
+    "duration_est": 12,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 8,
+    "speaker": "خالد وتيتا",
+    "line": "خالد: هل حقاً أمي حزينة مني يا تيتا؟ تيتا: نعم يا حبيبي، لكنها تحبك جداً. تعال يا خالد، ولنجلس أنا وأنت ونور، ولنطلب من فانوس الحكايات أن يروي لنا قصة عن أهمية طاعة الأم.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid and Noor sit next to Teta. Khalid looks a little sad. Teta strokes his hair.",
+    "duration_est": 12,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 9,
+    "speaker": "فانوس الحكايات",
+    "line": "أهلاً بأطفالنا الأعزاء! هيا بنا في رحلة عبر الزمن، لنتعلم درساً مهماً عن حب الأم وطاعتها.",
+    "visual_prompt": "[ANIMATION STYLE] Teta places her hand on the golden story lantern. The lantern begins to shimmer and emit a faint glow.",
+    "duration_est": 9,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 10,
+    "speaker": "فانوس الحكايات",
+    "line": "كان هناك رجلٌ صالحٌ، يعيش في مكانٍ خاصٍّ للعبادة، اسمه جُريج. كان جُريج يحب العبادة كثيراً، ويقضي وقته في الصلاة والذكر.",
+    "visual_prompt": "[ANIMATION STYLE] A simple hermitage in an isolated place. Jurayj (face not clearly visible, only his character as a worshipper) is engrossed in prayer.",
+    "duration_est": 12,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 11,
+    "speaker": "فانوس الحكايات وأم جُريج",
+    "line": "فانوس الحكايات: وفي يومٍ من الأيام، بينما كان جُريج يؤدي صلاةً ليست فرضاً، بل صلاة إضافية يتقرّب بها إلى الله، نادته أمّه. أم جُريج: جُريج! يا جُريج!",
+    "visual_prompt": "[ANIMATION STYLE] Jurayj's mother approaches the hermitage and calls out lovingly (off-screen voice). Jurayj's face is not visible.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 12,
+    "speaker": "فانوس الحكايات",
+    "line": "سمع جُريج نداء أمّه، لكنه فكّر في صلاته، وقرّر أن يكملها أولاً، ولم يردّ على أمّه.",
+    "visual_prompt": "[ANIMATION STYLE] Jurayj (face not visible) hears his mother's call, pauses for a moment to think, then returns to his prayer.",
+    "duration_est": 9,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 13,
+    "speaker": "أم جُريج",
+    "line": "جُريج! ألا تجيبني؟",
+    "visual_prompt": "[ANIMATION STYLE] Jurayj's mother calls again (off-screen voice), her voice carrying some sadness. Jurayj is not visible.",
+    "duration_est": 4,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 14,
+    "speaker": "فانوس الحكايات",
+    "line": "نادته أمّه مرة أخرى، لكنه فضّل أن يكمل صلاته، ولم يجبها أيضاً.",
+    "visual_prompt": "[ANIMATION STYLE] Jurayj (face not visible) repeats his action, returning to his prayer.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 15,
+    "speaker": "فانوس الحكايات",
+    "line": "عندما حدث هذا الأمر عدة مرات، شعرت أمّه بالحزن والألم الشديدين.",
+    "visual_prompt": "[ANIMATION STYLE] Jurayj's mother (face not visible, or a shadow figure) walks away from the hermitage, showing deep sadness and pain.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 16,
+    "speaker": "فانوس الحكايات",
+    "line": "وفي يومٍ من الأيام، اتّهم الناس جُريج بشيءٍ لم يفعله، وقالوا ظلماً إنّ له طفلاً. حُزِن جُريج كثيراً لهذا الظلم.",
+    "visual_prompt": "[ANIMATION STYLE] A general village scene showing people talking, then leading Jurayj (shadow figure/face not visible).",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 17,
+    "speaker": "فانوس الحكايات",
+    "line": "توجّه جُريج إلى الله بالدعاء والصلاة، وطلب منه أن يظهر الحق.",
+    "visual_prompt": "[ANIMATION STYLE] Jurayj (shadow figure/face not visible) is brought a baby. He looks up to the sky.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 18,
+    "speaker": "فانوس الحكايات",
+    "line": "ثمّ كلّم جُريج الطفل الرضيع الذي كان بين أيديهم.",
+    "visual_prompt": "[ANIMATION STYLE] Jurayj (shadow figure/face not visible) turns towards the infant.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 19,
+    "speaker": "الرضيع وفانوس الحكايات",
+    "line": "الرضيع: أبي فلان الراعي. فانوس الحكايات: فأنطقه الله تعالى، وشهد الطفل ببراءة جُريج، وظهر الحق!",
+    "visual_prompt": "[ANIMATION STYLE] The infant speaks, and surprise shows on people's faces.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 20,
+    "speaker": "فانوس الحكايات",
+    "line": "وهكذا، برّأ الله جُريج من التهمة الظالمة. لقد كان درساً عظيماً لجُريج ولنا جميعاً.",
+    "visual_prompt": "[ANIMATION STYLE] People show remorse and apologize to Jurayj (shadow figure/face not visible).",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 21,
+    "speaker": "خالد وتيتا",
+    "line": "خالد: يا إلهي! كل هذا حدث لجُريج لأنه لم يجب أمه؟ تيتا: نعم يا خالد. القصة تعلمنا أن إجابة الأم مقدَّمة على الصلاة النافلة، لأن رضا الأم من رضا الله. يجب علينا دائماً أن نجيب أمنا وأبانا بسرعة، ولا نجعلهما ينتظران أو يشعران بالحزن.",
+    "visual_prompt": "[ANIMATION STYLE] The lantern stops shimmering. Khalid and Noor look thoughtfully at Teta.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 22,
+    "speaker": "نور وخالد",
+    "line": "نور: أنا دائماً أجيب ماما بسرعة! خالد: أنا آسف يا تيتا، آسف يا نور. سأذهب لأعتذر لأمي فوراً!",
+    "visual_prompt": "[ANIMATION STYLE] Noor hugs Teta. Khalid stands up.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 23,
+    "speaker": "خالد والأم",
+    "line": "خالد: أنا آسف يا أمي! لن أتأخر في إجابتك مرة أخرى أبداً! الأم: لا بأس يا حبيبي، المهم أنك تعلمت. هيا، الفطور جاهز.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid enters the kitchen where his mother is still preparing breakfast. Khalid hugs his mother.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 24,
+    "speaker": "تيتا وخالد ونور",
+    "line": "تيتا: اللهم اجعلنا من البارين بوالدينا، وارزقنا رضاهم في الدنيا والآخرة. خالد ونور: آمين!",
+    "visual_prompt": "[ANIMATION STYLE] Khalid and Noor sit with Teta after breakfast. Teta raises her hands in prayer.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 25,
+    "speaker": "راوٍ",
+    "line": "أمي يا أغلى إنسانِ حبك يملأ وجداني إن نادتني أجري حالا أترك لعبي مهما كانَ رضاكِ يا أمي يرضي ربي فأنتِ نورٌ في دربي بالبرّ نرقى للجنانِ وللخيرِ دوماً عنوانِ",
+    "visual_prompt": "[ANIMATION STYLE] A narrator (on-screen or voice-only) begins to sing a light, instrument-free anthem.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 26,
+    "speaker": "خالد وتيتا",
+    "line": "خالد: يا تيتا، هل هناك قصص أخرى عن بر الوالدين؟ تيتا: بالطبع يا خالد! وفي الحلقة القادمة، سنعرف قصة أخرى رائعة، فانتظرونا!",
+    "visual_prompt": "[ANIMATION STYLE] Khalid and Noor smile.",
+    "duration_est": 9,
+    "is_story_shot": false
+  }
+]

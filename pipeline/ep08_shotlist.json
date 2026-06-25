@@ -1,0 +1,218 @@
+[
+  {
+    "scene_id": 1,
+    "speaker": "خالد ونور",
+    "line": "فيروووم! فيروووم! سيارتي الأسرع! ودميتي الأجمل!",
+    "visual_prompt": "[STYLE] Khalid and Nour playing on the floor in a living room. Khalid has a red plastic race car, Nour has a doll. They are happy and playing.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 2,
+    "speaker": "خالد",
+    "line": "أوف! سيارتي قديمة جداً. انظر يا نور، هذه السيارة الجديدة أروع بكثير! ليت عندي مثلها! سيارتي حمراء باهتة، وعجلاتها لا تدور بسرعة. لست أحبها بعد الآن.",
+    "visual_prompt": "[STYLE] Khalid flipping through a toy magazine, seeing a shiny new race car, then looking at his old, slightly faded red car with disappointment and sadness. He puts the magazine aside and looks at his car sadly.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 3,
+    "speaker": "نور",
+    "line": "لكنها ما زالت جميلة يا خالد! وتستطيع أن تجري بها سباقات كثيرة!",
+    "visual_prompt": "[STYLE] Nour approaching Khalid, trying to comfort him while he still looks at his car with a frown.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 4,
+    "speaker": "خالد",
+    "line": "أريد هذه السيارة الجديدة! صديقي أحمد لديه سيارة مثلها، وهي لامعة وتصدر أصواتاً حقيقية! أنا لا أحب سيارتي هذه.",
+    "visual_prompt": "[STYLE] Khalid ignoring Nour, looking at the magazine again with longing for the new car.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 5,
+    "speaker": "تيتا وخالد",
+    "line": "ماذا بك يا حبيبي خالد؟ لماذا هذا الوجه العابس؟ سيارتي قديمة يا تيتا، وأنا أريد سيارة جديدة مثل هذه! أنا لست سعيداً بسيارتي القديمة أبداً!",
+    "visual_prompt": "[STYLE] Tieta entering the room, carrying a tray with fruit, noticing Khalid's sadness. Khalid points at the magazine and his car, expressing his unhappiness to Tieta.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 6,
+    "speaker": "تيتا وخالد",
+    "line": "أرى أنك نسيت أن تشكر الله على ما أعطاك يا خالد. السيارة التي لديك، حتى لو كانت قديمة قليلاً، هي نعمة. أشكر الله على سيارة قديمة؟ لكنني أريد الجديدة!",
+    "visual_prompt": "[STYLE] Tieta sitting beside Khalid, smiling kindly, explaining about gratitude. Khalid looks at Tieta in surprise, questioning her advice.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 7,
+    "speaker": "تيتا وخالد ونور",
+    "line": "يا حبيبي، الشكر والقناعة يجعلان القلب سعيداً. هل تود أن تسمع قصة عن أناس لم يشكروا الله على نعمه؟ قصة عن الشكر؟ نعم يا تيتا، أريد أن أسمع! وأنا أيضاً!",
+    "visual_prompt": "[STYLE] Tieta placing her hand on Khalid's shoulder. Khalid and Nour looking at Tieta with interest and excitement for a story.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 8,
+    "speaker": "تيتا",
+    "line": "هيا بنا إذاً إلى زمن بعيد، وحكاية مفيدة...",
+    "visual_prompt": "[STYLE] The Story Lantern glowing with a warm golden light, filling the room with magical light. Khalid and Nour staring in awe.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 9,
+    "speaker": "تيتا",
+    "line": "أراد الله أن يبتلي ثلاثةً من بني إسرائيل. كان أحدهم أبرص، والثاني أقرع، والثالث أعمى.",
+    "visual_prompt": "[STYLE] General view of a vast desert. Three men appear: a leper with discolored skin, a bald man with no hair, and a blind man leaning on his staff. All look poor and sad. Animation style.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 10,
+    "speaker": "تيتا والرجل الأبرص",
+    "line": "أي شيء أحب إليك؟ جلد حسن، ولون حسن، ويذهب عني الذي قد قذرني الناس به. فأعطاه الله جلداً حسناً ولوناً حسناً.",
+    "visual_prompt": "[STYLE] The King, appearing as a bright light, approaches the leper. The leper expresses his wish for good skin and color. The bright light touches him, transforming his skin to become beautiful and healthy. He shows signs of happiness. Animation style.",
+    "duration_est": 15,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 11,
+    "speaker": "تيتا والرجل الأقرع",
+    "line": "أي شيء أحب إليك؟ شعر حسن، ويذهب عني الذي قد قذرني الناس به. فأعطاه الله شعراً حسناً.",
+    "visual_prompt": "[STYLE] The King, the bright light, approaches the bald man. The bald man expresses his wish for good hair. The bright light touches him, and beautiful, thick hair grows. He shows signs of joy. Animation style.",
+    "duration_est": 15,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 12,
+    "speaker": "تيتا والرجل الأعمى",
+    "line": "أي شيء أحب إليك؟ أن يرد الله إلي بصري فأبصر به الناس. فرد الله إليه بصره.",
+    "visual_prompt": "[STYLE] The King, the bright light, approaches the blind man. The blind man expresses his wish to regain his sight. The bright light touches him, he opens his eyes and sees the light for the first time, showing immense happiness. Animation style.",
+    "duration_est": 15,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 13,
+    "speaker": "تيتا",
+    "line": "ورزق كلّاً منهم مالاً وفيراً. فأصبح الأبرص مالكاً للإبل، والأقرع مالكاً للبقر، والأعمى مالكاً للغنم.",
+    "visual_prompt": "[STYLE] A quick montage scene showing the three men becoming very rich. The leper owns many camels, the bald man owns many cows, and the blind man owns many sheep. Animation style.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 14,
+    "speaker": "تيتا",
+    "line": "ثم عاد الملك، لكن هذه المرة في صورة رجل محتاج. ذهب أولاً إلى الأبرص الذي أصبح غنياً. أنا رجل مسكين، قد انقطعت بي السبل في سفري، فلا بلاغ لي اليوم إلا بالله ثم بك. أسألك بالذي أعطاك اللون الحسن والجلد الحسن والإبل الكثيرة، بعيراً أتبلغ به في سفري.",
+    "visual_prompt": "[STYLE] The King, in the guise of a poor and needy man, dressed in ragged clothes, looking tired, approaches the rich leper in his large farm of camels. Animation style.",
+    "duration_est": 20,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 15,
+    "speaker": "الرجل الأبرص",
+    "line": "الحقوق كثيرة! لا أستطيع أن أعطيك شيئاً!",
+    "visual_prompt": "[STYLE] The rich leper responding angrily and dismissively to the needy man. Animation style.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 16,
+    "speaker": "تيتا",
+    "line": "أنا رجل مسكين، انقطعت بي السبل. أسألك بالذي أعطاك الشعر الحسن والبقر الكثير، بقرة أتبلغ بها في سفري.",
+    "visual_prompt": "[STYLE] The needy man approaching the rich bald man in his large farm of cows. Animation style.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 17,
+    "speaker": "الرجل الأقرع",
+    "line": "لا أستطيع مساعدتك! ليس لدي ما أعطيك!",
+    "visual_prompt": "[STYLE] The rich bald man responding arrogantly and dismissively. Animation style.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 18,
+    "speaker": "تيتا",
+    "line": "أنا رجل مسكين، انقطعت بي السبل. أسألك بالذي رد عليك بصرك والغنم الكثيرة، شاة أتبلغ بها في سفري.",
+    "visual_prompt": "[STYLE] The needy man approaching the rich blind man in his large farm of sheep. Animation style.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 19,
+    "speaker": "الرجل الأعمى",
+    "line": "كنت أعمى فرد الله إلي بصري، وكنت فقيراً فأغناني الله. خذ ما شئت من غنمي، فوالله لا آخذ منك شيئاً على ما أخذت.",
+    "visual_prompt": "[STYLE] The rich blind man responding with a genuine smile and open-hearted generosity. Animation style.",
+    "duration_est": 15,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 20,
+    "speaker": "تيتا",
+    "line": "فرضي الله عن الرجل الأعمى الشاكر، وسخط على صاحبيه اللذين جحدا النعمة.",
+    "visual_prompt": "[STYLE] The needy man smiling and disappearing in a soft glow. The blind man looking up to the sky with a thankful expression. Animation style.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 21,
+    "speaker": "خالد ونور",
+    "line": "يا تيتا، الرجلان الأولان جحدا نعمة الله! لم يشكرا الله على ما أعطاهما! لقد كانا بخيلين!",
+    "visual_prompt": "[STYLE] The Story Lantern's light gradually fading. Khalid and Nour back in the living room, their faces showing astonishment and understanding. They look at each other and then at Tieta.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 22,
+    "speaker": "تيتا",
+    "line": "بالضبط يا أحبابي. الله يحب الشاكرين، ويغضب على الجاحدين. الرجل الأعمى تذكر فضائل الله عليه، وشكر الله بقلبه وبلسانه وبفعله.",
+    "visual_prompt": "[STYLE] Tieta embracing Khalid and Nour warmly, explaining the moral of the story.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 23,
+    "speaker": "خالد وتيتا",
+    "line": "أنا... أنا آسف يا تيتا. لقد كنت أتذمر من سيارتي، وأحسد أحمد على سيارته الجديدة. لقد نسيت أن أشكر الله على أن لدي سيارة ألعب بها. هذا هو الدرس يا خالد. يجب أن نشكر الله على كل نعمة، صغيرة كانت أم كبيرة. أن تشكر الله على سيارتك هذه، وعلى صحتك، وعلى أمك وأبيك، وعلى كل شيء حولك. الشكر يجعلنا سعداء، ويجلب لنا البركة.",
+    "visual_prompt": "[STYLE] Khalid looking at his old car, then at the magazine, with a changed, reflective expression. Tieta gently patting Khalid's shoulder, reinforcing the importance of gratitude.",
+    "duration_est": 20,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 24,
+    "speaker": "خالد",
+    "line": "شكراً لك يا تيتا، لقد فهمت الآن. سأشكر الله دائماً على كل ما عندي. سيارتي جميلة جداً!",
+    "visual_prompt": "[STYLE] Khalid picking up his old car and hugging it with genuine affection and a happy smile.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 25,
+    "speaker": "تيتا وخالد ونور",
+    "line": "هيا يا أحبابي، لندعو الله أن يجعلنا من الشاكرين. يا رب يا كريم، اجعلنا من عبادك الشاكرين الذاكرين، وارزقنا القناعة والرضا بما قسمت لنا، آمين.",
+    "visual_prompt": "[STYLE] Khalid, Nour, and Tieta raising their hands in prayer, with sincere expressions on their faces.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 26,
+    "speaker": "راوٍ",
+    "line": "الشكر لله، الشكر لله على كل نعمة، يا رباه عندي لعبة، عندي بيت أمي وأبي، كم أحببت! لا أحسد غيري، لا أتذمر رضا قلبي، هو الأجمل الحمد لله، على كل حال في قلبي حب، في كل مجال",
+    "visual_prompt": "[STYLE] Khalid and Nour smiling, with Tieta. Gentle, uplifting anthem music begins, with lyrics appearing on screen or a warm glow around them.",
+    "duration_est": 25,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 27,
+    "speaker": "خالد ونور",
+    "line": "إلى اللقاء في حكاية جديدة مع تيتا وفانوس الحكايات! لا تنسوا الشكر!",
+    "visual_prompt": "[STYLE] Khalid and Nour looking at the camera with bright, engaging smiles, waving goodbye.",
+    "duration_est": 6,
+    "is_story_shot": false
+  }
+]

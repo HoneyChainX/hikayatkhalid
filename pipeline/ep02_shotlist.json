@@ -1,0 +1,386 @@
+[
+  {
+    "scene_id": 1,
+    "speaker": "نور",
+    "line": "يا خالد، لا تدخل! الحصّالة جائعة جدًا!",
+    "visual_prompt": "[STYLE] A medium shot of Khalid and Noor sitting on the floor. A bear-shaped piggy bank is between them. Noor struggles to insert a small banknote into the piggy bank's slot.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 2,
+    "speaker": "خالد",
+    "line": "ليست جائعة يا نور، فتحتها صغيرة. أعطيني، سأساعدك.",
+    "visual_prompt": "[STYLE] Khalid laughs gently at Noor's comment. He extends his hand to take the banknote from her.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 3,
+    "speaker": "نور",
+    "line": "شكرًا لك يا أخي! أنت الأقوى!",
+    "visual_prompt": "[STYLE] Close-up shot of Khalid helping Noor insert the banknote into the piggy bank. Noor claps her hands in happiness.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 4,
+    "speaker": "خالد",
+    "line": "نحن نحفظ المال في الحصّالة لكي لا يضيع، أليس كذلك؟",
+    "visual_prompt": "[STYLE] Khalid smiles at Noor, making eye contact after helping her with the piggy bank.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 5,
+    "speaker": "نور",
+    "line": "نعم! هذا مالي لأشتري به لعبة كبيرة!",
+    "visual_prompt": "[STYLE] Noor hugs the piggy bank tightly with a bright, possessive smile.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 6,
+    "speaker": "تيتا",
+    "line": "السلام عليكم يا أحفادي الحلوين!",
+    "visual_prompt": "[STYLE] Teita enters the living room with a warm smile, holding a small gift bag. Khalid and Noor look up.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 7,
+    "speaker": "خالد ونور",
+    "line": "وعليكم السلام يا تيتا!",
+    "visual_prompt": "[STYLE] Khalid and Noor enthusiastically greet Teita.",
+    "duration_est": 2,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 8,
+    "speaker": "تيتا",
+    "line": "معي لكم مفاجأة صغيرة اليوم. هذه لكم، مكافأة على ترتيب غرفتكم.",
+    "visual_prompt": "[STYLE] Teita takes out two small chocolates and two coins from her bag, presenting them to the children.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 9,
+    "speaker": "نور",
+    "line": "واو! شكرًا يا تيتا!",
+    "visual_prompt": "[STYLE] Close-up on Noor's joyful face as she eagerly takes her chocolate and coin.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 10,
+    "speaker": "نور",
+    "line": "خالد، هل يمكن أن تحتفظ لي بالنقود؟ أنا أريد أن ألعب الآن، وأخاف أن تضيع مني.",
+    "visual_prompt": "[STYLE] Noor quickly eats her chocolate, then looks at Khalid. Khalid puts his own chocolate in his mouth, then notices Noor's coin.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 11,
+    "speaker": "خالد",
+    "line": "بالطبع يا نور، ضعِيها معي. سأحفظها لك.",
+    "visual_prompt": "[STYLE] Khalid swallows his chocolate, takes the coin from Noor, and carefully places it in his small pocket.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 12,
+    "speaker": "خالد",
+    "line": "يا إلهي، هذه اللعبة رائعة! أريدها حقًا!",
+    "visual_prompt": "[STYLE] Khalid and Noor are playing with colorful balls. Khalid throws a ball to Noor. Khalid's attention is drawn to a toy advertisement in a magazine lying nearby. Close-up on the magazine showing the toy.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 13,
+    "speaker": "خالد",
+    "line": "لو أضفت نقود نور إلى نقودي، يمكن أن أشتري هذه اللعبة الصغيرة. لا أحد سيعرف... نور لن تتذكر.",
+    "visual_prompt": "[STYLE] Khalid holds the magazine, looking at the toy's price. He subtly touches his pocket where Noor's money is, a hint of temptation on his face.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 14,
+    "speaker": "خالد",
+    "line": "لكن... هذا ليس مالي. هذه أمانة.",
+    "visual_prompt": "[STYLE] Close-up on Khalid's hand, holding Noor's coin. He glances at Noor, who is playing happily, oblivious. Khalid's face shows internal conflict and hesitation.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 15,
+    "speaker": "نور",
+    "line": "خالد! دورك لترمي الكرة!",
+    "visual_prompt": "[STYLE] Noor calls out to Khalid from off-screen, her voice playful.",
+    "duration_est": 2,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 16,
+    "speaker": "تيتا",
+    "line": "ما بك يا خالد؟ تبدو مشغول البال.",
+    "visual_prompt": "[STYLE] Khalid puts the money back into his pocket. Teita, who was reading a book nearby, notices Khalid's thoughtful expression.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 17,
+    "speaker": "خالد",
+    "line": "لا شيء يا تيتا... فقط...",
+    "visual_prompt": "[STYLE] Khalid sighs, looking briefly at Noor then at his pocket, unable to articulate his dilemma.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 18,
+    "speaker": "تيتا",
+    "line": "هل هناك شيء يزعجك يا حبيبي؟ تذكر أن الأمانة صفة جميلة ومهمة جدًا.",
+    "visual_prompt": "[STYLE] Teita offers a gentle, encouraging smile to Khalid, hinting at the topic of trust.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 19,
+    "speaker": "خالد",
+    "line": "نعم يا تيتا! أحب قصصك!",
+    "visual_prompt": "[STYLE] Khalid looks at Teita with renewed curiosity and interest. Teita closes her book, ready to tell a story.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 20,
+    "speaker": "نور",
+    "line": "قصة! قصة!",
+    "visual_prompt": "[STYLE] Noor runs excitedly towards Khalid and Teita, eager for a story.",
+    "duration_est": 2,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 21,
+    "speaker": "تيتا",
+    "line": "إذًا، لنذهب في رحلة مع فانوس الحكايات إلى زمن مضى، لنرى كيف حفظ الله الأمانة.",
+    "visual_prompt": "[STYLE] Teita smiles and reaches towards the storytelling lantern on a small table. The lantern begins to flicker and emit soft, inviting lights.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 22,
+    "speaker": "خالد ونور",
+    "line": "واو!",
+    "visual_prompt": "[STYLE] Khalid and Noor look at the glowing lantern with wide-eyed wonder.",
+    "duration_est": 1,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 23,
+    "speaker": "راوٍ",
+    "line": "",
+    "visual_prompt": "[STYLE] The lantern emits a powerful, magical glow that fills the entire room. Khalid, Noor, and Teita close their eyes as if transported.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 24,
+    "speaker": "راوٍ",
+    "line": "",
+    "visual_prompt": "[STYLE] A breathtaking natural landscape shot of a rugged mountain with a dark cave entrance at night. The sound of wind howls gently, creating a mysterious atmosphere.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 25,
+    "speaker": "الراوي",
+    "line": "في قديم الزمان، كان هناك ثلاثة رجال يسيرون في طريقهم، وفاجأهم الليل وهم في منتصف الطريق.",
+    "visual_prompt": "[STYLE] Three weary travelers, dressed in simple ancient attire, approach the mouth of a dark cave as night falls.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 26,
+    "speaker": "الراوي",
+    "line": "وجدوا غارًا في الجبل ليبيتوا فيه. جلسوا ليستريحوا من عناء السفر.",
+    "visual_prompt": "[STYLE] Inside the dimly lit cave, the three men settle down on the cold ground, seeking rest from their journey.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 27,
+    "speaker": "الرجل الأول",
+    "line": "ما هذا؟! الصخرة سدّت علينا الباب!",
+    "visual_prompt": "[STYLE] A sudden, loud rumbling sound. A massive, jagged boulder tumbles down the mountain, completely sealing the cave entrance. The first man reacts with terror.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 28,
+    "speaker": "الرجل الثاني",
+    "line": "لقد حُبسنا! كيف سنخرج؟",
+    "visual_prompt": "[STYLE] The second man, looking desperate, gestures frantically at the now-blocked cave entrance.",
+    "duration_est": 4,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 29,
+    "speaker": "الرجل الثالث",
+    "line": "لا تيأسوا. لنطلب من الله أن يفرج عنا بكرمه، ونتوسل إليه بأصدق أعمالنا التي قمنا بها لوجهه الكريم.",
+    "visual_prompt": "[STYLE] The third man speaks with calm resolve, his face illuminated by a faint light, inspiring hope in his companions.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 30,
+    "speaker": "الراوي",
+    "line": "وافق الجميع على الفكرة. فبدأ كل منهم يدعو الله بعمله الصالح.",
+    "visual_prompt": "[STYLE] The three men sit together inside the cave, their expressions thoughtful as each reflects on their most sincere good deeds.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 31,
+    "speaker": "الراوي",
+    "line": "توسّل الأول ببرّه لوالديه، وكيف كان يحرص على إطعامهما قبل أولاده وأهله، فاستجاب الله له وتحركت الصخرة قليلًا.",
+    "visual_prompt": "[STYLE] The first man prays fervently. A subtle shimmer of light appears on the massive boulder, which then shifts slightly, creating a small crack.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 32,
+    "speaker": "الراوي",
+    "line": "ثم دعا الثاني الله بعفته، وكيف ترك المال الذي كان سيأخذه حرامًا خوفًا من الله، فاستجاب الله له وتحركت الصخرة أكثر.",
+    "visual_prompt": "[STYLE] The second man offers his prayer. Another flash of light illuminates the boulder, which then moves further, widening the gap.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 33,
+    "speaker": "الرجل الثالث",
+    "line": "اللهم... كان لي أجير، عمل عندي يومًا، ثم ذهب وترك أجرته عندي.",
+    "visual_prompt": "[STYLE] The third man stands, his face filled with deep reverence and humility as he begins his prayer.",
+    "duration_est": 6,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 34,
+    "speaker": "الرجل الثالث",
+    "line": "لم أتصرف في أجرته، بل حفظتها له، ونمّيتها له في زرع وماشية، حتى كثرت وكبرت وصارت مالًا كثيرًا.",
+    "visual_prompt": "[STYLE] (Flashback) A quick montage: The third man offering wages to a worker who refuses and departs. The third man then diligently plants seeds and acquires small livestock, showing the growth of the investment.",
+    "duration_est": 9,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 35,
+    "speaker": "الرجل الثالث",
+    "line": "وبعد سنين طويلة، جاءني الأجير وطلب أجرته.",
+    "visual_prompt": "[STYLE] (Flashback) A quick shot: The worker, now older, returns to the third man, asking for his long-lost wages.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 36,
+    "speaker": "الرجل الثالث",
+    "line": "فقلت له: \"كل هذا الذي تراه من الزرع والماشية هو أجرتك التي تركتها ونمّيتها لك.\"",
+    "visual_prompt": "[STYLE] (Flashback) A quick shot: The third man proudly gestures towards a vast, flourishing field of crops and a large herd of livestock.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 37,
+    "speaker": "الرجل الثالث",
+    "line": "اللهم، إن كنت فعلت ذلك ابتغاء وجهك، فافرج عنا ما نحن فيه. لقد رددت إليه ماله كاملاً ولم أَبخَسْ منه شيئًا.",
+    "visual_prompt": "[STYLE] (Flashback) A quick shot: The worker, overwhelmed, accepts the vast wealth and departs joyfully. The third man in the flashback smiles with profound relief. The scene returns to the third man in the cave, his face full of conviction as he concludes his prayer.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 38,
+    "speaker": "الراوي",
+    "line": "فانفرجت الصخرة، وخرج الرجال الثلاثة سالمين بفضل الله، وبفضل أمانة الرجل الثالث وحفظه لحق غيره.",
+    "visual_prompt": "[STYLE] A blinding flash of divine light engulfs the boulder. It then completely rolls away, revealing the open cave entrance. The three men emerge, safe and sound, into the night.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 39,
+    "speaker": "نور",
+    "line": "واو! الأمانة أنقذتهم!",
+    "visual_prompt": "[STYLE] Khalid, Noor, and Teita are back in the living room. The lantern's glow subsides to normal. Noor looks utterly amazed by the story.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 40,
+    "speaker": "خالد",
+    "line": "يعني... لو لم يحافظ الرجل على مال الأجير، لما تحركت الصخرة؟",
+    "visual_prompt": "[STYLE] Khalid's eyes sparkle with newfound understanding as he poses the question to Teita.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 41,
+    "speaker": "تيتا",
+    "line": "بالضبط يا خالد. الأمانة هي أن تحفظ ما ائتمنك عليه الناس، سواء كان مالًا أو سرًا أو حتى وعدًا. وهي أن تحافظ على حقوق الآخرين كما تحافظ على حقوقك. الله يحب الأمناء.",
+    "visual_prompt": "[STYLE] Teita smiles warmly, reinforcing the lesson of trust and its importance to Khalid.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 42,
+    "speaker": "خالد",
+    "line": "تفضلي يا نور، نقودك. أنا آسف، كنت أفكر أن آخذها لأشتري بها لعبة. لكن تذكرت قصة الرجل الأمين.",
+    "visual_prompt": "[STYLE] Khalid sincerely takes Noor's money from his pocket and extends it to her, a genuine smile replacing his earlier conflict.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 43,
+    "speaker": "نور",
+    "line": "أنت أمين يا خالد!",
+    "visual_prompt": "[STYLE] Noor accepts her money, looking at Khalid with admiration and trust.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 44,
+    "speaker": "تيتا",
+    "line": "أحسنت يا خالد. الأمانة تجعلك قويًا في عيون الله والناس. وهي طريق لرضا الله ولفعل الخير دائمًا.",
+    "visual_prompt": "[STYLE] Teita affectionately embraces both Khalid and Noor, praising Khalid's integrity.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 45,
+    "speaker": "تيتا",
+    "line": "اللهم اجعلنا من الأمناء، واحفظنا بحفظك، ووفقنا لفعل الخير دائمًا.",
+    "visual_prompt": "[STYLE] Teita, Khalid, and Noor sit together, a sense of peace and warmth surrounding them as Teita offers a prayer.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 46,
+    "speaker": "الراوي للنشيد",
+    "line": "يا أطفال يا أحباب\nالأمانة باب الخير\nنحفظ سرًّا، نحفظ مالًا\nمثل النحل يحفظ زهر\nربّي يحب الأمناء\nنحن نحب الأمناء\nنحفظ حقًّا، نحفظ وعدًا\nيا أطفال يا أحباب\nالصدق أساس الأمانة\nنزرع خيرًا في كلّ آن\nيا رب اجعلنا أمناء\nفي كلّ زمان ومكان",
+    "visual_prompt": "[STYLE] Upbeat music begins. Khalid and Noor clap their hands lightly to the rhythm, their faces bright with joy and engagement.",
+    "duration_est": 20,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 47,
+    "speaker": "تيتا",
+    "line": "وفي المرة القادمة، سنعرف قصة جديدة عن الشجاعة، وكيف أن الشجاعة لا تعني القوة الجسدية فقط، بل هي قوة القلب والإيمان.",
+    "visual_prompt": "[STYLE] Teita smiles mysteriously at Khalid and Noor, creating anticipation for the next episode's theme.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 48,
+    "speaker": "خالد ونور",
+    "line": "يا سلام! ننتظرها بفارغ الصبر!",
+    "visual_prompt": "[STYLE] Khalid and Noor exclaim with joyful anticipation, their faces alight with excitement for the upcoming story.",
+    "duration_est": 3,
+    "is_story_shot": false
+  }
+]

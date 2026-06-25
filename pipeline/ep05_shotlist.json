@@ -1,0 +1,202 @@
+[
+  {
+    "scene_id": 1,
+    "speaker": "خالد ونور",
+    "line": "خالد: هاهاها! انظري يا نور، قطار النمل! نور: واو! كثيرون!",
+    "visual_prompt": "[STYLE] A vibrant garden, Khalid and Noor (7 and 5 years old) are playing joyfully. Khalid runs past a straight line of ants on the ground. Noor follows him, laughing.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 2,
+    "speaker": "خالد ونور، تيتا",
+    "line": "خالد: سأرى إن كانوا سيهربون مني! نور: لا يا خالد! مساكين! تيتا: خالد! نور! ما الذي تفعلانه يا أحبابي؟",
+    "visual_prompt": "[STYLE] Khalid raises his foot, about to step on the ants. Noor looks scared and warns him. Teita appears in the distance, smiling gently, noticing their actions.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 3,
+    "speaker": "خالد، نور، تيتا",
+    "line": "خالد: مرحباً تيتا! كنت ألعب مع النمل. نور: خالد كان سيؤذيهم يا تيتا! تيتا: النمل مخلوقات ضعيفة يا خالد، ولكنها مهمة في دنيانا. لا يجب أن نؤذيها أبداً.",
+    "visual_prompt": "[STYLE] Khalid quickly lowers his foot, looking a little embarrassed. Teita approaches and sits next to them, speaking kindly.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 4,
+    "speaker": "خالد، تيتا",
+    "line": "خالد: لكنهم صغار جداً يا تيتا، هل يشعرون حقاً؟ تيتا: بالتأكيد يا حبيبي. كل مخلوق خلقه الله يشعر ويحس. والله يحبنا أن نكون رحماء بجميع مخلوقاته.",
+    "visual_prompt": "[STYLE] Khalid looks thoughtfully at the ants. Teita smiles gently while explaining.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 5,
+    "speaker": "نور، تيتا، خالد، نور",
+    "line": "نور: مثلما نحن نحب بعضنا، نحبهم أيضاً؟ تيتا: أحسنتِ يا نور! بالضبط هكذا. وما رأيكما أن نحكي قصة عن النملة الذكية؟ قصة من زمان بعيد، من زمن نبي عظيم اسمه سليمان عليه السلام. خالد: نبي سليمان! واو! نور: نملة ذكية؟ كيف؟ تيتا: تعالوا لنرى!",
+    "visual_prompt": "[STYLE] Noor looks lovingly at the ants. Teita proposes a story. Khalid and Noor sit eagerly in front of Teita in the living room, the story lantern glowing softly.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 6,
+    "speaker": "تيتا",
+    "line": "يا فانوس الحكايات، خذنا إلى زمان نبي الله سليمان عليه السلام، لنرى كيف كانت النملة ذكية، وكيف كان نبي الله سليمان رحيماً.",
+    "visual_prompt": "[STYLE] Teita touches the story lantern. It begins to spin, emitting a magical light that intensifies and fills the screen.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 7,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Magical transition effect through the lantern, colors shifting, faint sounds.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 8,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Animated scene of a beautiful valley filled with small rocks and trees. Many ants are actively working, carrying food, moving in organized lines. A small ant appears more attentive, looking around.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 9,
+    "speaker": "النملة الذكية",
+    "line": "يا قوم! أسمع شيئاً قادماً!",
+    "visual_prompt": "[STYLE] Animated scene. Dust clouds appear on the horizon, with faint sounds of many approaching footsteps. The camera focuses on the wise ant raising its head and looking.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 10,
+    "speaker": "النملة الذكية",
+    "line": "انظروا! جيش كبير! إنه جيش نبي الله سليمان!",
+    "visual_prompt": "[STYLE] Animated scene. The dust gets closer. Many soldiers appear marching in formation. The face of Prophet Sulaiman is not shown; only his great soldiers and the front of his army are visible.",
+    "duration_est": 6,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 11,
+    "speaker": "النملة الذكية",
+    "line": "يا أيها النمل! يا أيها النمل!",
+    "visual_prompt": "[STYLE] Animated scene. The wise ant quickly rushes towards the other ants.",
+    "duration_est": 4,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 12,
+    "speaker": "النملة الذكية",
+    "line": "يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ",
+    "visual_prompt": "[STYLE] Animated scene. The ants stop working and look at the wise ant. The wise ant shouts loudly. The Quranic verse appears clearly and beautifully on screen.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 13,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Animated scene. The ants quickly rush and enter their underground homes. Sulaiman's army passes safely over the valley without harming a single ant.",
+    "duration_est": 6,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 14,
+    "speaker": "صوت سليمان",
+    "line": "فَتَبَسَّمَ ضَاحِكًا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ الَّتِي أَنْعَمْتَ عَلَيَّ وَعَلَىٰ وَالِدَيَّ وَأَنْ أَعْمَلَ صَالِحًا تَرْضَاهُ وَأَدْخِلْنِي بِرَحْمَتِكَ فِي عِبَادِكَ الصَّالِحِينَ",
+    "visual_prompt": "[STYLE] Animated scene. A faint luminous halo indicates Prophet Sulaiman's location. His warm voice is heard from off-screen, with a slight sound of a smile. The Quranic verse appears on screen.",
+    "duration_est": 15,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 15,
+    "speaker": "صوت سليمان",
+    "line": "أين الهدهد؟ وَتَفَقَّدَ الطَّيْرَ فَقَالَ مَا لِيَ لَا أَرَى الْهُدْهُدَ أَمْ كَانَ مِنَ الْغَائِبِينَ",
+    "visual_prompt": "[STYLE] Animated general view of Sulaiman's camp. Sulaiman (represented by a bright light or only his back) inspects the birds. Many birds are around him. The Quranic verse appears on screen.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 16,
+    "speaker": "الهدهد",
+    "line": "يا نبي الله! لقد جئتك بخبر عظيم! أَحَطتُ بِمَا لَمْ تُحِطْ بِهِ وَجِئْتُكَ مِن سَبَإٍ بِنَبَإٍ يَقِينٍ",
+    "visual_prompt": "[STYLE] Animated scene. A short while later, the Hoopoe appears, flying swiftly and landing in front of Sulaiman (off-screen, in front of the bright light). The Hoopoe stands proudly. The Quranic verse appears on screen.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 17,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Animated scene. Sulaiman (represented by a bright light) listens attentively. The Hoopoe continues speaking (its words are not heard, only Sulaiman's reaction of attentive listening is seen). The scene slowly fades out.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 18,
+    "speaker": "خالد، نور",
+    "line": "خالد: واو! النملة ذكية جداً! نور: ونبي سليمان سمعها!",
+    "visual_prompt": "[STYLE] The magical light of the lantern fades. Khalid and Noor sit in awe in the living room.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 19,
+    "speaker": "تيتا",
+    "line": "نعم يا أحبابي. نبي الله سليمان عليه السلام كان لديه ملك عظيم، وكان يفهم لغة الطير والنمل، ومع كل هذه القوة وهذا الملك، كان متواضعاً ورحيماً جداً بجميع المخلوقات.",
+    "visual_prompt": "[STYLE] Teita smiles warmly at them, explaining the moral of the story.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 20,
+    "speaker": "خالد، تيتا",
+    "line": "خالد: يعني كان يهتم حتى بالنمل الصغير؟ تيتا: بالضبط يا خالد. هذا يعلمنا أن الله يحبنا أن نكون رحماء بكل ما خلقه، من أكبر المخلوقات إلى أصغرها. النملة الصغيرة لها حياتها، ولها بيتها، وتعمل بجد. لا يجوز أن نؤذيها أبداً، بل نحترمها ونتركها تعيش بسلام.",
+    "visual_prompt": "[STYLE] Khalid looks at his hand, then at the floor as if seeing ants. Teita continues her explanation.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 21,
+    "speaker": "نور، خالد",
+    "line": "نور: أنا سأكون رحيمة بالنمل! خالد: وأنا أيضاً يا تيتا. لن أؤذي أي حشرة بعد اليوم. سأكون مثل نبي سليمان، رحيماً ومتواضعاً.",
+    "visual_prompt": "[STYLE] Noor smiles. Khalid looks determined, both making a promise.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 22,
+    "speaker": "تيتا",
+    "line": "بارك الله فيكما يا أحبابي. أسأل الله أن يجعلنا دائماً من الشاكرين لنعمه، والرحماء بخلقه. آمين.",
+    "visual_prompt": "[STYLE] Teita hugs Khalid and Noor affectionately.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 23,
+    "speaker": "راوٍ",
+    "line": "يا خالد يا نور الأحباب، الرحمة كنز الأطياب، النملة أو عصفور صغير، كلٌّ له ربٌّ قدير، نحن نحب كل المخلوقات، نحفظها من كل الآفات، كن رحيماً كن متواضعاً، دربك للخيرات واسعاً.",
+    "visual_prompt": "[STYLE] The channel logo appears on screen. A narrator sings a light, instrument-free song.",
+    "duration_est": 20,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 24,
+    "speaker": "تيتا",
+    "line": "ترى ما القصة التي سيحملها لنا فانوس الحكايات في المرة القادمة؟ ربما تكون عن طائر آخر، أو عن حكمة من حكم الأجداد!",
+    "visual_prompt": "[STYLE] Teita looks at the lantern with a thoughtful smile, hinting at future stories.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 25,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Khalid and Noor run in the garden. Khalid carefully avoids the ants, and Noor waves at them with a smile. The scene ends.",
+    "duration_est": 5,
+    "is_story_shot": false
+  }
+]

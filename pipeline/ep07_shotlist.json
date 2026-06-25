@@ -1,0 +1,258 @@
+[
+  {
+    "scene_id": 1,
+    "speaker": "خالد ونور",
+    "line": "(خالد): ياااه! لماذا يجب أن أضع هذه المكعبات الزرقاء هنا؟ لا تبدو جميلة! أريد أن أضع الحمراء! (نور): لكن الرسمة تقول أزرق يا خالد. (خالد): لا أفهم لماذا! القلعة ستكون أجمل بالأحمر. هذا العمل متعب ولا أفهم فائدته.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid struggling to build a castle with blocks, ignoring the blueprint. Noor sitting next to him, playing with her doll, looking at him. Khalid looks frustrated and puzzled, then Noor interjects, and Khalid reiterates his frustration.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 2,
+    "speaker": "تيتا",
+    "line": "السلام عليكم يا أحفادي الحلوين! ما هذا التذمر يا خالد؟",
+    "visual_prompt": "[ANIMATION STYLE] Tita entering the living room, carrying a tray of small cakes, smiling warmly. Khalid looks up at her.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 3,
+    "speaker": "خالد",
+    "line": "وعليكم السلام يا تيتا! أنا أحاول بناء هذه القلعة، لكن الرسمة تطلب مني أشياء غريبة لا أفهمها. لماذا يجب أن أتبعها حرفياً؟",
+    "visual_prompt": "[ANIMATION STYLE] Khalid explaining his frustration to Tita, gesturing towards the blocks.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 4,
+    "speaker": "تيتا",
+    "line": "أرى أنك لا تفهم سبب بعض الخطوات، وهذا يجعلك تشعر بالملل أو التذمر، صحيح؟",
+    "visual_prompt": "[ANIMATION STYLE] Tita sitting next to Khalid, looking at the blocks with understanding.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 5,
+    "speaker": "خالد ونور",
+    "line": "(خالد): نعم يا تيتا! أريد أن أبنيها بطريقتي! (نور): لكن يا خالد، أحياناً الكبار يعرفون أشياء نحن لا نعرفها.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid nodding emphatically, Noor looking thoughtfully at Khalid, offering her perspective.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 6,
+    "speaker": "تيتا",
+    "line": "أحسنتِ يا نور. أحياناً نُطلب منا فعل أشياء لا نفهم حكمتها في البداية، لكن الصبر والطاعة والثقة بأن هناك حكمة عظيمة، هو المفتاح. هل تذكرون قصة نبي الله نوح عليه السلام؟",
+    "visual_prompt": "[ANIMATION STYLE] Khalid looking at Noor, then at Tita, who is smiling knowingly.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 7,
+    "speaker": "خالد ونور",
+    "line": "(خالد): نبي الله نوح؟ الذي بنى سفينة كبيرة جداً؟ (نور): أخبرينا يا تيتا!",
+    "visual_prompt": "[ANIMATION STYLE] Khalid looking at Tita with dawning recognition and interest, Noor eagerly looking at Tita, leaning forward.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 8,
+    "speaker": "تيتا",
+    "line": "حسناً، هذه القصة ستعلمنا درساً مهماً جداً عن الطاعة والصبر والثقة بأمر الله، حتى لو لم نفهم كل شيء في حينه.",
+    "visual_prompt": "[ANIMATION STYLE] Tita looking at both children, her face gentle and inviting.",
+    "duration_est": 9,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 9,
+    "speaker": "تيتا",
+    "line": "يا فانوس الحكايات، يا رفيق الأزمان، خذنا لقصة نبي الله نوح، لنرى عِبرة الطاعة والإيمان.",
+    "visual_prompt": "[ANIMATION STYLE] Tita extending her hand towards the storytelling lantern, which begins to glow. Room lights dim gradually.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 10,
+    "speaker": "خالد ونور",
+    "line": "واو! هيا يا تيتا! ما أجمل هذا النور!",
+    "visual_prompt": "[ANIMATION STYLE] The lantern glowing intensely, emitting light flashes that form a shimmering portal. Khalid and Noor gaze in wonder.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 11,
+    "speaker": "تيتا",
+    "line": "في قديم الزمان، أرسل الله نبيه نوحاً عليه السلام إلى قومه. دعاهم نوح ليعبدوا الله وحده، لكنهم لم يستمعوا إليه.",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] Wide desert landscape. A faint light in the distance symbolizes Prophet Noah (faceless/off-screen/shadow).",
+    "duration_est": 9,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 12,
+    "speaker": "تيتا",
+    "line": "وبعد سنوات طويلة من الدعوة، أوحى الله إلى نوح عليه السلام أن يصنع سفينة عظيمة.",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] The faint light (Noah) beginning to gather wood and tools.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 13,
+    "speaker": "تيتا",
+    "line": "تخيلوا يا أصدقائي! سفينة كبيرة جداً، تُصنع في صحراء لا يوجد فيها بحر قريب!",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] Wood assembling slowly into a large ship's structure. The faint light (Noah) moving diligently, as if an unseen hand helps in construction.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 14,
+    "speaker": "تيتا",
+    "line": "كان قوم نوح يسخرون منه ويقولون: \"ماذا تفعل يا نوح؟ أتبني سفينة في الصحراء؟ أجننت؟\"",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] Small, simple character drawings (Noah's people) passing by the shipbuilding site, laughing, pointing, and wondering.",
+    "duration_est": 9,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 15,
+    "speaker": "تيتا",
+    "line": "لكن نوحاً عليه السلام كان يثق بأمر الله، ويعلم أن الله لا يأمر إلا بالخير والحكمة. فواصل البناء بصبرٍ وطاعةٍ لله.",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] The ship growing in size and detail. The faint light (Noah) continuing to work patiently and diligently.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 16,
+    "speaker": "تيتا",
+    "line": "وحين اكتملت السفينة، جاء الأمر العظيم من الله!",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] The massive ship is completed.",
+    "duration_est": 4,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 17,
+    "speaker": "تيتا",
+    "line": "أمر الله نوحاً عليه السلام أن يحمل في السفينة من كل أنواع الحيوانات، زوجين اثنين: ذكراً وأنثى.",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] Beautiful, diverse animals (lions, giraffes, rabbits, birds, etc.) walking in pairs, two of each kind, and boarding the ship.",
+    "duration_est": 9,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 18,
+    "speaker": "تيتا",
+    "line": "وحمل نوح عليه السلام معه أهله، وكل من آمن بالله وصدقه.",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] Animals entering the ship regularly. Then, some people (represented by simple human shapes) entering the ship.",
+    "duration_est": 6,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 19,
+    "speaker": "تيتا",
+    "line": "وبعد أن دخل الجميع، بدأت السماء تمطر!",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] The sky beginning to change. Light grey clouds appearing.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 20,
+    "speaker": "تيتا",
+    "line": "المطر لم يتوقف، وبدأت الأرض تتفجر بالماء. ارتفع الماء شيئاً فشيئاً.",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] Rain gently intensifying, water gathering around the ship.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 21,
+    "speaker": "تيتا",
+    "line": "وفجأة، ارتفعت السفينة وبدأت تجري بهم في الماء!",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] The ship beginning to float on the ever-rising water.",
+    "duration_est": 6,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 22,
+    "speaker": "تيتا",
+    "line": "جرت السفينة بهم في موجٍ عظيمٍ كالجبال، ولكن الله حفظ نوحاً عليه السلام ومن معه.",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] The ship floating on large, gently depicted waves (described as 'like mountains' but portrayed softly). Animals and people are safe inside the ship.",
+    "duration_est": 9,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 23,
+    "speaker": "تيتا",
+    "line": "وبعد مدة، توقف المطر، وبدأ الماء ينقص وينقص.",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] The water gradually receding.",
+    "duration_est": 6,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 24,
+    "speaker": "تيتا",
+    "line": "واستقرت السفينة، وخرج نوح عليه السلام ومن معه، آمنين مطمئنين. لقد نجى الله المؤمنين بفضله.",
+    "visual_prompt": "[CUTE GRAPHICS STYLE] The ship resting on dry land. The faint light (Noah), animals, and people exiting the ship.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 25,
+    "speaker": "خالد",
+    "line": "يا إلهي! سفينة في الصحراء! وماذا حدث للناس الذين سخروا منه؟",
+    "visual_prompt": "[ANIMATION STYLE] The scene returns to the living room. The lantern glows gently then dims. Khalid sits mesmerized, looking at Tita.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 26,
+    "speaker": "تيتا",
+    "line": "الذين سخروا منه ولم يؤمنوا ولم يطيعوا أمر الله، لم ينجوا يا خالد. هذه القصة تعلمنا درساً عظيماً. نوح عليه السلام لم يفهم كل شيء في البداية، لماذا يبني سفينة في الصحراء؟ لكنه أطاع وصبر ووثق بأمر الله.",
+    "visual_prompt": "[ANIMATION STYLE] Tita looking at Khalid with a serious but gentle expression, explaining the lesson.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 27,
+    "speaker": "خالد ونور وتيتا",
+    "line": "(خالد): آه! مثل المكعبات! أنا لم أفهم لماذا يجب أن أضع الأزرق هنا، لكن مهندس القلعة يعرف! (نور): وهكذا الله يعرف كل شيء يا خالد! (تيتا): بالضبط يا أبطال! عندما يطلب منا الكبار أو حتى الله سبحانه وتعالى أمراً، حتى لو لم نفهم الحكمة منه فوراً، يجب أن نطيع ونثق بأن هناك خيراً عظيماً وحكمة بالغة. الطاعة والصبر والثقة بالله هي مفتاح النجاة والنجاح في الدنيا والآخرة.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid looking at the blocks thoughtfully, making a connection. Noor smiling, reinforcing his realization. Tita looking at both children with pride, emphasizing the moral of the story, with gentle hand gestures.",
+    "duration_est": 25,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 28,
+    "speaker": "خالد ونور",
+    "line": "(خالد): حسناً، سأطيع الرسمة وأصبر حتى أرى القلعة الجميلة! وسأثق بأن لها حكمة! (نور): هيا يا خالد، أنا سأساعدك!",
+    "visual_prompt": "[ANIMATION STYLE] Khalid smiling and enthusiastically starting to place the blue blocks in their correct positions. Noor joining him, ready to help.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 29,
+    "speaker": "تيتا",
+    "line": "اللهم اجعلنا من المطيعين لأمرك، الصابرين على بلائك، الواثقين بحكمتك. آمين.",
+    "visual_prompt": "[ANIMATION STYLE] Tita looking at Khalid and Noor working together, raising her hands in prayer.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 30,
+    "speaker": "راوٍ للنشيد",
+    "line": "يا صديقي، يا صغيري، اسمع القصة الجميلة نوح أطاع ربه، فصنع سفينةً طويلة ضحك الناس منه، وهو لم يبالي بالصبر والإيمان، نال كل المعالي أمر الله أتاه، بحيواناتٍ كثيرة من كل زوجين اثنين، كي تكون مسيرة فلما جاء الطوفان، نجا كل من آمن بالطاعة والإيمان، في الله دومًا نأمن.",
+    "visual_prompt": "[ANIMATION STYLE] Simple animated drawings of Noah's ark and animals floating gently, then transitioning to children obeying their parents.",
+    "duration_est": 20,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 31,
+    "speaker": "خالد ونور وتيتا",
+    "line": "(خالد): كانت قصة رائعة يا تيتا! شكراً لكِ! (نور): وماذا سنعرف في المرة القادمة؟ (تيتا): في المرة القادمة، سنعرف قصة أخرى عن نبي عظيم، وكيف نجاه الله من النار! هل عرفتم من هو؟",
+    "visual_prompt": "[ANIMATION STYLE] Khalid and Noor looking at Tita with excitement and curiosity. Tita smiling mysteriously at the children.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 32,
+    "speaker": "خالد ونور وتيتا",
+    "line": "(خالد ونور): لا نعرف! أخبرينا يا تيتا! (تيتا): انتظروا الحلقة القادمة من \"حكايات خالد\" لتعرفوا! إلى اللقاء!",
+    "visual_prompt": "[ANIMATION STYLE] Khalid and Noor thinking curiously, then eagerly asking Tita. A faint silhouette of a distant fire and a person standing before it appears. Tita winking playfully.",
+    "duration_est": 10,
+    "is_story_shot": false
+  }
+]

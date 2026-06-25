@@ -1,0 +1,258 @@
+[
+  {
+    "scene_id": 1,
+    "speaker": "نور",
+    "line": "كرتي! أين ذهبت؟",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Nora laughing while playing with a small ball with Khaled in a garden. The ball rolls behind a bush.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 2,
+    "speaker": "خالد",
+    "line": "لا تقلقي يا نور، سأجدها! انظري يا نور! وجدتُ كرتي، ووجدتُ معها حلوى!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled reassuring Nora, then finding the ball and a wrapped candy behind the bush, showing it to Nora.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 3,
+    "speaker": "نور",
+    "line": "واو! لمن هذه؟ هل نأكلها؟",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Nora jumping with joy, looking at the candy in Khaled's hand.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 4,
+    "speaker": "خالد",
+    "line": "لا أعرف لمن هي... ربما سقطت من أحد الجيران؟",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled holding the candy, a thoughtful expression on his face.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 5,
+    "speaker": "خالد",
+    "line": "السلام عليكم يا عمّي! بخير الحمد لله. أريد أن أشتري هذه الحلوى.",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled entering a neighborhood grocery store, greeting the busy seller, then pointing to a specific candy he wants to buy.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 6,
+    "speaker": "البائع",
+    "line": "وعليكم السلام يا خالد! كيف حالك؟ تفضل يا خالد، بالهناء والشفاء!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] The seller smiling, preparing the candy, and quickly giving Khaled his change.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 7,
+    "speaker": "خالد",
+    "line": "شكراً يا عمّي. واحد... اثنان... ثلاثة... أوه! هذا أكثر من اللازم! البائع كان مشغولاً، ولم ينتبه. هذه ليست لي. ماذا أفعل؟",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled taking the candy and coins, then exiting the store. He walks a few steps, stops abruptly, counts the coins, and his eyes widen in surprise. He looks thoughtful and worried, looking at the store and the candy.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 8,
+    "speaker": "خالد",
+    "line": "عمّي! عمّي البائع! عمّي، لقد أعطيتني باقياً زائداً. هذه ليست لي.",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled turning around decisively and running back into the grocery store, calling out to the seller, and extending his hand with the extra coins.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 9,
+    "speaker": "البائع",
+    "line": "خالد؟ هل نسيت شيئاً؟ يا إلهي! صحيح! لقد أخطأت في الحساب! شكراً جزيلاً لك يا بني، أنت أمين جداً!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] The seller turning around, surprised, then realizing his mistake, taking and counting the coins, then smiling warmly and thanking Khaled.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 10,
+    "speaker": "خالد",
+    "line": "العفو يا عمّي! مع السلامة!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled, feeling happy and relieved, waving goodbye to the smiling seller and exiting the store.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 11,
+    "speaker": "خالد",
+    "line": "... وهكذا يا تيتا، أعدتُ الباقي الزائد للبائع.",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled, Nora, and Teta sitting together in Teta's living room. Khaled finishing recounting the grocery store incident.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 12,
+    "speaker": "نور",
+    "line": "وخالد لم يأخذ شيئاً ليس له! قصة! قصة!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Nora enthusiastically emphasizing Khaled's honesty, then jumping with excitement for a story.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 13,
+    "speaker": "تيتا",
+    "line": "أحسنت يا حبيبي يا خالد، هذا هو الخلق الحسن، أن نكون أمينين ولا نأخذ ما ليس لنا. هذا يسمى \"الورع\". الورع هو أن تبتعد عن كل ما تشك فيه، وأن تحرص على ألا تأخذ إلا ما هو حق لك. سأحكي لكما قصة جميلة جداً حدثت في قديم الزمان، تشبه موقفك يا خالد. هيا بنا إلى عالم الحكايات مع فانوسنا الساحر!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Teta hugging Khaled tenderly, explaining the concept of \"Al-Wara'\". She then smiles and takes out a glowing story lantern, lighting it as its magical light fills the room.",
+    "duration_est": 25,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 14,
+    "speaker": "تيتا",
+    "line": "في قديم الزمان، اشترى رجلٌ من آخر أرضاً. وبعد أيام، بينما كان الرجل المشتري يعمل في أرضه الجديدة...",
+    "visual_prompt": "[CARTOON ANIMATION STYLE] Two men standing in a wide field, one pointing to the land. Then, the buyer (man) starting to work his new land, holding an axe and digging into the soil.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 15,
+    "speaker": "تيتا",
+    "line": "وجد المشتري فيها جرّةً... مليئة بالذهب!",
+    "visual_prompt": "[CARTOON ANIMATION STYLE] Suddenly, the axe hitting something solid. The man digging more, revealing a large buried jar, then opening it to find it full of gleaming gold.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 16,
+    "speaker": "الرجل المشتري",
+    "line": "اشتريتُ الأرض ولم أشترِ الذهب فخذه!",
+    "visual_prompt": "[CARTOON ANIMATION STYLE] The buyer looking at the gold in astonishment, then a look of honesty and thoughtfulness appearing on his face as he speaks.",
+    "duration_est": 6,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 17,
+    "speaker": "تيتا",
+    "line": "ذهب الرجل المشتري إلى البائع وأعاد له الجرة.",
+    "visual_prompt": "[CARTOON ANIMATION STYLE] The buyer walking towards and entering the seller's house, carrying the jar.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 18,
+    "speaker": "الرجل المشتري",
+    "line": "اشتريتُ الأرض ولم أشترِ الذهب فخذه!",
+    "visual_prompt": "[CARTOON ANIMATION STYLE] The buyer presenting the jar to the seller, who looks at it with surprise.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 19,
+    "speaker": "الرجل البائع",
+    "line": "بِعتُك الأرض وما فيها!",
+    "visual_prompt": "[CARTOON ANIMATION STYLE] The seller refusing to take the gold, gesturing towards the buyer.",
+    "duration_est": 4,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 20,
+    "speaker": "تيتا",
+    "line": "فتحاكما إلى رجل حكيم ليحل بينهما النزاع.",
+    "visual_prompt": "[CARTOON ANIMATION STYLE] The two men standing before a wise judge, recounting their story.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 21,
+    "speaker": "الرجل الحَكَم",
+    "line": "هل لكما أولاد؟",
+    "visual_prompt": "[CARTOON ANIMATION STYLE] The judge listening to the two men, then asking a question.",
+    "duration_est": 3,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 22,
+    "speaker": "تيتا",
+    "line": "فسأل الحَكَم عن ولدَيهما. فزوّج أحدهما الآخر وأمر أن يُنفَق الذهب عليهما ويُتصدَّق.",
+    "visual_prompt": "[CARTOON ANIMATION STYLE] The buyer pointing to his son, and the seller pointing to his daughter. The judge smiling and gesturing towards the boy and girl, who smile at each other.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 23,
+    "speaker": "نور",
+    "line": "يا لها من قصة جميلة! لم يأخذ أحد الذهب لنفسه!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] The lantern's light dimming gradually. Nora and Khaled looking at Teta with awe.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 24,
+    "speaker": "خالد",
+    "line": "الرجل المشتري كان أميناً جداً، والرجل البائع أيضاً!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled remarking on the honesty of both men in the story.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 25,
+    "speaker": "تيتا",
+    "line": "بالضبط يا أحبائي. هذا هو الورع. عندما يكون الإنسان أميناً وصادقاً، لا يأخذ ما ليس له، حتى لو وجده بالصدفة أو أُعطي له بالخطأ، فهذا يرضي الله ويجعل قلبه مرتاحاً. مثلما فعلتَ أنت يا خالد مع البائع.",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Teta smiling, explaining \"Al-Wara'\" and its virtues, connecting it to Khaled's action.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 26,
+    "speaker": "خالد",
+    "line": "يعني أنا كنتُ ورعاً مثل الرجل المشتري؟",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled looking at Teta, asking if he was also \"Wara'\" like the buyer in the story.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 27,
+    "speaker": "تيتا",
+    "line": "نعم يا حبيبي، هذا هو الورع، والترفّع عن أخذ ما ليس لك، والصدق في كل أمورنا.",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Teta laughing warmly, confirming Khaled's actions exemplify \"Al-Wara'\".",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 28,
+    "speaker": "تيتا",
+    "line": "هيا بنا نقول: يارب اجعلنا نحب الخير ونفعله دائماً.",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Teta hugging Khaled and Nora close, leading them in a prayer.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 29,
+    "speaker": "خالد ونور",
+    "line": "يارب اجعلنا نحب الخير ونفعله دائماً.",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Khaled and Nora repeating the prayer in unison.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 30,
+    "speaker": "راوٍ",
+    "line": "كنزٌ في الأرضِ يا أطفالْ ليسَ الذهبُ أو أموالْ كنزُ الورعِ في الأفعالْ نرضي ربّاً نُعلي الحالْ إنْ أخطأَ البائعُ يوماً أو وجدتَ شيئاً مغموماً أرجِعْهُ، لا تكنْ ملوماً فالصدقُ يُعليكَ دوماً!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] A colorful screen displaying the song lyrics with simple, cheerful animations, covering both stanzas.",
+    "duration_est": 20,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 31,
+    "speaker": "نور",
+    "line": "ما هي القصة القادمة يا تيتا؟",
+    "visual_prompt": "[CUTE ANIMATION STYLE] The lantern flickering gently. Nora smiling and asking Teta about the next story.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 32,
+    "speaker": "تيتا",
+    "line": "في المرة القادمة، سنعرف كيف نكون أقوياء حتى لو كنا صغاراً! انتظروا لتعرفوا!",
+    "visual_prompt": "[CUTE ANIMATION STYLE] Teta teasing about the next story, then winking playfully.",
+    "duration_est": 8,
+    "is_story_shot": false
+  }
+]

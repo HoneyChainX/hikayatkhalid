@@ -1,0 +1,206 @@
+[
+  {
+    "scene_id": 1,
+    "speaker": "خالد ونور",
+    "line": "أوف! لا أستطيع أبداً! حاول مرة أخرى يا خالد!",
+    "visual_prompt": "[STYLE] Khalid and Noor playing with building blocks. Khalid places the last block, but the tower shakes and falls. Noor laughs softly. Khalid frowns.",
+    "duration_est": 7
+  },
+  {
+    "scene_id": 2,
+    "speaker": "خالد",
+    "line": "لا فائدة! رسمتي سيئة جداً! لن أشارك في مسابقة الرسم أبداً. سأستسلم.",
+    "visual_prompt": "[STYLE] Khalid sitting on the floor, an incomplete and seemingly failed drawing in front of him, with scattered colors.",
+    "duration_est": 8
+  },
+  {
+    "scene_id": 3,
+    "speaker": "نور",
+    "line": "لكن رسمتك جميلة يا خالد! انظر، هذه سحابة!",
+    "visual_prompt": "[STYLE] Noor approaches Khalid, holding her small, colorful drawing.",
+    "duration_est": 6
+  },
+  {
+    "scene_id": 4,
+    "speaker": "خالد",
+    "line": "لا يا نور، إنها غيمة حزينة. أنا لا أعرف كيف أرسم.",
+    "visual_prompt": "[STYLE] Khalid pushing his drawing away.",
+    "duration_est": 6
+  },
+  {
+    "scene_id": 5,
+    "speaker": "تيتا",
+    "line": "ما هذا العبوس يا أبطالي الصغار؟",
+    "visual_prompt": "[STYLE] Teita entering the room, smiling kindly.",
+    "duration_est": 4
+  },
+  {
+    "scene_id": 6,
+    "speaker": "خالد",
+    "line": "تيتا، أنا فاشل في الرسم. لا أريد أن أحاول مرة أخرى.",
+    "visual_prompt": "[STYLE] Khalid looking sad.",
+    "duration_est": 6
+  },
+  {
+    "scene_id": 7,
+    "speaker": "تيتا ونور",
+    "line": "وهل تعلم يا خالد أن هناك من مرّ بظرف أصعب بكثير، ولم ييأس؟ قصة يا تيتا؟",
+    "visual_prompt": "[STYLE] Teita sitting next to Khalid. Noor looking excited.",
+    "duration_est": 8
+  },
+  {
+    "scene_id": 8,
+    "speaker": "تيتا",
+    "line": "قصة عن عدم اليأس، وقوة الدعاء. أحضروا لي فانوس الحكايات.",
+    "visual_prompt": "[STYLE] Teita winks. Noor rushing to bring the beautiful old Story Lantern. Teita places it in the center.",
+    "duration_est": 8
+  },
+  {
+    "scene_id": 9,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] The Story Lantern begins to flicker softly, then glows brighter. (Soft sound effect)",
+    "duration_est": 3
+  },
+  {
+    "scene_id": 10,
+    "speaker": "تيتا",
+    "line": "في قديم الزمان، أرسل الله نبياً عظيماً. اسمه يونس عليه السلام.",
+    "visual_prompt": "[STYLE] A large ship on the open sea, calm waves initially.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 11,
+    "speaker": "تيتا",
+    "line": "وَإِنَّ يُونُسَ لَمِنَ الْمُرْسَلِينَ (139) إِذْ أَبَقَ إِلَى الْفُلْكِ الْمَشْحُونِ (140)",
+    "visual_prompt": "[STYLE] The ship shaking violently, a sudden storm hitting the sea. Winds howling.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 12,
+    "speaker": "تيتا",
+    "line": "اهتزت السفينة بشدة، وقرر الركاب أن يلقوا بأحدهم في البحر ليخففوا الحمل! فكانت القرعة على يونس عليه السلام.",
+    "visual_prompt": "[STYLE] Sailors casting lots. Winds intensifying, waves rising. A huge shadow of a giant whale approaching the ship.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 13,
+    "speaker": "تيتا",
+    "line": "فَسَاهَمَ فَكَانَ مِنَ الْمُدْحَضِينَ (141) فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ (142)",
+    "visual_prompt": "[STYLE] Complete darkness inside the whale. Muffled sound of waves. A very faint light representing Younus (faceless/abstract).",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 14,
+    "speaker": "تيتا ويونس",
+    "line": "وجد يونس عليه السلام نفسه في ظلمات ثلاث: ظلمة الليل، وظلمة البحر، وظلمة بطن الحوت. ولكنه لم ييأس من رحمة الله. لَّا إِلَهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ (87)",
+    "visual_prompt": "[STYLE] Complete darkness inside the whale. Muffled sound of waves. A very faint light representing Younus (faceless/abstract). The voice of Younus (off-screen, with a slight echo).",
+    "duration_est": 12,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 15,
+    "speaker": "تيتا",
+    "line": "فَاسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ الْغَمِّ وَكَذَلِكَ نُنجِي الْمُؤْمِنِينَ (88)",
+    "visual_prompt": "[STYLE] The whale floating on the water surface. Bright light from above. The whale expelling Younus (shadow/off-screen) onto the shore.",
+    "duration_est": 9,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 16,
+    "speaker": "تيتا",
+    "line": "فَنَبَذْنَاهُ بِالْعَرَاءِ وَهُوَ سَقِيمٌ (145) وَأَنبَتْنَا عَلَيْهِ شَجَرَةً مِّن يَقْطِينٍ (146)",
+    "visual_prompt": "[STYLE] Younus (represented as a faint light or shadow) on the shore, with a pumpkin plant quickly growing beside him to provide shade and food.",
+    "duration_est": 9,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 17,
+    "speaker": "تيتا",
+    "line": "وَأَرْسَلْنَاهُ إِلَى مِائَةِ أَلْفٍ أَوْ يَزِيدُونَ (147) فَآمَنُوا فَمَتَّعْنَاهُمْ إِلَى حِينٍ (148)",
+    "visual_prompt": "[STYLE] Younus (represented as a faint light or shadow) moving away from the shore, then a large and happy city appears, with people welcoming and listening to him.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 18,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] The Story Lantern's light gradually dimming. Khalid and Noor looking attentively at Teita.",
+    "duration_est": 3
+  },
+  {
+    "scene_id": 19,
+    "speaker": "خالد",
+    "line": "واو! يونس عليه السلام لم ييأس أبداً!",
+    "visual_prompt": "[STYLE] Khalid looking amazed.",
+    "duration_est": 4
+  },
+  {
+    "scene_id": 20,
+    "speaker": "تيتا",
+    "line": "هذا صحيح يا خالد. حتى في أشد الظلمات، لم يفقد الأمل في الله، وظل يدعوه ويذكره.",
+    "visual_prompt": "[STYLE] Teita speaking kindly.",
+    "duration_est": 9
+  },
+  {
+    "scene_id": 21,
+    "speaker": "نور",
+    "line": "يعني لازم نحاول تاني؟",
+    "visual_prompt": "[STYLE] Noor looking thoughtful.",
+    "duration_est": 3
+  },
+  {
+    "scene_id": 22,
+    "speaker": "تيتا",
+    "line": "بالضبط يا نور. عندما نشعر باليأس، يجب أن نتذكر أن الله قريب منا، يسمع دعاءنا، ويحبنا أن نذكره. لا نستسلم أبداً.",
+    "visual_prompt": "[STYLE] Teita emphasizing her words.",
+    "duration_est": 12
+  },
+  {
+    "scene_id": 23,
+    "speaker": "خالد",
+    "line": "سأحاول مرة أخرى يا تيتا! ربما رسمتي هذه المرة ستكون أفضل!",
+    "visual_prompt": "[STYLE] Khalid eagerly picking up his paintbrush.",
+    "duration_est": 7
+  },
+  {
+    "scene_id": 24,
+    "speaker": "تيتا",
+    "line": "أحسنت يا بطل!",
+    "visual_prompt": "[STYLE] Teita smiling.",
+    "duration_est": 3
+  },
+  {
+    "scene_id": 25,
+    "speaker": "تيتا ونور وخالد",
+    "line": "اللهم اجعلنا ممن لا ييأسون من رحمتك.",
+    "visual_prompt": "[STYLE] Teita, Noor, and Khalid together.",
+    "duration_est": 5
+  },
+  {
+    "scene_id": 26,
+    "speaker": "راوٍ",
+    "line": "لا تيأس أبداً ربّي يسمعنا اذكر ربّك دوماً هو معنا حاول وحاول لا تتوقف بالدعاء والذكر فوزك يتحقق",
+    "visual_prompt": "[STYLE] A narrator for the chant appearing on screen, with a beautiful and soft voice without musical instruments.",
+    "duration_est": 15
+  },
+  {
+    "scene_id": 27,
+    "speaker": "تيتا",
+    "line": "والمرة القادمة، سأخبركم قصة عن نبي كريم، صبر على البلاء.",
+    "visual_prompt": "[STYLE] Teita with an intriguing expression.",
+    "duration_est": 7
+  },
+  {
+    "scene_id": 28,
+    "speaker": "خالد ونور",
+    "line": "قصة أخرى!",
+    "visual_prompt": "[STYLE] Khalid and Noor with excited expressions.",
+    "duration_est": 3
+  }
+]

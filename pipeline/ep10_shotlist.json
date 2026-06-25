@@ -1,0 +1,258 @@
+[
+  {
+    "scene_id": 1,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Khalid (7) shivering slightly under his blanket, eyes tracking shadows on the wall from faint window light. Nora (4) asleep beside him.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 2,
+    "speaker": "خالد",
+    "line": "نور... هل تسمعين شيئًا؟",
+    "visual_prompt": "[STYLE] Close-up on Khalid's scared face, whispering to sleeping Nora.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 3,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Close-up on Khalid's frightened eyes as he pulls the blanket tighter. Faint rustling sound.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 4,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Sunny morning. Khalid sitting on his bed, looking tired and worried. Nora waking up and rubbing her eyes.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 5,
+    "speaker": "نور",
+    "line": "صباح الخير يا خالد! لماذا أنت حزين هكذا؟",
+    "visual_prompt": "[STYLE] Nora looking at Khalid with concern.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 6,
+    "speaker": "خالد",
+    "line": "لم أستطع النوم جيدًا. الظلال كانت مخيفة جدًا الليلة الماضية، وسمعت أصواتًا غريبة.",
+    "visual_prompt": "[STYLE] Khalid sighing, looking worried as he explains.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 7,
+    "speaker": "نور",
+    "line": "ربما كانت قطة! أو صوت الريح!",
+    "visual_prompt": "[STYLE] Nora giggling playfully.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 8,
+    "speaker": "تيتا",
+    "line": "صباح الخير يا أحفادي! ما بك يا خالد؟ وجهك شاحب.",
+    "visual_prompt": "[STYLE] Grandma entering the room with a small breakfast tray and a warm smile, looking at Khalid.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 9,
+    "speaker": "خالد",
+    "line": "كنت خائفًا يا تيتا. شعرت أن هناك شيئًا سيئًا سيحدث.",
+    "visual_prompt": "[STYLE] Khalid looking sad and expressing his fear to Grandma.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 10,
+    "speaker": "تيتا",
+    "line": "يا بنيّ، الخوف شعور طبيعي، لكن الأهم ألا نجعله يسيطر علينا. هل تعرف من هو أقوى من أي خوف؟",
+    "visual_prompt": "[STYLE] Grandma sitting next to Khalid, hugging him gently, looking reassuring.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 11,
+    "speaker": "خالد",
+    "line": "من؟",
+    "visual_prompt": "[STYLE] Khalid looking up at Grandma, curious and hopeful.",
+    "duration_est": 2,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 12,
+    "speaker": "تيتا",
+    "line": "الله سبحانه وتعالى. هو الذي يحمينا ويقوّي قلوبنا. هل تريد أن أروي لك قصة عن بطل لم يخف أبدًا، لأنه كان يثق بالله ثقة عظيمة؟",
+    "visual_prompt": "[STYLE] Grandma smiling warmly at Khalid, offering to tell a story.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 13,
+    "speaker": "خالد",
+    "line": "نعم يا تيتا! أحب قصصك!",
+    "visual_prompt": "[STYLE] Khalid's face brightening with excitement.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 14,
+    "speaker": "تيتا",
+    "line": "إذن، هيا بنا إلى عالم الحكايات، حيث نتعلم من الأبطال الشجعان!",
+    "visual_prompt": "[STYLE] Grandma smiling, reaching for the antique story lantern on the bedside table. The lantern glows with a warm flicker.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 15,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Animated shot of an ancient city with mud houses and markets. People gather around large stone and wood idols, worshipping and offering sacrifices.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 16,
+    "speaker": "تيتا",
+    "line": "في قديم الزمان، في مدينة بعيدة، عاش نبيٌّ كريم اسمه إبراهيم عليه السلام. كان إبراهيم فتىً ذكيًا، لا يصدق أن هذه الأصنام التي لا تسمع ولا ترى يمكن أن تكون آلهة.",
+    "visual_prompt": "[STYLE] Animated wide shot of the ancient city, showing the idols and people, establishing the setting.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 17,
+    "speaker": "تيتا",
+    "line": "كان قومه يعبدون هذه الأصنام، ولكن إبراهيم عليه السلام عرف بقلبه وذكائه أن الله وحده هو الخالق الرازق المستحق للعبادة.",
+    "visual_prompt": "[STYLE] Animated scene: A bright, faceless light (representing Prophet Ibrahim, off-screen/shadowed/no face) approaches the idols. People around sense his presence but don't clearly see him.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 18,
+    "speaker": "تيتا",
+    "line": "قرر إبراهيم عليه السلام أن يبيّن لقومه أن هذه الأصنام لا تضر ولا تنفع. فقام بتحطيمها كلها.",
+    "visual_prompt": "[STYLE] Animated scene: The bright, faceless light (Prophet Ibrahim, off-screen/shadowed/no face) stands before the idols, then begins to shatter them one by one. Faint breaking sounds.",
+    "duration_est": 6,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 19,
+    "speaker": "تيتا",
+    "line": "غضب القوم غضبًا شديدًا عندما رأوا أصنامهم محطمة. عرفوا أن إبراهيم عليه السلام هو من فعلها، فقرروا أن يعاقبوه عقابًا شديدًا.",
+    "visual_prompt": "[STYLE] Animated scene: People discovering the shattered idols. Their faces are filled with anger and shock.",
+    "duration_est": 7,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 20,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] Animated scene: The people gather enormous amounts of wood in a large square. They then light a massive fire, with flames rising high into the sky.",
+    "duration_est": 5,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 21,
+    "speaker": "تيتا",
+    "line": "ثم ألقوا إبراهيم عليه السلام في هذه النار المشتعلة. كان موقفًا مرعبًا، والناس يتفرجون وهم يظنون أنه سيحترق.",
+    "visual_prompt": "[STYLE] Animated scene: The people attempt to throw the bright, faceless light (Prophet Ibrahim, off-screen/shadowed/no face) into the fire. The light is seen being thrown towards the raging fire.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 22,
+    "speaker": "تيتا",
+    "line": "لكن الله سبحانه وتعالى، الذي بيده كل شيء، أمر النار بكلمة واحدة: \"كوني بردًا وسلامًا على إبراهيم!\"",
+    "visual_prompt": "[STYLE] Animated scene: The bright, faceless light (Prophet Ibrahim, off-screen/shadowed/no face) falls into the heart of the fire. Suddenly, the fire's colors change; red and orange flames turn into calm blue and green. Beautiful flowers grow amidst the flames.",
+    "duration_est": 9,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 23,
+    "speaker": "تيتا",
+    "line": "فاستجابت النار لأمر ربها، وتحولت إلى برد وسلام على إبراهيم عليه السلام. لم تحرقه، بل شعر بالراحة والأمان. وخرج إبراهيم عليه السلام من النار سالمًا معافى، بقدرة الله تعالى.",
+    "visual_prompt": "[STYLE] Animated scene: The bright, faceless light (Prophet Ibrahim, off-screen/shadowed/no face) sits peacefully and calmly in the center of the fire, as if in a beautiful garden. The fire around him hasn't touched him but has become a safe and cool place. The people watch in astonishment and shock.",
+    "duration_est": 12,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 24,
+    "speaker": "خالد",
+    "line": "واو! يا لها من قصة مدهشة! النار لم تحرقه!",
+    "visual_prompt": "[STYLE] Khalid's room, morning. The lantern glows softly. Khalid and Nora look at Grandma with awe.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 25,
+    "speaker": "تيتا",
+    "line": "نعم يا خالد. لأن إبراهيم عليه السلام كان عنده يقين عظيم وتوكل كامل على الله. كان يعلم أن الله هو الحامي والقادر على كل شيء.",
+    "visual_prompt": "[STYLE] Grandma looking at Khalid and Nora, explaining with a gentle smile.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 26,
+    "speaker": "نور",
+    "line": "حتى لو كانت نارًا كبيرة؟",
+    "visual_prompt": "[STYLE] Nora looking thoughtful and asking a question.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 27,
+    "speaker": "تيتا",
+    "line": "حتى لو كانت نارًا كبيرة جدًا. عندما نثق بالله ونعلم أنه معنا، فإن قلوبنا تصبح قوية ولا تخاف من الظلام، ولا من الأصوات الغريبة، ولا من أي شيء مخيف. الله يحمينا دائمًا.",
+    "visual_prompt": "[STYLE] Grandma looking at both children, emphasizing her words with a comforting gesture.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 28,
+    "speaker": "خالد",
+    "line": "يعني لو كنت خائفًا، أقول في قلبي: \"يا رب، أنت معي، أنت تحميني\"؟",
+    "visual_prompt": "[STYLE] Khalid pondering, then a small smile appearing on his face.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 29,
+    "speaker": "تيتا",
+    "line": "بالضبط يا بنيّ! وهذا هو معنى اليقين والتوكل على الله. هو سكن لقلوبنا وطمأنينة لأرواحنا.",
+    "visual_prompt": "[STYLE] Grandma nodding affirmingly, gently patting Khalid's head.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 30,
+    "speaker": "تيتا",
+    "line": "يا رب اجعل قلوبنا قوية بالإيمان، واحفظنا من كل شر، واجعلنا نتوكل عليك دائمًا.",
+    "visual_prompt": "[STYLE] Grandma hugging Khalid and Nora, looking up slightly as if in prayer.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 31,
+    "speaker": "راوٍ",
+    "line": "يا رب يا حامينا يا من به نثقُ في الخوف قوّينا إيماننا يشرقُ إبراهيم قد نجّا من نارها الكبرى لأنه توكّلا على الإلهِ الأقوى يا رب يا حامينا يا من به نثقُ في الخوف قوّينا إيماننا يشرقُ",
+    "visual_prompt": "[STYLE] Animated scene: Soft, glowing light enveloping Khalid, Nora, and Grandma, representing peace and divine protection.",
+    "duration_est": 18,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 32,
+    "speaker": "راوٍ",
+    "line": "في الحلقة القادمة من \"حكايات خالد\"، سنذهب في رحلة جديدة لنتعلم عن الصبر والفرج بعد الشدة... ترقبوا!",
+    "visual_prompt": "[STYLE] Text overlay: \"Next episode...\" with a hint of a new adventure.",
+    "duration_est": 6,
+    "is_story_shot": false
+  }
+]

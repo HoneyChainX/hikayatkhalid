@@ -1,0 +1,250 @@
+[
+  {
+    "scene_id": 1,
+    "speaker": "خالد",
+    "line": "آخ! لم أستطع تسجيله هذه المرة!",
+    "visual_prompt": "[STYLE] Khalid and Noor playing football in a garden. Khalid attempts to score but misses, the ball goes far.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 2,
+    "speaker": "نور",
+    "line": "لا بأس يا خالد، حاول مرة أخرى! الشجاعة هي أن لا تستسلم!",
+    "visual_prompt": "[STYLE] Noor gently laughs, then encourages Khalid.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 3,
+    "speaker": "عمر",
+    "line": "هيا يا خالد، أرنا رسمتك! لنقارنها. سامي نعم، إذا كانت رسمتك ليست الأجمل، يمكننا أن نعدّل عليها قليلاً لتفوز!",
+    "visual_prompt": "[STYLE] At school, Khalid with two friends (Omar and Sami) in front of a bulletin board with a drawing competition announcement. Khalid looks hesitant. Omar speaks, then Sami leans in, suggesting a modification.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 4,
+    "speaker": "خالد",
+    "line": "لكن... هذا ليس صحيحاً. المعلمة قالت أن نرسم بأنفسنا. عمر لا أحد سيعرف! هيا كن ذكياً! سامي وإلا فلن تفوز أبداً.",
+    "visual_prompt": "[STYLE] Khalid looks hesitant, holding his drawing. Omar tries to convince Khalid, perhaps with a sly smile. Sami reinforces the pressure.",
+    "duration_est": 12,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 5,
+    "speaker": "خالد",
+    "line": "ماذا أفعل؟ أصدقائي يريدون مني أن أغيّر رسمتي... لكن هذا ليس أنا.",
+    "visual_prompt": "[STYLE] Khalid looks at his drawing, then at his friends, appearing confused and hesitant. He then sits alone in class, holding his drawing, looking distressed and deep in thought.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 6,
+    "speaker": "تيتا",
+    "line": "ما بك يا حبيبي خالد؟ تبدو حزيناً.",
+    "visual_prompt": "[STYLE] At home, Khalid sits next to Teita, looking sad. Noor sits on the floor drawing. Teita looks at Khalid with concern.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 7,
+    "speaker": "خالد",
+    "line": "تيتا، أصدقائي طلبوا مني أن أفعل شيئاً ليس صحيحاً في مسابقة الرسم. قالوا لي أن أغير رسمتي لأفوز. لم أغيّرها... لكنني شعرت بالوحدة، وكأنني الوحيد الذي لا يريد أن يفعل هذا. كان صعباً أن أقول \"لا\" لرغبتي في الفوز بهذه الطريقة.",
+    "visual_prompt": "[STYLE] Khalid speaks in a low voice, looking down. Close-up on Khalid's sad face.",
+    "duration_est": 15,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 8,
+    "speaker": "تيتا",
+    "line": "أحسنت يا خالد! الثبات على الحق يحتاج لشجاعة كبيرة. هل تذكر قصة أصحاب الكهف؟",
+    "visual_prompt": "[STYLE] Teita hugs Khalid, then looks at him encouragingly.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 9,
+    "speaker": "خالد",
+    "line": "أصحاب الكهف؟ من هم يا تيتا؟",
+    "visual_prompt": "[STYLE] Khalid looks up at Teita, curious.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 10,
+    "speaker": "نور",
+    "line": "قصة! قصة!",
+    "visual_prompt": "[STYLE] Noor comes running, excited.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 11,
+    "speaker": "تيتا",
+    "line": "(تضحك) نعم، قصة عن فتية شجعان ثبتوا على الحق رغم كل الصعوبات. هيا، لنجلس حول فانوس الحكايات. خالد ونور هيا يا تيتا!",
+    "visual_prompt": "[STYLE] Teita laughs gently, then gestures for them to gather. Khalid and Noor look excited.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 12,
+    "speaker": "تيتا",
+    "line": "هذا الفانوس السحري سيأخذنا في رحلة إلى زمن بعيد، لنتعلم من قصص الأوّلين.",
+    "visual_prompt": "[STYLE] Khalid and Noor sit in front of Teita. Teita places her hand on the storytelling lantern, which begins to glow slowly.",
+    "duration_est": 8,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 13,
+    "speaker": "",
+    "line": "",
+    "visual_prompt": "[STYLE] The lantern glows intensely, then the screen transitions to a swirling cloud of light and flowing colors.",
+    "duration_est": 5,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 14,
+    "speaker": "تيتا",
+    "line": "في زمن بعيد، كانت هناك مدينة يعيش أهلها بعيداً عن الحق، يعبدون أصناماً من دون الله. لكن بين هؤلاء الناس، كان هناك فتيةٌ شجعان، آمنوا بربّهم وحده، ولم يرضوا بعبادة الأصنام.",
+    "visual_prompt": "[STYLE] A scene of an ancient city with huge idols worshipped without God. People gather around them performing strange rituals. Then, a group of young men appear (stylized characters, their faces indistinct, focus on their bodies and movements). They show rejection of what people are doing and speak in secret.",
+    "duration_est": 15,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 15,
+    "speaker": "تيتا",
+    "line": "لقد ربط الله على قلوبهم، فصاروا أقوياء وثابتين على إيمانهم. قالوا: \"رَبُّنَا رَبُّ السَّمَاوَاتِ وَالْأَرْضِ لَن نَّدْعُوَ مِن دُونِهِ إِلَٰهًا\". قرر الفتية أن يتركوا قومهم وما يعبدون من دون الله.",
+    "visual_prompt": "[STYLE] The young men talk among themselves in a place far from people, appearing determined. Signs of steadfastness appear on their faces. Then, the young men move away from the city, leaving it behind as it appears smaller and smaller.",
+    "duration_est": 15,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 16,
+    "speaker": "تيتا",
+    "line": "وبينما هم يسيرون، كان معهم كلبٌ وفيٌّ يتبعهم. وأووا إلى كهفٍ واسع، آملين أن ينشر الله عليهم من رحمته.",
+    "visual_prompt": "[STYLE] The young men walk on a rugged, rocky path, followed by a large, loyal dog. Then, the young men reach the entrance of a large, dark cave in the mountains.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 17,
+    "speaker": "تيتا",
+    "line": "قالوا: \"رَبَّنَا آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا\".",
+    "visual_prompt": "[STYLE] The young men inside the cave, sitting and praying, their faces showing tranquility and reliance on God.",
+    "duration_est": 8,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 18,
+    "speaker": "تيتا",
+    "line": "لقد هيأ الله لهم كهفاً مباركاً، \"وَتَرَى الشَّمْسَ إِذَا طَلَعَت تَّزَاوَرُ عَن كَهْفِهِمْ ذَاتَ الْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ الشِّمَالِ وَهُمْ فِي فَجْوَةٍ مِّنْهُ\".",
+    "visual_prompt": "[STYLE] The cave from the outside, the sun rises and sets, showing the movement of shadows on the cave, as if the cave protects them from the sun's heat.",
+    "duration_est": 10,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 19,
+    "speaker": "تيتا",
+    "line": "ثم ألقى الله عليهم نوماً عميقاً، \"فَضَرَبْنَا عَلَىٰ آذَانِهِمْ فِي الْكَهْفِ سِنِينَ عَدَدًا\". كانوا يتقلبون ذات اليمين وذات الشمال، وكلبهم باسط ذراعيه بالوصيد. ومرت عليهم ثلاثمائة سنة، وازدادوا تسع سنين، وهم نائمون في أمان!",
+    "visual_prompt": "[STYLE] The young men asleep inside the cave, appearing as if they are awake, and the dog with its forelegs stretched out at the entrance of the cave. Then, years pass quickly (visual effect showing the passage of time: leaves falling, seasons changing, then disappearing).",
+    "duration_est": 18,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 20,
+    "speaker": "تيتا",
+    "line": "ثم أيقظهم الله بعد كل هذه السنين الطويلة. تساءلوا: \"كَمْ لَبِثْتُمْ؟\" فقال بعضهم: \"لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ\".",
+    "visual_prompt": "[STYLE] The young men wake up inside the cave, looking surprised and rubbing their eyes. Then, the young men question each other, their faces showing confusion.",
+    "duration_est": 12,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 21,
+    "speaker": "تيتا",
+    "line": "ثم قالوا: \"رَبُّكُمْ أَعْلَمُ بِمَا لَبِثْتُمْ ۚ فَابْعَثُوا أَحَدَكُم بِوَرِقِكُمْ هَٰذِهِ إِلَى الْمَدِينَةِ فَلْيَنظُرْ أَيُّهَا أَزْكَىٰ طَعَامًا فَلْيَأْتِكُم بِرِزْقٍ مِّنْهُ وَلْيَتَلَطَّفْ وَلَا يُشْعِرَنَّ بِكُمْ أَحَدًا\".",
+    "visual_prompt": "[STYLE] One of the young men exits the cave carrying ancient coins, sneaking cautiously.",
+    "duration_est": 15,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 22,
+    "speaker": "تيتا",
+    "line": "لقد تغيرت المدينة كلها! الناس، البيوت، كل شيء. وعملاتهم كانت قديمة جداً. وهكذا اكتشف الناس قصتهم العجيبة، ليعلموا أن وعد الله حق، وأن القيامة آتية لا ريب فيها. وبعد أن عرف الناس قصتهم، عاد الفتية إلى الكهف، وناموا بسلام أبدي.",
+    "visual_prompt": "[STYLE] The young man arrives at the city and sees that everything has changed: buildings, clothing, people. People look at him with surprise, and his coins are very old. Then, people gather around the young man, realizing his amazing story. Signs of astonishment and admiration appear on their faces. Finally, the cave appears as a beautiful historical landmark, and the dog sleeps peacefully at the entrance (artistic expression).",
+    "duration_est": 20,
+    "is_story_shot": true
+  },
+  {
+    "scene_id": 23,
+    "speaker": "خالد",
+    "line": "واو! ناموا كل هذه السنين! نور والكلب الوفي كان معهم!",
+    "visual_prompt": "[STYLE] The image returns to Khalid, Noor, and Teita in front of the glowing lantern. Khalid looks amazed, and Noor speaks excitedly.",
+    "duration_est": 7,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 24,
+    "speaker": "تيتا",
+    "line": "نعم يا أحفادي. هؤلاء الفتية ثبتوا على الحق، ولم يخافوا أحداً إلا الله. توكلوا على الله، فحمى قلوبهم، وحفظ أجسادهم، وأظهر للناس آية عظيمة. بالضبط يا بطل! أحياناً يكون الثبات على الحق صعباً، وقد تشعر بالوحدة، لكن الله معك ويرى صدقك وشجاعتك. والتوكل على الله يعني أن تثق بأنه سيحميك ويرزقك الخير، حتى لو كانت الظروف صعبة.",
+    "visual_prompt": "[STYLE] Teita speaks warmly, looking at her grandchildren, then explains further, reassuring Khalid.",
+    "duration_est": 30,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 25,
+    "speaker": "خالد",
+    "line": "يعني، عندما رفضت أن أغير رسمتي، كنت أثبت على الحق مثلهم؟",
+    "visual_prompt": "[STYLE] Khalid looks thoughtful, making a connection.",
+    "duration_est": 6,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 26,
+    "speaker": "نور",
+    "line": "وأنا أيضاً سأكون شجاعة وأثبت على الحق!",
+    "visual_prompt": "[STYLE] Noor raises her hand enthusiastically.",
+    "duration_est": 4,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 27,
+    "speaker": "تيتا",
+    "line": "اللهم يا مقلب القلوب ثبت قلوبنا على دينك. واجعلنا من الثابتين على الحقّ المتوكلين عليك. آمين. خالد ونور آمين.",
+    "visual_prompt": "[STYLE] Teita raises her hands in prayer, Khalid and Noor nod reverently and then say \"Ameen\".",
+    "duration_est": 12,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 28,
+    "speaker": "راوٍ",
+    "line": "يا خالدُ كنْ شجاعا، للصِّدقِ دومًا راعيا، في الحقِّ كنْ ثابتاً، لربِّكَ كنْ متوكّلا. مهما تكنْ صعابُ، فاللهُ خيرُ صحابِ، يحميكَ دومًا يحفظُ، بالخيرِ قلبَكَ يملأُ.",
+    "visual_prompt": "[STYLE] A colorful screen with simple Islamic drawings, showing smiling characters of Khalid and Noor, transitioning to the \"Hikayat Khalid\" logo with subtle light effects.",
+    "duration_est": 24,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 29,
+    "speaker": "تيتا",
+    "line": "في المرة القادمة، سنعرف قصة نبيٍّ عظيم، أمره الله بصنع سفينة لإنقاذ المؤمنين من طوفان كبير...",
+    "visual_prompt": "[STYLE] Teita holds an old book open to an image of a ship.",
+    "duration_est": 10,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 30,
+    "speaker": "خالد",
+    "line": "من هو يا تيتا؟",
+    "visual_prompt": "[STYLE] Khalid looks curious.",
+    "duration_est": 3,
+    "is_story_shot": false
+  },
+  {
+    "scene_id": 31,
+    "speaker": "تيتا",
+    "line": "انتظروا الحلقة القادمة من \"حكايات خالد\"!",
+    "visual_prompt": "[STYLE] Teita winks at the camera.",
+    "duration_est": 4,
+    "is_story_shot": false
+  }
+]
