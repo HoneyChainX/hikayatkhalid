@@ -1,0 +1,70 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": { "unet_name": "flux1-dev-kontext_fp8_scaled.safetensors", "weight_dtype": "fp8_e4m3fn" },
+    "_meta": { "title": "FLUX KONTEXT" }
+  },
+  "2": {
+    "class_type": "DualCLIPLoader",
+    "inputs": { "clip_name1": "clip_l.safetensors", "clip_name2": "t5xxl_fp16.safetensors", "type": "flux" },
+    "_meta": { "title": "FLUX CLIP" }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": { "vae_name": "ae.safetensors" },
+    "_meta": { "title": "FLUX VAE" }
+  },
+  "4": {
+    "class_type": "LoadImage",
+    "inputs": { "image": "keyframe.jpg", "upload": "image" },
+    "_meta": { "title": "KEYFRAME" }
+  },
+  "5": {
+    "class_type": "FluxKontextImageScale",
+    "inputs": { "image": ["4", 0] },
+    "_meta": { "title": "KONTEXT SCALE" }
+  },
+  "6": {
+    "class_type": "VAEEncode",
+    "inputs": { "pixels": ["5", 0], "vae": ["3", 0] },
+    "_meta": { "title": "ENCODE" }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": { "clip": ["2", 0], "text": "placeholder positive (patched)" },
+    "_meta": { "title": "POSITIVE" }
+  },
+  "8": {
+    "class_type": "ReferenceLatent",
+    "inputs": { "conditioning": ["7", 0], "latent": ["6", 0] },
+    "_meta": { "title": "REFERENCE" }
+  },
+  "9": {
+    "class_type": "FluxGuidance",
+    "inputs": { "conditioning": ["8", 0], "guidance": 2.5 },
+    "_meta": { "title": "GUIDANCE" }
+  },
+  "10": {
+    "class_type": "CLIPTextEncode",
+    "inputs": { "clip": ["2", 0], "text": "" },
+    "_meta": { "title": "NEGATIVE" }
+  },
+  "11": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": ["1", 0], "positive": ["9", 0], "negative": ["10", 0], "latent_image": ["6", 0],
+      "seed": 7, "steps": 20, "cfg": 1.0, "sampler_name": "euler", "scheduler": "simple", "denoise": 1.0
+    },
+    "_meta": { "title": "SAMPLER" }
+  },
+  "12": {
+    "class_type": "VAEDecode",
+    "inputs": { "samples": ["11", 0], "vae": ["3", 0] },
+    "_meta": { "title": "VAE Decode" }
+  },
+  "13": {
+    "class_type": "SaveImage",
+    "inputs": { "images": ["12", 0], "filename_prefix": "hikayat_kf" },
+    "_meta": { "title": "SAVE" }
+  }
+}
