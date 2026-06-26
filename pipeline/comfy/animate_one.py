@@ -186,7 +186,14 @@ def main():
     template = json.loads(wf_path.read_text(encoding="utf-8"))
     print(f"ComfyUI={COMFY}  image={img}  -> {out}", flush=True)
     name = upload_image(img)
-    wf = patch(json.loads(json.dumps(template)), name, a.prompt, 7777, int(a.seconds * FPS))
+    # LTXV needs (frames-1) divisible by 8 → round to the nearest 8k+1
+    raw = int(round(a.seconds * FPS))
+    n_frames = max(25, ((raw - 1 + 4) // 8) * 8 + 1)
+    wf = patch(json.loads(json.dumps(template)), name, a.prompt, 7777, n_frames)
+    # drop non-executable nodes (Notes / underscore keys) — /prompt rejects them
+    wf = {k: v for k, v in wf.items()
+          if not k.startswith("_") and isinstance(v, dict)
+          and v.get("class_type") not in ("Note", "MarkdownNote")}
     t = time.time()
     ok = queue_and_fetch(wf, out)
     print((f"OK  {out}  ({time.time()-t:.0f}s)") if ok else

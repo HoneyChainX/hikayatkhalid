@@ -1,11 +1,4 @@
 {
-  "_README": {
-    "class_type": "Note",
-    "inputs": {},
-    "_meta": {
-      "title": "REPLACE-ME: this is a classic LTX-Video image-to-video reference graph. For LTX-2.3 GGUF, open ComfyUI > Workflow > Templates > 'LTX-2 Image to Video', set the node titles KEYFRAME/POSITIVE/NEGATIVE/SAMPLER/LENGTH, then Export (API) over this file. The orchestrator patches by those titles, so any LTX/Wan i2v template works."
-    }
-  },
   "1": {
     "class_type": "CheckpointLoaderSimple",
     "inputs": { "ckpt_name": "ltx-video-2b-v0.9.5.safetensors" },
@@ -35,7 +28,7 @@
     "class_type": "LTXVImgToVideo",
     "inputs": {
       "vae": ["1", 2], "image": ["3", 0], "positive": ["4", 0], "negative": ["5", 0],
-      "width": 768, "height": 512, "length": 97, "batch_size": 1
+      "width": 576, "height": 768, "length": 97, "batch_size": 1
     },
     "_meta": { "title": "LENGTH" }
   },
