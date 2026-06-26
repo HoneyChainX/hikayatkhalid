@@ -27,7 +27,7 @@ get() { # repo path destdir
   rm -rf "$stage"
 }
 echo "==> Flux Kontext diffusion (fp8, ~12 GB)"
-get Comfy-Org/FLUX.1-Kontext-dev_ComfyUI split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors "$DM"
+get Comfy-Org/flux1-kontext-dev_ComfyUI split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors "$DM"
 echo "==> clip_l text encoder"
 get comfyanonymous/flux_text_encoders clip_l.safetensors "$TE"
 echo "==> flux VAE (ae.safetensors)"
