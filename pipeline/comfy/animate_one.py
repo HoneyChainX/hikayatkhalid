@@ -31,8 +31,14 @@ NEG = ("text, letters, watermark, logo, blurry, low quality, deformed, extra lim
        "horror, scary, photorealistic, nsfw")
 
 
+# RunPod's proxy (Cloudflare) 403s the default Python-urllib UA; present a browser UA.
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+
+
 def http(method, path, data=None, headers=None, timeout=600):
-    req = urllib.request.Request(f"{COMFY}{path}", data=data, method=method, headers=headers or {})
+    h = {"User-Agent": UA}
+    h.update(headers or {})
+    req = urllib.request.Request(f"{COMFY}{path}", data=data, method=method, headers=h)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 

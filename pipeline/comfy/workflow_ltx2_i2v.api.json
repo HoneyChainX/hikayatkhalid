@@ -28,7 +28,7 @@
     "class_type": "LTXVImgToVideo",
     "inputs": {
       "vae": ["1", 2], "image": ["3", 0], "positive": ["4", 0], "negative": ["5", 0],
-      "width": 576, "height": 768, "length": 97, "batch_size": 1
+      "width": 576, "height": 768, "length": 97, "batch_size": 1, "strength": 1.0
     },
     "_meta": { "title": "LENGTH" }
   },

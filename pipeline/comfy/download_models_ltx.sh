@@ -14,9 +14,14 @@ mkdir -p "$CK" "$TE"
 
 "$COMFY_ROOT/venv/bin/pip" install -q -U "huggingface_hub[cli]" 2>/dev/null || \
   pip install -q -U "huggingface_hub[cli]" 2>/dev/null || true
-HFCLI="$COMFY_ROOT/venv/bin/huggingface-cli"
-[ -x "$HFCLI" ] || HFCLI="$(command -v huggingface-cli || command -v hf)"
-[ -n "$HFCLI" ] || { echo "!! huggingface-cli not found"; exit 1; }
+# Prefer the new `hf` CLI — `huggingface-cli` is deprecated and now fails on some hub versions.
+HFCLI=""
+for c in "$COMFY_ROOT/venv/bin/hf" "$(command -v hf 2>/dev/null)" \
+         "$COMFY_ROOT/venv/bin/huggingface-cli" "$(command -v huggingface-cli 2>/dev/null)"; do
+  [ -n "$c" ] && [ -x "$c" ] && { HFCLI="$c"; break; }
+done
+[ -n "$HFCLI" ] || { echo "!! no hf / huggingface-cli found"; exit 1; }
+echo "   using: $HFCLI"
 
 echo "==> LTX-Video 2B checkpoint (~9 GB)"
 if [ ! -s "$CK/ltx-video-2b-v0.9.5.safetensors" ]; then
