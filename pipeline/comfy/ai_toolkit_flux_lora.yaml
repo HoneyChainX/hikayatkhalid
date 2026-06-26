@@ -1,0 +1,57 @@
+# ai-toolkit (ostris/ai-toolkit) — Flux character-LoRA config TEMPLATE.
+# train_character_lora.sh fills the __PLACEHOLDERS__ and runs it.
+# Trains a locked-identity LoRA for one Hikayat Khalid character from its dataset.
+---
+job: extension
+config:
+  name: "__CHAR___lora"
+  process:
+    - type: sd_trainer
+      training_folder: "__OUTPUT_DIR__"
+      device: cuda:0
+      trigger_word: "__TRIGGER__"
+      network:
+        type: lora
+        linear: 16            # rank — 16 is plenty for a single cartoon character
+        linear_alpha: 16
+      save:
+        dtype: float16
+        save_every: 250
+        max_step_saves_to_keep: 4
+      datasets:
+        - folder_path: "__DATASET_DIR__"   # NN.png + NN.txt (caption starts with trigger)
+          caption_ext: "txt"
+          caption_dropout_rate: 0.05
+          shuffle_tokens: false
+          cache_latents_to_disk: true
+          resolution: [768, 1024]          # our refs are 3:4 portraits
+      train:
+        batch_size: 1
+        steps: __STEPS__                   # 1500-2500 is ample for one character
+        gradient_accumulation_steps: 1
+        train_unet: true
+        train_text_encoder: false
+        gradient_checkpointing: true       # fits 24 GB; lets it run on a 4090
+        noise_scheduler: flowmatch
+        optimizer: adamw8bit
+        lr: 1e-4
+        dtype: bf16
+      model:
+        name_or_path: "black-forest-labs/FLUX.1-dev"
+        is_flux: true
+        quantize: true                     # NF4 — keeps VRAM ~ < 24 GB
+      sample:
+        sampler: flowmatch
+        sample_every: 250                  # preview images during training
+        width: 768
+        height: 1024
+        prompts:
+          - "__TRIGGER__, front view, warm smile, full body, plain background, flat 2D vector cartoon"
+          - "__TRIGGER__, three-quarter view, talking, half body, flat 2D vector cartoon"
+        neg: "blurry, deformed, extra limbs, photorealistic, text, watermark"
+        seed: 42
+        guidance_scale: 4
+        sample_steps: 20
+meta:
+  name: "__CHAR__ (Hikayat Khalid character LoRA)"
+  version: "1.0"
