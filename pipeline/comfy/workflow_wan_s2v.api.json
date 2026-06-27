@@ -1,0 +1,77 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": { "unet_name": "wan2.2_s2v_14B_fp8_scaled.safetensors", "weight_dtype": "fp8_e4m3fn" },
+    "_meta": { "title": "S2V MODEL" }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": { "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors", "type": "wan" },
+    "_meta": { "title": "UMT5" }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": { "vae_name": "wan_2.1_vae.safetensors" },
+    "_meta": { "title": "S2V VAE" }
+  },
+  "4": {
+    "class_type": "AudioEncoderLoader",
+    "inputs": { "audio_encoder_name": "wav2vec2_large_english_fp16.safetensors" },
+    "_meta": { "title": "AUDIO ENC" }
+  },
+  "5": {
+    "class_type": "LoadAudio",
+    "inputs": { "audio": "voice.mp3" },
+    "_meta": { "title": "AUDIO" }
+  },
+  "6": {
+    "class_type": "AudioEncoderEncode",
+    "inputs": { "audio_encoder": ["4", 0], "audio": ["5", 0] },
+    "_meta": { "title": "AENC" }
+  },
+  "7": {
+    "class_type": "LoadImage",
+    "inputs": { "image": "keyframe.jpg", "upload": "image" },
+    "_meta": { "title": "KEYFRAME" }
+  },
+  "8": {
+    "class_type": "CLIPTextEncode",
+    "inputs": { "clip": ["2", 0], "text": "placeholder positive (patched)" },
+    "_meta": { "title": "POSITIVE" }
+  },
+  "9": {
+    "class_type": "CLIPTextEncode",
+    "inputs": { "clip": ["2", 0], "text": "" },
+    "_meta": { "title": "NEGATIVE" }
+  },
+  "10": {
+    "class_type": "WanSoundImageToVideo",
+    "inputs": {
+      "positive": ["8", 0], "negative": ["9", 0], "vae": ["3", 0],
+      "width": 576, "height": 768, "length": 64, "batch_size": 1,
+      "audio_encoder_output": ["6", 0], "ref_image": ["7", 0]
+    },
+    "_meta": { "title": "LENGTH" }
+  },
+  "11": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": ["1", 0], "positive": ["10", 0], "negative": ["10", 1], "latent_image": ["10", 2],
+      "seed": 7, "steps": 20, "cfg": 6.0, "sampler_name": "euler", "scheduler": "simple", "denoise": 1.0
+    },
+    "_meta": { "title": "SAMPLER" }
+  },
+  "12": {
+    "class_type": "VAEDecode",
+    "inputs": { "samples": ["11", 0], "vae": ["3", 0] },
+    "_meta": { "title": "VAE Decode" }
+  },
+  "13": {
+    "class_type": "VHS_VideoCombine",
+    "inputs": {
+      "images": ["12", 0], "frame_rate": 16, "loop_count": 0, "filename_prefix": "hikayat_s2v",
+      "format": "video/h264-mp4", "pingpong": false, "save_output": true, "audio": ["5", 0]
+    },
+    "_meta": { "title": "SAVE" }
+  }
+}
