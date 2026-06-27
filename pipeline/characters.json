@@ -3,19 +3,31 @@
   "negative": "no text, no letters, no words, no caption, no watermark, no signature, no photorealism, no scary or dark themes, no violence, no gore, no clutter, not creepy",
   "characters": {
     "khalid": {
-      "match": ["KHALID", "Khalid"],
+      "match": [
+        "KHALID",
+        "Khalid"
+      ],
       "descriptor": "Khalid is a cheerful 7-year-old Arab Muslim boy with short neat deep-black hair, large warm brown eyes, soft wheat skin, wearing an elegant black thobe with luminous gold floral and geometric embroidery on collar, cuffs and hem, and an olive-and-gold geometric kufi cap"
     },
     "noor": {
-      "match": ["NOOR", "Noor"],
+      "match": [
+        "NOOR",
+        "Noor"
+      ],
       "descriptor": "Noor is a sweet 5-year-old Arab Muslim girl with big innocent eyes, rosy cheeks, a small soft-blue headscarf and a light-blue dress"
     },
     "teta": {
-      "match": ["TETA", "Teta"],
+      "match": [
+        "TETA",
+        "Teta"
+      ],
       "descriptor": "Teta is a kind elderly grandmother with warm caring eyes, thin glasses, a cream hijab, cozy olive-and-maroon clothes and a gentle wise smile"
     },
     "lantern": {
-      "match": ["lantern", "fanous"],
+      "match": [
+        "lantern",
+        "fanous"
+      ],
       "descriptor": "an ornate antique Arabian brass-and-gold lantern (fanous) with intricate Islamic geometric patterns, emitting a warm magical golden glow"
     }
   },
@@ -29,7 +41,7 @@
   },
   "elevenlabs_voices": {
     "خالد": "rzNH3PV43Tk38jg31TS6",
-    "نور": "cgSgspJ2msm6clMCkdW9",
+    "نور": "nfMYisZqs1GOjTFllho3",
     "تيتا": "EXAVITQu4vr4xnSDxMaL",
     "راوٍ": "ocqVw6LVSdCxCra4XhMH",
     "خالد ونور": "rzNH3PV43Tk38jg31TS6",
