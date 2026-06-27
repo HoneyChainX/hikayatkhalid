@@ -65,7 +65,7 @@ def find(wf, t):
     return None
 
 
-def patch(wf, image_name, audio_name, prompt, length, seed):
+def patch(wf, image_name, audio_name, prompt, length, seed, steps=None, cfg=None):
     for title, key, val in [("KEYFRAME", "image", image_name), ("AUDIO", "audio", audio_name),
                             ("POSITIVE", "text", prompt)]:
         n = find(wf, title)
@@ -79,6 +79,10 @@ def patch(wf, image_name, audio_name, prompt, length, seed):
         for k in ("seed", "noise_seed"):
             if k in s["inputs"]:
                 s["inputs"][k] = seed
+        if steps is not None and "steps" in s["inputs"]:
+            s["inputs"]["steps"] = steps
+        if cfg is not None and "cfg" in s["inputs"]:
+            s["inputs"]["cfg"] = cfg
     return wf
 
 
@@ -109,6 +113,8 @@ def main():
                     "expression, soft lighting, stays perfectly on-model, smooth motion.")
     ap.add_argument("--out", required=True)
     ap.add_argument("--seed", type=int, default=7)
+    ap.add_argument("--steps", type=int, default=None, help="override sampler steps (lower = faster)")
+    ap.add_argument("--cfg", type=float, default=None, help="override sampler cfg")
     a = ap.parse_args()
     img, aud, out = Path(a.image), Path(a.audio), Path(a.out)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -118,7 +124,7 @@ def main():
     print(f"ComfyUI={COMFY}  img={img}  audio={aud} ({secs:.1f}s -> {length} frames @ {FPS}fps)", flush=True)
     iname = upload(img, "image/png" if img.suffix.lower() == ".png" else "image/jpeg")
     aname = upload(aud, "audio/mpeg")
-    wf = patch(json.loads(json.dumps(template)), iname, aname, a.prompt, length, a.seed)
+    wf = patch(json.loads(json.dumps(template)), iname, aname, a.prompt, length, a.seed, a.steps, a.cfg)
     wf = {k: v for k, v in wf.items() if not k.startswith("_") and isinstance(v, dict)
           and v.get("class_type") not in ("Note", "MarkdownNote")}
     t = time.time()
