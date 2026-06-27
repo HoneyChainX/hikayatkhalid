@@ -73,7 +73,7 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--workflow", default="pipeline/comfy/workflow_seedvr2_upscale.api.json")
     ap.add_argument("--res", type=int, default=1080, help="target shortest-edge px")
-    ap.add_argument("--batch", type=int, default=5, help="frames per batch (4n+1)")
+    ap.add_argument("--batch", type=int, default=1, help="frames per batch (4n+1); 1 fits 24GB at 1080p")
     ap.add_argument("--model", default=None, help="override DiT model (e.g. seedvr2_ema_7b_sharp_fp16.safetensors)")
     a = ap.parse_args()
     src, out = Path(a.src), Path(a.out)
