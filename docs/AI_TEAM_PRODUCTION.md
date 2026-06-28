@@ -5,18 +5,24 @@ A pipeline run by **specialized expert agents**, each owning one job, coordinate
 small, single-responsibility experts + a deterministic orchestrator + a state manifest.
 
 > Scope note: episode **scripts are NOT regenerated** by this team — they are an approved,
-> frozen input (`scripts/epNN_script.md`, `pipeline/ep01_shotlist.json`). The team produces
-> everything downstream of the script.
+> frozen input (`scripts/epNN_script.md`, `pipeline/epNN_shotlist.json`). The team produces
+> everything downstream of the script, **for the whole project (ep01–ep10)**.
 
-## The team
+**Cast (canonical):** خالد Khalid (7yo boy), زينة Zina (5yo girl, formerly Noor), تيتا Teta
+(grandmother), جدو Gido (grandfather), عبد الرحمن Abdulrahman (role TBD). Plus **temp/guest
+characters per episode** (humans, animals, birds) registered in `characters.json → temp_characters`.
+
+## The team (16 specialists)
+
+### Core production line
 
 | # | Agent | Single responsibility | Key tools / skills |
 |---|-------|----------------------|--------------------|
 | 0 | **Producer** | Orchestrates the pipeline, routes shots, schedules the GPU pool, holds the state manifest, runs human checkpoints | all; RunPod API; `route_shots.py` |
 | 1 | **Shariah & Compliance Officer** 🛑 | HARD GATE. Validates every shot's text/visual against the non‑negotiable rules + approved `source_text`. Approves or blocks. Nothing renders without sign‑off | Read, `docs/COMPLIANCE_REVIEW.md`, source_text |
-| 2 | **Art Director** | Character bible + on‑model 3D refs (Khalid, Noor, Teta, lantern). Owns visual consistency | ComfyUI Flux Kontext (`comfy_image.py`), higgsfield, Read/Write |
+| 2 | **Art Director** | Character bible + on‑model 3D refs (Khalid, Zina, Teta, Gido, Abdulrahman, lantern) + per‑episode temp guests (humans/animals/birds). Owns visual consistency | ComfyUI Flux Kontext (`comfy_image.py`), higgsfield, Read/Write |
 | 3 | **Keyframe / Storyboard Artist** | Per‑shot keyframes — single clean speaker for dialogue, composed scene for story shots | ComfyUI Flux Kontext |
-| 4 | **Casting & Voice Director** | Age/gender‑correct voice per character (child Noor, elderly Teta, young Khalid), TTS, voice QA | ElevenLabs API, higgsfield voices |
+| 4 | **Casting & Voice Director** | Age/gender‑correct voice per character (child Zina, elderly Teta & Gido, young Khalid), TTS, voice QA | ElevenLabs API, higgsfield voices |
 | 5 | **Audio Engineer** | Loudness normalize (−14 LUFS), mixing, music/SFX beds | ffmpeg (`audio_normalize.py`) |
 | 6 | **Animation Engineer** | Render: S2V lip‑sync (dialogue) + Wan i2v (story). Drives the 2×4090 pool in parallel | ComfyUI (`animate_s2v.py`, `animate_one.py`) |
 | 7 | **Post‑Production Engineer** | SeedVR2 upscale → HD, RIFE smoothing | ComfyUI (`upscale_seedvr2.py`) |
@@ -24,10 +30,23 @@ small, single-responsibility experts + a deterministic orchestrator + a state ma
 | 9 | **QA / Continuity Reviewer** 🔎 | Adversarially reviews every shot + final cut: lip‑sync, on‑model, **voice age‑fit**, artifacts, compliance. Flags fails → redo loop | Read (frames), ffmpeg |
 | 10 | **Publisher** | Thumbnail, title/description, `madeForKids=true`, upload prep | Canva MCP, Gmail |
 
+### Creative & strategy experts (advise/direct the core line)
+
+| # | Agent | Single responsibility |
+|---|-------|----------------------|
+| 11 | **Creative Director** 🎨 | Creativity within the frozen story — hooks, emotional beats, delight, variety; directs creative intent the keyframe/camera/animation execute |
+| 12 | **Global Branding Expert** 🌍 | Brand bible (logo, palette, type, title/end cards, stings), cross‑episode/platform consistency, global appeal |
+| 13 | **Cinematographer** 🎥 | Per‑shot camera language — shot size, eye‑level angle, gentle movement, framing, continuity; baked into prompts |
+| 14 | **Efficiency & Effectiveness Lead** ⚙️ | Saturate the 2×4090 fleet, validated settings, no rework, cost/ROI, and that output actually achieves engagement/learning |
+| 15 | **Child Development Expert** 🧒 | Ages 4–10 fit — pacing, emotional safety, comprehension, positive modeling, engagement psychology (near‑gate with Shariah) |
+
 ## Pipeline (per episode)
 
 ```
-approved script ──▶ [1] Shariah gate (per shot) ──▶ blocked? → stop & escalate
+approved script ──▶ [1] Shariah gate + [15] Child-Dev check ──▶ blocked? → stop & escalate
+        │
+        ├─▶ creative/strategy pass: [11] Creative · [13] Camera · [12] Brand · [14] Efficiency
+        │      (per-shot intent + camera notes + brand + GPU run-plan, fed into the line below)
         │
         ├─▶ [2] Art Director: 3D refs ready ─┐
         ├─▶ [4] Voice Director: cast voices ─┤ (parallel)
@@ -69,9 +88,11 @@ stages back to `fail` to trigger targeted redos (never a full re‑render).
 
 ## Character bible (source of truth for Art Director + Voice Director)
 
-| Character | Age | 3D ref | Voice (ElevenLabs) | Voice age check |
-|-----------|-----|--------|--------------------|-----------------|
-| Khalid | 7 boy | `khalid_ref_3d.png` ✅ | Khalid MJ (`rzNH3PV43Tk38jg31TS6`) ar‑palestinian young male | ✅ fits |
-| Noor | 5 girl | `noor_ref_3d.png` ✅ | Gungun (`nfMYisZqs1GOjTFllho3`) kids‑show child | ✅ fixed |
-| Teta | elderly | `teta_ref_3d.png` ⏳ | TBD — needs elderly Arabic female (was wrongly "Sarah" young) | ⏳ casting |
-| Lantern | object | (prop) | — | — |
+| Character | Age | 3D ref | Voice (ElevenLabs) | Status |
+|-----------|-----|--------|--------------------|--------|
+| خالد Khalid | 7 boy | `khalid_ref_3d.png` ✅ | Khalid MJ (`rzNH3PV43Tk38jg31TS6`) ar young male | ✅ |
+| زينة Zina (was Noor) | 5 girl | `zina_ref_3d.png` ✅ | Gungun (`nfMYisZqs1GOjTFllho3`) kids‑show child | ✅ |
+| تيتا Teta | elderly F | `teta_ref_3d.png` ⏳ | Sawsan (`mS4cERRqrNy5Kmlx8Udf`) native ar grandmother | ⏳ ref + user voice pick |
+| جدو Gido | elderly M | `gido_ref_3d.png` ⏳ | needs casting (elderly ar male) | ⏳ ref + voice |
+| عبد الرحمن Abdulrahman | TBD | `abdulrahman_ref_3d.png` ⏳ | needs casting | ⏳ confirm role + ref + voice |
+| Lantern / temp guests | — | per‑episode | — | Art Director per episode |

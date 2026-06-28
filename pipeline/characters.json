@@ -3,51 +3,59 @@
   "negative": "no text, no letters, no words, no caption, no watermark, no signature, no photorealism, no scary or dark themes, no violence, no gore, no clutter, not creepy",
   "characters": {
     "khalid": {
-      "match": [
-        "KHALID",
-        "Khalid"
-      ],
-      "descriptor": "Khalid is a cheerful 7-year-old Arab Muslim boy with short neat deep-black hair, large warm brown eyes, soft wheat skin, wearing an elegant black thobe with luminous gold floral and geometric embroidery on collar, cuffs and hem, and an olive-and-gold geometric kufi cap"
+      "match": ["خالد", "KHALID", "Khalid"],
+      "descriptor": "Khalid is a cheerful 7-year-old Arab Muslim boy with short neat deep-black hair, large warm brown eyes, soft wheat skin, wearing an elegant black thobe with luminous gold floral and geometric embroidery on collar, cuffs and hem, and an olive-and-gold geometric kufi cap",
+      "ref_3d": "assets/characters/khalid_ref_3d.png"
     },
-    "noor": {
-      "match": [
-        "NOOR",
-        "Noor"
-      ],
-      "descriptor": "Noor is a sweet 5-year-old Arab Muslim girl with big innocent eyes, rosy cheeks, a small soft-blue headscarf and a light-blue dress"
+    "zina": {
+      "match": ["زينة", "ZINA", "Zina", "Zeina"],
+      "descriptor": "Zina is a sweet 5-year-old Arab Muslim girl with big innocent eyes, rosy cheeks, a small soft-blue headscarf and a light-blue dress (formerly named Noor — same character, renamed)",
+      "ref_3d": "assets/characters/zina_ref_3d.png"
     },
     "teta": {
-      "match": [
-        "TETA",
-        "Teta"
-      ],
-      "descriptor": "Teta is a kind elderly grandmother with warm caring eyes, thin glasses, a cream hijab, cozy olive-and-maroon clothes and a gentle wise smile"
+      "match": ["تيتا", "TETA", "Teta"],
+      "descriptor": "Teta is a kind elderly Arab Muslim grandmother with warm caring eyes, gentle wrinkles, thin glasses, a soft cream hijab, cozy olive-and-maroon clothes and a gentle wise smile",
+      "ref_3d": "assets/characters/teta_ref_3d.png"
+    },
+    "gido": {
+      "match": ["جدو", "جدّو", "GIDO", "Gido", "Jiddo"],
+      "descriptor": "Gido is a kind elderly Arab Muslim grandfather with warm wise eyes, gentle smile lines, a neat short white-grey beard, a soft white or grey thobe and a white kufi cap (taqiyah), warm and gentle",
+      "ref_3d": "assets/characters/gido_ref_3d.png"
+    },
+    "abdulrahman": {
+      "match": ["عبد الرحمن", "عبدالرحمن", "Abdulrahman", "Abdul Rahman"],
+      "descriptor": "Abdulrahman — ROLE TO CONFIRM (placeholder: the children's father, a kind young-adult Arab Muslim man, short neat dark beard, warm brown eyes, simple modest modern clothing or a plain thobe and kufi)",
+      "ref_3d": "assets/characters/abdulrahman_ref_3d.png",
+      "status": "needs_confirmation"
     },
     "lantern": {
-      "match": [
-        "lantern",
-        "fanous"
-      ],
+      "match": ["lantern", "fanous", "فانوس"],
       "descriptor": "an ornate antique Arabian brass-and-gold lantern (fanous) with intricate Islamic geometric patterns, emitting a warm magical golden glow"
     }
   },
+  "temp_characters": {
+    "_note": "Episodic guest characters (humans / animals / birds). The Art Director registers them here per episode with a descriptor (and optional ref under assets/characters/temp/). They follow the same 3D Pixar style and pass the Shariah + child-development gates like any character.",
+    "_schema": {"epNN": {"<id>": {"type": "human|animal|bird", "descriptor": "...", "ref": "assets/characters/temp/<id>.png"}}},
+    "ep01": {
+      "kitten": {"type": "animal", "descriptor": "a small friendly thirsty tabby kitten, big cute eyes, expressive and wholesome, 3D Pixar style"}
+    }
+  },
   "speaker_pitch": {
-    "خالد": 1.0,
-    "نور": 1.0,
-    "تيتا": 1.0,
-    "راوٍ": 1.0,
-    "خالد ونور": 1.0,
-    "خالد ونور وتيتا": 1.0
+    "خالد": 1.0, "زينة": 1.0, "تيتا": 1.0, "جدو": 1.0, "عبد الرحمن": 1.0, "راوٍ": 1.0,
+    "خالد وزينة": 1.0, "خالد وزينة وتيتا": 1.0
   },
   "elevenlabs_voices": {
     "خالد": "rzNH3PV43Tk38jg31TS6",
-    "نور": "nfMYisZqs1GOjTFllho3",
-    "تيتا": "EXAVITQu4vr4xnSDxMaL",
+    "زينة": "nfMYisZqs1GOjTFllho3",
+    "تيتا": "mS4cERRqrNy5Kmlx8Udf",
+    "جدو": "PENDING_elderly_arabic_male",
+    "عبد الرحمن": "PENDING_young_adult_arabic_male",
     "راوٍ": "ocqVw6LVSdCxCra4XhMH",
-    "خالد ونور": "rzNH3PV43Tk38jg31TS6",
-    "خالد ونور وتيتا": "EXAVITQu4vr4xnSDxMaL",
-    "_default": "ocqVw6LVSdCxCra4XhMH"
+    "خالد وزينة": "rzNH3PV43Tk38jg31TS6",
+    "خالد وزينة وتيتا": "mS4cERRqrNy5Kmlx8Udf",
+    "_default": "ocqVw6LVSdCxCra4XhMH",
+    "_voice_notes": "خالد=Khalid MJ(young ar male)✓  زينة=Gungun(child, was Noor)✓  تيتا=Sawsan(old ar female, PENDING user pick vs Nieve)  جدو=needs casting(elderly ar male)  عبد الرحمن=needs casting+role"
   },
-  "cover_prompt": "Warm storybook cover illustration: a cheerful 7-year-old Arab Muslim boy (black thobe with gold embroidery, olive-gold kufi cap), a sweet little girl in a light-blue headscarf and dress, and a kind smiling grandmother in a cream hijab, gathered together in a sunny garden around an ornate glowing golden Arabian lantern that radiates warm magical light, a small friendly cat nearby",
+  "cover_prompt": "Warm storybook cover illustration: a cheerful 7-year-old Arab Muslim boy in a black thobe with gold embroidery and olive-gold kufi cap, a sweet little girl in a light-blue headscarf and dress, a kind smiling grandmother in a cream hijab and a gentle grandfather with a white beard and kufi, gathered together in a sunny garden around an ornate glowing golden Arabian lantern that radiates warm magical light, a small friendly kitten nearby, 3D Pixar style",
   "endcard_prompt": "A single ornate antique Arabian brass-and-gold lantern (fanous) with intricate Islamic geometric patterns glowing with a warm magical golden light, floating gently in a soft cozy dark-blue night background with tiny sparkles, peaceful and heartwarming"
 }
