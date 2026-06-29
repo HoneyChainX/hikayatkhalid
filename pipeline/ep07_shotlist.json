@@ -1,8 +1,8 @@
 [
   {
     "scene_id": 1,
-    "speaker": "خالد ونور",
-    "line": "(خالد): ياااه! لماذا يجب أن أضع هذه المكعبات الزرقاء هنا؟ لا تبدو جميلة! أريد أن أضع الحمراء! (نور): لكن الرسمة تقول أزرق يا خالد. (خالد): لا أفهم لماذا! القلعة ستكون أجمل بالأحمر. هذا العمل متعب ولا أفهم فائدته.",
+    "speaker": "خالد وزينة",
+    "line": "(خالد): ياااه! لماذا يجب أن أضع هذه المكعبات الزرقاء هنا؟ لا تبدو جميلة! أريد أن أضع الحمراء! (زينة): لكن الرسمة تقول أزرق يا خالد. (خالد): لا أفهم لماذا! القلعة ستكون أجمل بالأحمر. هذا العمل متعب ولا أفهم فائدته.",
     "visual_prompt": "[ANIMATION STYLE] Khalid struggling to build a castle with blocks, ignoring the blueprint. Noor sitting next to him, playing with her doll, looking at him. Khalid looks frustrated and puzzled, then Noor interjects, and Khalid reiterates his frustration.",
     "duration_est": 15,
     "is_story_shot": false
@@ -33,8 +33,8 @@
   },
   {
     "scene_id": 5,
-    "speaker": "خالد ونور",
-    "line": "(خالد): نعم يا تيتا! أريد أن أبنيها بطريقتي! (نور): لكن يا خالد، أحياناً الكبار يعرفون أشياء نحن لا نعرفها.",
+    "speaker": "خالد وزينة",
+    "line": "(خالد): نعم يا تيتا! أريد أن أبنيها بطريقتي! (زينة): لكن يا خالد، أحياناً الكبار يعرفون أشياء نحن لا نعرفها.",
     "visual_prompt": "[ANIMATION STYLE] Khalid nodding emphatically, Noor looking thoughtfully at Khalid, offering her perspective.",
     "duration_est": 7,
     "is_story_shot": false
@@ -42,14 +42,14 @@
   {
     "scene_id": 6,
     "speaker": "تيتا",
-    "line": "أحسنتِ يا نور. أحياناً نُطلب منا فعل أشياء لا نفهم حكمتها في البداية، لكن الصبر والطاعة والثقة بأن هناك حكمة عظيمة، هو المفتاح. هل تذكرون قصة نبي الله نوح عليه السلام؟",
+    "line": "أحسنتِ يا زينة. أحياناً نُطلب منا فعل أشياء لا نفهم حكمتها في البداية، لكن الصبر والطاعة والثقة بأن هناك حكمة عظيمة، هو المفتاح. هل تذكرون قصة نبي الله نوح عليه السلام؟",
     "visual_prompt": "[ANIMATION STYLE] Khalid looking at Noor, then at Tita, who is smiling knowingly.",
     "duration_est": 10,
     "is_story_shot": false
   },
   {
     "scene_id": 7,
-    "speaker": "خالد ونور",
+    "speaker": "خالد وزينة",
     "line": "(خالد): نبي الله نوح؟ الذي بنى سفينة كبيرة جداً؟ (نور): أخبرينا يا تيتا!",
     "visual_prompt": "[ANIMATION STYLE] Khalid looking at Tita with dawning recognition and interest, Noor eagerly looking at Tita, leaning forward.",
     "duration_est": 6,
@@ -73,8 +73,8 @@
   },
   {
     "scene_id": 10,
-    "speaker": "خالد ونور",
-    "line": "واو! هيا يا تيتا! ما أجمل هذا النور!",
+    "speaker": "خالد وزينة",
+    "line": "واو! هيا يا تيتا! ما أجمل هذا الزينة!",
     "visual_prompt": "[ANIMATION STYLE] The lantern glowing intensely, emitting light flashes that form a shimmering portal. Khalid and Noor gaze in wonder.",
     "duration_est": 6,
     "is_story_shot": false
@@ -209,16 +209,16 @@
   },
   {
     "scene_id": 27,
-    "speaker": "خالد ونور وتيتا",
-    "line": "(خالد): آه! مثل المكعبات! أنا لم أفهم لماذا يجب أن أضع الأزرق هنا، لكن مهندس القلعة يعرف! (نور): وهكذا الله يعرف كل شيء يا خالد! (تيتا): بالضبط يا أبطال! عندما يطلب منا الكبار أو حتى الله سبحانه وتعالى أمراً، حتى لو لم نفهم الحكمة منه فوراً، يجب أن نطيع ونثق بأن هناك خيراً عظيماً وحكمة بالغة. الطاعة والصبر والثقة بالله هي مفتاح النجاة والنجاح في الدنيا والآخرة.",
+    "speaker": "خالد وزينة وتيتا",
+    "line": "(خالد): آه! مثل المكعبات! أنا لم أفهم لماذا يجب أن أضع الأزرق هنا، لكن مهندس القلعة يعرف! (زينة): وهكذا الله يعرف كل شيء يا خالد! (تيتا): بالضبط يا أبطال! عندما يطلب منا الكبار أو حتى الله سبحانه وتعالى أمراً، حتى لو لم نفهم الحكمة منه فوراً، يجب أن نطيع ونثق بأن هناك خيراً عظيماً وحكمة بالغة. الطاعة والصبر والثقة بالله هي مفتاح النجاة والنجاح في الدنيا والآخرة.",
     "visual_prompt": "[ANIMATION STYLE] Khalid looking at the blocks thoughtfully, making a connection. Noor smiling, reinforcing his realization. Tita looking at both children with pride, emphasizing the moral of the story, with gentle hand gestures.",
     "duration_est": 25,
     "is_story_shot": false
   },
   {
     "scene_id": 28,
-    "speaker": "خالد ونور",
-    "line": "(خالد): حسناً، سأطيع الرسمة وأصبر حتى أرى القلعة الجميلة! وسأثق بأن لها حكمة! (نور): هيا يا خالد، أنا سأساعدك!",
+    "speaker": "خالد وزينة",
+    "line": "(خالد): حسناً، سأطيع الرسمة وأصبر حتى أرى القلعة الجميلة! وسأثق بأن لها حكمة! (زينة): هيا يا خالد، أنا سأساعدك!",
     "visual_prompt": "[ANIMATION STYLE] Khalid smiling and enthusiastically starting to place the blue blocks in their correct positions. Noor joining him, ready to help.",
     "duration_est": 10,
     "is_story_shot": false
@@ -241,7 +241,7 @@
   },
   {
     "scene_id": 31,
-    "speaker": "خالد ونور وتيتا",
+    "speaker": "خالد وزينة وتيتا",
     "line": "(خالد): كانت قصة رائعة يا تيتا! شكراً لكِ! (نور): وماذا سنعرف في المرة القادمة؟ (تيتا): في المرة القادمة، سنعرف قصة أخرى عن نبي عظيم، وكيف نجاه الله من النار! هل عرفتم من هو؟",
     "visual_prompt": "[ANIMATION STYLE] Khalid and Noor looking at Tita with excitement and curiosity. Tita smiling mysteriously at the children.",
     "duration_est": 15,
@@ -249,8 +249,8 @@
   },
   {
     "scene_id": 32,
-    "speaker": "خالد ونور وتيتا",
-    "line": "(خالد ونور): لا نعرف! أخبرينا يا تيتا! (تيتا): انتظروا الحلقة القادمة من \"حكايات خالد\" لتعرفوا! إلى اللقاء!",
+    "speaker": "خالد وزينة وتيتا",
+    "line": "(خالد وزينة): لا نعرف! أخبرينا يا تيتا! (تيتا): انتظروا الحلقة القادمة من \"حكايات خالد\" لتعرفوا! إلى اللقاء!",
     "visual_prompt": "[ANIMATION STYLE] Khalid and Noor thinking curiously, then eagerly asking Tita. A faint silhouette of a distant fire and a person standing before it appears. Tita winking playfully.",
     "duration_est": 10,
     "is_story_shot": false

@@ -1,7 +1,7 @@
 [
   {
     "scene_id": 1,
-    "speaker": "خالد ونور",
+    "speaker": "خالد وزينة",
     "line": "أوف! لا أستطيع أبداً! حاول مرة أخرى يا خالد!",
     "visual_prompt": "[STYLE] Khalid and Noor playing with building blocks. Khalid places the last block, but the tower shakes and falls. Noor laughs softly. Khalid frowns.",
     "duration_est": 7
@@ -15,7 +15,7 @@
   },
   {
     "scene_id": 3,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "لكن رسمتك جميلة يا خالد! انظر، هذه سحابة!",
     "visual_prompt": "[STYLE] Noor approaches Khalid, holding her small, colorful drawing.",
     "duration_est": 6
@@ -23,7 +23,7 @@
   {
     "scene_id": 4,
     "speaker": "خالد",
-    "line": "لا يا نور، إنها غيمة حزينة. أنا لا أعرف كيف أرسم.",
+    "line": "لا يا زينة، إنها غيمة حزينة. أنا لا أعرف كيف أرسم.",
     "visual_prompt": "[STYLE] Khalid pushing his drawing away.",
     "duration_est": 6
   },
@@ -43,7 +43,7 @@
   },
   {
     "scene_id": 7,
-    "speaker": "تيتا ونور",
+    "speaker": "تيتا وزينة",
     "line": "وهل تعلم يا خالد أن هناك من مرّ بظرف أصعب بكثير، ولم ييأس؟ قصة يا تيتا؟",
     "visual_prompt": "[STYLE] Teita sitting next to Khalid. Noor looking excited.",
     "duration_est": 8
@@ -149,7 +149,7 @@
   },
   {
     "scene_id": 21,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "يعني لازم نحاول تاني؟",
     "visual_prompt": "[STYLE] Noor looking thoughtful.",
     "duration_est": 3
@@ -157,7 +157,7 @@
   {
     "scene_id": 22,
     "speaker": "تيتا",
-    "line": "بالضبط يا نور. عندما نشعر باليأس، يجب أن نتذكر أن الله قريب منا، يسمع دعاءنا، ويحبنا أن نذكره. لا نستسلم أبداً.",
+    "line": "بالضبط يا زينة. عندما نشعر باليأس، يجب أن نتذكر أن الله قريب منا، يسمع دعاءنا، ويحبنا أن نذكره. لا نستسلم أبداً.",
     "visual_prompt": "[STYLE] Teita emphasizing her words.",
     "duration_est": 12
   },
@@ -177,7 +177,7 @@
   },
   {
     "scene_id": 25,
-    "speaker": "تيتا ونور وخالد",
+    "speaker": "تيتا وزينة وخالد",
     "line": "اللهم اجعلنا ممن لا ييأسون من رحمتك.",
     "visual_prompt": "[STYLE] Teita, Noor, and Khalid together.",
     "duration_est": 5
@@ -198,7 +198,7 @@
   },
   {
     "scene_id": 28,
-    "speaker": "خالد ونور",
+    "speaker": "خالد وزينة",
     "line": "قصة أخرى!",
     "visual_prompt": "[STYLE] Khalid and Noor with excited expressions.",
     "duration_est": 3

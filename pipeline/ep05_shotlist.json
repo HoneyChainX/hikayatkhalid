@@ -1,24 +1,24 @@
 [
   {
     "scene_id": 1,
-    "speaker": "خالد ونور",
-    "line": "خالد: هاهاها! انظري يا نور، قطار النمل! نور: واو! كثيرون!",
+    "speaker": "خالد وزينة",
+    "line": "خالد: هاهاها! انظري يا زينة، قطار النمل! زينة: واو! كثيرون!",
     "visual_prompt": "[STYLE] A vibrant garden, Khalid and Noor (7 and 5 years old) are playing joyfully. Khalid runs past a straight line of ants on the ground. Noor follows him, laughing.",
     "duration_est": 5,
     "is_story_shot": false
   },
   {
     "scene_id": 2,
-    "speaker": "خالد ونور، تيتا",
-    "line": "خالد: سأرى إن كانوا سيهربون مني! نور: لا يا خالد! مساكين! تيتا: خالد! نور! ما الذي تفعلانه يا أحبابي؟",
+    "speaker": "خالد وزينة، تيتا",
+    "line": "خالد: سأرى إن كانوا سيهربون مني! زينة: لا يا خالد! مساكين! تيتا: خالد! زينة! ما الذي تفعلانه يا أحبابي؟",
     "visual_prompt": "[STYLE] Khalid raises his foot, about to step on the ants. Noor looks scared and warns him. Teita appears in the distance, smiling gently, noticing their actions.",
     "duration_est": 7,
     "is_story_shot": false
   },
   {
     "scene_id": 3,
-    "speaker": "خالد، نور، تيتا",
-    "line": "خالد: مرحباً تيتا! كنت ألعب مع النمل. نور: خالد كان سيؤذيهم يا تيتا! تيتا: النمل مخلوقات ضعيفة يا خالد، ولكنها مهمة في دنيانا. لا يجب أن نؤذيها أبداً.",
+    "speaker": "خالد، زينة، تيتا",
+    "line": "خالد: مرحباً تيتا! كنت ألعب مع النمل. زينة: خالد كان سيؤذيهم يا تيتا! تيتا: النمل مخلوقات ضعيفة يا خالد، ولكنها مهمة في دنيانا. لا يجب أن نؤذيها أبداً.",
     "visual_prompt": "[STYLE] Khalid quickly lowers his foot, looking a little embarrassed. Teita approaches and sits next to them, speaking kindly.",
     "duration_est": 8,
     "is_story_shot": false
@@ -33,8 +33,8 @@
   },
   {
     "scene_id": 5,
-    "speaker": "نور، تيتا، خالد، نور",
-    "line": "نور: مثلما نحن نحب بعضنا، نحبهم أيضاً؟ تيتا: أحسنتِ يا نور! بالضبط هكذا. وما رأيكما أن نحكي قصة عن النملة الذكية؟ قصة من زمان بعيد، من زمن نبي عظيم اسمه سليمان عليه السلام. خالد: نبي سليمان! واو! نور: نملة ذكية؟ كيف؟ تيتا: تعالوا لنرى!",
+    "speaker": "زينة، تيتا، خالد، زينة",
+    "line": "نور: مثلما نحن نحب بعضنا، نحبهم أيضاً؟ تيتا: أحسنتِ يا زينة! بالضبط هكذا. وما رأيكما أن نحكي قصة عن النملة الذكية؟ قصة من زمان بعيد، من زمن نبي عظيم اسمه سليمان عليه السلام. خالد: نبي سليمان! واو! نور: نملة ذكية؟ كيف؟ تيتا: تعالوا لنرى!",
     "visual_prompt": "[STYLE] Noor looks lovingly at the ants. Teita proposes a story. Khalid and Noor sit eagerly in front of Teita in the living room, the story lantern glowing softly.",
     "duration_est": 15,
     "is_story_shot": false
@@ -137,7 +137,7 @@
   },
   {
     "scene_id": 18,
-    "speaker": "خالد، نور",
+    "speaker": "خالد، زينة",
     "line": "خالد: واو! النملة ذكية جداً! نور: ونبي سليمان سمعها!",
     "visual_prompt": "[STYLE] The magical light of the lantern fades. Khalid and Noor sit in awe in the living room.",
     "duration_est": 5,
@@ -161,7 +161,7 @@
   },
   {
     "scene_id": 21,
-    "speaker": "نور، خالد",
+    "speaker": "زينة، خالد",
     "line": "نور: أنا سأكون رحيمة بالنمل! خالد: وأنا أيضاً يا تيتا. لن أؤذي أي حشرة بعد اليوم. سأكون مثل نبي سليمان، رحيماً ومتواضعاً.",
     "visual_prompt": "[STYLE] Noor smiles. Khalid looks determined, both making a promise.",
     "duration_est": 8,
@@ -178,7 +178,7 @@
   {
     "scene_id": 23,
     "speaker": "راوٍ",
-    "line": "يا خالد يا نور الأحباب، الرحمة كنز الأطياب، النملة أو عصفور صغير، كلٌّ له ربٌّ قدير، نحن نحب كل المخلوقات، نحفظها من كل الآفات، كن رحيماً كن متواضعاً، دربك للخيرات واسعاً.",
+    "line": "يا خالد يا زينة الأحباب، الرحمة كنز الأطياب، النملة أو عصفور صغير، كلٌّ له ربٌّ قدير، نحن نحب كل المخلوقات، نحفظها من كل الآفات، كن رحيماً كن متواضعاً، دربك للخيرات واسعاً.",
     "visual_prompt": "[STYLE] The channel logo appears on screen. A narrator sings a light, instrument-free song.",
     "duration_est": 20,
     "is_story_shot": false

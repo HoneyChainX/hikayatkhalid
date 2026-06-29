@@ -9,7 +9,7 @@
   },
   {
     "scene_id": 2,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "لا بأس يا خالد، حاول مرة أخرى! الشجاعة هي أن لا تستسلم!",
     "visual_prompt": "[STYLE] Noor gently laughs, then encourages Khalid.",
     "duration_est": 5,
@@ -73,7 +73,7 @@
   },
   {
     "scene_id": 10,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "قصة! قصة!",
     "visual_prompt": "[STYLE] Noor comes running, excited.",
     "duration_est": 3,
@@ -82,7 +82,7 @@
   {
     "scene_id": 11,
     "speaker": "تيتا",
-    "line": "(تضحك) نعم، قصة عن فتية شجعان ثبتوا على الحق رغم كل الصعوبات. هيا، لنجلس حول فانوس الحكايات. خالد ونور هيا يا تيتا!",
+    "line": "(تضحك) نعم، قصة عن فتية شجعان ثبتوا على الحق رغم كل الصعوبات. هيا، لنجلس حول فانوس الحكايات. خالد وزينة هيا يا تيتا!",
     "visual_prompt": "[STYLE] Teita laughs gently, then gestures for them to gather. Khalid and Noor look excited.",
     "duration_est": 10,
     "is_story_shot": false
@@ -178,7 +178,7 @@
   {
     "scene_id": 23,
     "speaker": "خالد",
-    "line": "واو! ناموا كل هذه السنين! نور والكلب الوفي كان معهم!",
+    "line": "واو! ناموا كل هذه السنين! زينة والكلب الوفي كان معهم!",
     "visual_prompt": "[STYLE] The image returns to Khalid, Noor, and Teita in front of the glowing lantern. Khalid looks amazed, and Noor speaks excitedly.",
     "duration_est": 7,
     "is_story_shot": false
@@ -201,7 +201,7 @@
   },
   {
     "scene_id": 26,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "وأنا أيضاً سأكون شجاعة وأثبت على الحق!",
     "visual_prompt": "[STYLE] Noor raises her hand enthusiastically.",
     "duration_est": 4,
@@ -210,7 +210,7 @@
   {
     "scene_id": 27,
     "speaker": "تيتا",
-    "line": "اللهم يا مقلب القلوب ثبت قلوبنا على دينك. واجعلنا من الثابتين على الحقّ المتوكلين عليك. آمين. خالد ونور آمين.",
+    "line": "اللهم يا مقلب القلوب ثبت قلوبنا على دينك. واجعلنا من الثابتين على الحقّ المتوكلين عليك. آمين. خالد وزينة آمين.",
     "visual_prompt": "[STYLE] Teita raises her hands in prayer, Khalid and Noor nod reverently and then say \"Ameen\".",
     "duration_est": 12,
     "is_story_shot": false

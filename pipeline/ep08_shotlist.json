@@ -1,7 +1,7 @@
 [
   {
     "scene_id": 1,
-    "speaker": "خالد ونور",
+    "speaker": "خالد وزينة",
     "line": "فيروووم! فيروووم! سيارتي الأسرع! ودميتي الأجمل!",
     "visual_prompt": "[STYLE] Khalid and Nour playing on the floor in a living room. Khalid has a red plastic race car, Nour has a doll. They are happy and playing.",
     "duration_est": 5,
@@ -10,14 +10,14 @@
   {
     "scene_id": 2,
     "speaker": "خالد",
-    "line": "أوف! سيارتي قديمة جداً. انظر يا نور، هذه السيارة الجديدة أروع بكثير! ليت عندي مثلها! سيارتي حمراء باهتة، وعجلاتها لا تدور بسرعة. لست أحبها بعد الآن.",
+    "line": "أوف! سيارتي قديمة جداً. انظر يا زينة، هذه السيارة الجديدة أروع بكثير! ليت عندي مثلها! سيارتي حمراء باهتة، وعجلاتها لا تدور بسرعة. لست أحبها بعد الآن.",
     "visual_prompt": "[STYLE] Khalid flipping through a toy magazine, seeing a shiny new race car, then looking at his old, slightly faded red car with disappointment and sadness. He puts the magazine aside and looks at his car sadly.",
     "duration_est": 10,
     "is_story_shot": false
   },
   {
     "scene_id": 3,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "لكنها ما زالت جميلة يا خالد! وتستطيع أن تجري بها سباقات كثيرة!",
     "visual_prompt": "[STYLE] Nour approaching Khalid, trying to comfort him while he still looks at his car with a frown.",
     "duration_est": 5,
@@ -49,7 +49,7 @@
   },
   {
     "scene_id": 7,
-    "speaker": "تيتا وخالد ونور",
+    "speaker": "تيتا وخالد وزينة",
     "line": "يا حبيبي، الشكر والقناعة يجعلان القلب سعيداً. هل تود أن تسمع قصة عن أناس لم يشكروا الله على نعمه؟ قصة عن الشكر؟ نعم يا تيتا، أريد أن أسمع! وأنا أيضاً!",
     "visual_prompt": "[STYLE] Tieta placing her hand on Khalid's shoulder. Khalid and Nour looking at Tieta with interest and excitement for a story.",
     "duration_est": 10,
@@ -161,7 +161,7 @@
   },
   {
     "scene_id": 21,
-    "speaker": "خالد ونور",
+    "speaker": "خالد وزينة",
     "line": "يا تيتا، الرجلان الأولان جحدا نعمة الله! لم يشكرا الله على ما أعطاهما! لقد كانا بخيلين!",
     "visual_prompt": "[STYLE] The Story Lantern's light gradually fading. Khalid and Nour back in the living room, their faces showing astonishment and understanding. They look at each other and then at Tieta.",
     "duration_est": 8,
@@ -193,7 +193,7 @@
   },
   {
     "scene_id": 25,
-    "speaker": "تيتا وخالد ونور",
+    "speaker": "تيتا وخالد وزينة",
     "line": "هيا يا أحبابي، لندعو الله أن يجعلنا من الشاكرين. يا رب يا كريم، اجعلنا من عبادك الشاكرين الذاكرين، وارزقنا القناعة والرضا بما قسمت لنا، آمين.",
     "visual_prompt": "[STYLE] Khalid, Nour, and Tieta raising their hands in prayer, with sincere expressions on their faces.",
     "duration_est": 15,
@@ -209,7 +209,7 @@
   },
   {
     "scene_id": 27,
-    "speaker": "خالد ونور",
+    "speaker": "خالد وزينة",
     "line": "إلى اللقاء في حكاية جديدة مع تيتا وفانوس الحكايات! لا تنسوا الشكر!",
     "visual_prompt": "[STYLE] Khalid and Nour looking at the camera with bright, engaging smiles, waving goodbye.",
     "duration_est": 6,

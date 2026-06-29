@@ -1,7 +1,7 @@
 [
   {
     "scene_id": 1,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "كرتي! أين ذهبت؟",
     "visual_prompt": "[CUTE ANIMATION STYLE] Nora laughing while playing with a small ball with Khaled in a garden. The ball rolls behind a bush.",
     "duration_est": 3,
@@ -10,14 +10,14 @@
   {
     "scene_id": 2,
     "speaker": "خالد",
-    "line": "لا تقلقي يا نور، سأجدها! انظري يا نور! وجدتُ كرتي، ووجدتُ معها حلوى!",
+    "line": "لا تقلقي يا زينة، سأجدها! انظري يا زينة! وجدتُ كرتي، ووجدتُ معها حلوى!",
     "visual_prompt": "[CUTE ANIMATION STYLE] Khaled reassuring Nora, then finding the ball and a wrapped candy behind the bush, showing it to Nora.",
     "duration_est": 7,
     "is_story_shot": false
   },
   {
     "scene_id": 3,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "واو! لمن هذه؟ هل نأكلها؟",
     "visual_prompt": "[CUTE ANIMATION STYLE] Nora jumping with joy, looking at the candy in Khaled's hand.",
     "duration_est": 3,
@@ -89,7 +89,7 @@
   },
   {
     "scene_id": 12,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "وخالد لم يأخذ شيئاً ليس له! قصة! قصة!",
     "visual_prompt": "[CUTE ANIMATION STYLE] Nora enthusiastically emphasizing Khaled's honesty, then jumping with excitement for a story.",
     "duration_est": 6,
@@ -177,7 +177,7 @@
   },
   {
     "scene_id": 23,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "يا لها من قصة جميلة! لم يأخذ أحد الذهب لنفسه!",
     "visual_prompt": "[CUTE ANIMATION STYLE] The lantern's light dimming gradually. Nora and Khaled looking at Teta with awe.",
     "duration_est": 5,
@@ -225,7 +225,7 @@
   },
   {
     "scene_id": 29,
-    "speaker": "خالد ونور",
+    "speaker": "خالد وزينة",
     "line": "يارب اجعلنا نحب الخير ونفعله دائماً.",
     "visual_prompt": "[CUTE ANIMATION STYLE] Khaled and Nora repeating the prayer in unison.",
     "duration_est": 4,
@@ -241,7 +241,7 @@
   },
   {
     "scene_id": 31,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "ما هي القصة القادمة يا تيتا؟",
     "visual_prompt": "[CUTE ANIMATION STYLE] The lantern flickering gently. Nora smiling and asking Teta about the next story.",
     "duration_est": 3,

@@ -3,14 +3,14 @@
     "scene_id": 1,
     "visual_prompt": "[STYLE] KHALID and NOOR, both looking slightly uncomfortable from the heat, sit in a vibrant, sun-drenched garden. The sun is very bright, casting strong shadows. KHALID is wiping his brow.",
     "speaker": "خالد",
-    "line": "آه، ما هذا الحرّ يا نور! أشعر أنني سأذوب!",
+    "line": "آه، ما هذا الحرّ يا زينة! أشعر أنني سأذوب!",
     "duration_est": 4,
     "is_story_shot": false
   },
   {
     "scene_id": 2,
     "visual_prompt": "[STYLE] Close-up on NOOR, fanning herself with her hand, looking warm. The vibrant garden is still visible in the background. NOOR looks towards KHALID.",
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "وأنا أيضاً يا خالد! حتى العصافير لا تغرّد اليوم.",
     "duration_est": 4,
     "is_story_shot": false
@@ -18,7 +18,7 @@
   {
     "scene_id": 3,
     "visual_prompt": "[STYLE] KHALID and NOOR are in the garden. A small, very thin, light-colored cat walks slowly and with difficulty on a dusty path, panting heavily and looking around desperately. NOOR spots the cat and points.",
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "انظر يا خالد! قطة صغيرة! تبدو عطشى جداً. مسكينة!",
     "duration_est": 6,
     "is_story_shot": false
@@ -34,7 +34,7 @@
   {
     "scene_id": 5,
     "visual_prompt": "[STYLE] Close-up on NOOR, looking earnestly at KHALID, her face showing concern for the cat. The cat is visible in the background, still panting.",
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "لكنها تبدو متعبة جداً يا خالد. ربما لم تشرب منذ وقت طويل. ألا يمكن أن نعطيها قليلاً؟",
     "duration_est": 6,
     "is_story_shot": false
@@ -43,14 +43,14 @@
     "scene_id": 6,
     "visual_prompt": "[STYLE] KHALID hesitates, looking between his water bottle and the thirsty cat. He bites his lip, clearly torn.",
     "speaker": "خالد",
-    "line": "لا أعرف يا نور. ماذا لو لم يبقَ لي ماء كافٍ؟",
+    "line": "لا أعرف يا زينة. ماذا لو لم يبقَ لي ماء كافٍ؟",
     "duration_est": 5,
     "is_story_shot": false
   },
   {
     "scene_id": 7,
     "visual_prompt": "[STYLE] NOOR looks at KHALID with a sad, pleading expression. The cat is visible, still panting heavily nearby, emphasizing its distress.",
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "لكنها روح يا خالد. ألا تشعر بها؟ انظر كيف تلهث.",
     "duration_est": 6,
     "is_story_shot": false
@@ -66,7 +66,7 @@
   {
     "scene_id": 9,
     "visual_prompt": "[STYLE] NOOR looks at TETA, gesturing towards the cat, which is still visible in the background.",
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "القطة عطشى يا تيتا، وخالد متردد أن يعطيها الماء.",
     "duration_est": 4,
     "is_story_shot": false
@@ -82,7 +82,7 @@
   {
     "scene_id": 11,
     "visual_prompt": "[STYLE] KHALID and NOOR look up at TETA with renewed interest, their eyes wide with anticipation.",
-    "speaker": "خالد ونور",
+    "speaker": "خالد وزينة",
     "line": "نعم يا تيتا!",
     "duration_est": 2,
     "is_story_shot": false
@@ -186,7 +186,7 @@
   {
     "scene_id": 24,
     "visual_prompt": "[STYLE] NOOR looks at TETA, then at KHALID, seeking confirmation, a hopeful expression on her face.",
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "يعني لو سقيناها، الله سيكافئنا؟",
     "duration_est": 4,
     "is_story_shot": false
@@ -195,7 +195,7 @@
     "scene_id": 25,
     "visual_prompt": "[STYLE] KHALID, decisive and eager, grabs his water bottle and twists open the cap. He looks at NOOR with a confident smile. The cat is nearby, still panting.",
     "speaker": "خالد",
-    "line": "طبعاً يا نور! هيا بنا نسقيها.",
+    "line": "طبعاً يا زينة! هيا بنا نسقيها.",
     "duration_est": 4,
     "is_story_shot": false
   },
@@ -203,14 +203,14 @@
     "scene_id": 26,
     "visual_prompt": "[STYLE] KHALID carefully pours a small amount of water into the bottle cap and places it gently on the ground in front of the cat. The cat approaches cautiously, then begins to drink greedily. NOOR watches with a wide, happy smile.",
     "speaker": "خالد",
-    "line": "انظري يا نور! إنها تشرب! كم هي سعيدة الآن!",
+    "line": "انظري يا زينة! إنها تشرب! كم هي سعيدة الآن!",
     "duration_est": 7,
     "is_story_shot": false
   },
   {
     "scene_id": 27,
     "visual_prompt": "[STYLE] NOOR looks at KHALID, her face full of gratitude and happiness. The cat is still drinking in the foreground.",
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "نعم! شكراً لك يا خالد. أنت طيب جداً.",
     "duration_est": 4,
     "is_story_shot": false
@@ -226,7 +226,7 @@
   {
     "scene_id": 29,
     "visual_prompt": "[STYLE] KHALID, NOOR, and TETA stand together, looking up with sincere expressions as if in prayer. The garden is peaceful and bright. The cat is curled up nearby, content.",
-    "speaker": "خالد ونور وتيتا",
+    "speaker": "خالد وزينة وتيتا",
     "line": "يا رب، اجعلنا رحماء بجميع خلقك، واغفر لنا ذنوبنا، واكتب لنا الأجر العظيم. آمين.",
     "duration_est": 8,
     "is_story_shot": false

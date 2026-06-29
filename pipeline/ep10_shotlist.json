@@ -10,7 +10,7 @@
   {
     "scene_id": 2,
     "speaker": "خالد",
-    "line": "نور... هل تسمعين شيئًا؟",
+    "line": "زينة... هل تسمعين شيئًا؟",
     "visual_prompt": "[STYLE] Close-up on Khalid's scared face, whispering to sleeping Nora.",
     "duration_est": 3,
     "is_story_shot": false
@@ -33,7 +33,7 @@
   },
   {
     "scene_id": 5,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "صباح الخير يا خالد! لماذا أنت حزين هكذا؟",
     "visual_prompt": "[STYLE] Nora looking at Khalid with concern.",
     "duration_est": 3,
@@ -49,7 +49,7 @@
   },
   {
     "scene_id": 7,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "ربما كانت قطة! أو صوت الريح!",
     "visual_prompt": "[STYLE] Nora giggling playfully.",
     "duration_est": 3,
@@ -201,7 +201,7 @@
   },
   {
     "scene_id": 26,
-    "speaker": "نور",
+    "speaker": "زينة",
     "line": "حتى لو كانت نارًا كبيرة؟",
     "visual_prompt": "[STYLE] Nora looking thoughtful and asking a question.",
     "duration_est": 3,

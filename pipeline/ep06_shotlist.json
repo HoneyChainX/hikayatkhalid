@@ -2,7 +2,7 @@
   {
     "scene_id": 1,
     "speaker": "خالد",
-    "line": "أسرع يا نور! لن تستطيعي اللحاق بي!",
+    "line": "أسرع يا زينة! لن تستطيعي اللحاق بي!",
     "visual_prompt": "[ANIMATION STYLE] Khalid running and playing soccer enthusiastically, laughing and jumping. Noor struggling to follow him, trying to catch the ball.",
     "duration_est": 4,
     "is_story_shot": false
@@ -10,15 +10,15 @@
   {
     "scene_id": 2,
     "speaker": "الأم",
-    "line": "خالد، نور! هيا يا أبطال، الفطور جاهز!",
+    "line": "خالد، زينة! هيا يا أبطال، الفطور جاهز!",
     "visual_prompt": "[ANIMATION STYLE] Khalid's mother preparing breakfast in the kitchen. She calls out lovingly from a distance.",
     "duration_est": 5,
     "is_story_shot": false
   },
   {
     "scene_id": 3,
-    "speaker": "خالد ونور",
-    "line": "نور: ماما تنادي يا خالد! خالد: دقيقة واحدة يا نور! سأسجل هدفاً أولاً!",
+    "speaker": "خالد وزينة",
+    "line": "زينة: ماما تنادي يا خالد! خالد: دقيقة واحدة يا زينة! سأسجل هدفاً أولاً!",
     "visual_prompt": "[ANIMATION STYLE] Khalid hears his mother but doesn't stop, skillfully dribbling the ball. Noor stops, panting.",
     "duration_est": 6,
     "is_story_shot": false
@@ -26,15 +26,15 @@
   {
     "scene_id": 4,
     "speaker": "الأم",
-    "line": "خالد! نور! هيا، الفطور سيبرد!",
+    "line": "خالد! زينة! هيا، الفطور سيبرد!",
     "visual_prompt": "[ANIMATION STYLE] The mother waits, then calls out again, a little louder, with a smile.",
     "duration_est": 5,
     "is_story_shot": false
   },
   {
     "scene_id": 5,
-    "speaker": "خالد ونور",
-    "line": "نور: ماما زعلانة يا خالد! خالد: ليس الآن يا نور، أريد أن أفوز!",
+    "speaker": "خالد وزينة",
+    "line": "زينة: ماما زعلانة يا خالد! خالد: ليس الآن يا زينة، أريد أن أفوز!",
     "visual_prompt": "[ANIMATION STYLE] Khalid is still engrossed in playing, ignoring the call. Noor looks at him with wonder, then gently pulls his shirt.",
     "duration_est": 6,
     "is_story_shot": false
@@ -58,7 +58,7 @@
   {
     "scene_id": 8,
     "speaker": "خالد وتيتا",
-    "line": "خالد: هل حقاً أمي حزينة مني يا تيتا؟ تيتا: نعم يا حبيبي، لكنها تحبك جداً. تعال يا خالد، ولنجلس أنا وأنت ونور، ولنطلب من فانوس الحكايات أن يروي لنا قصة عن أهمية طاعة الأم.",
+    "line": "خالد: هل حقاً أمي حزينة مني يا تيتا؟ تيتا: نعم يا حبيبي، لكنها تحبك جداً. تعال يا خالد، ولنجلس أنا وأنت وزينة، ولنطلب من فانوس الحكايات أن يروي لنا قصة عن أهمية طاعة الأم.",
     "visual_prompt": "[ANIMATION STYLE] Khalid and Noor sit next to Teta. Khalid looks a little sad. Teta strokes his hair.",
     "duration_est": 12,
     "is_story_shot": false
@@ -169,8 +169,8 @@
   },
   {
     "scene_id": 22,
-    "speaker": "نور وخالد",
-    "line": "نور: أنا دائماً أجيب ماما بسرعة! خالد: أنا آسف يا تيتا، آسف يا نور. سأذهب لأعتذر لأمي فوراً!",
+    "speaker": "زينة وخالد",
+    "line": "زينة: أنا دائماً أجيب ماما بسرعة! خالد: أنا آسف يا تيتا، آسف يا زينة. سأذهب لأعتذر لأمي فوراً!",
     "visual_prompt": "[ANIMATION STYLE] Noor hugs Teta. Khalid stands up.",
     "duration_est": 8,
     "is_story_shot": false
@@ -185,8 +185,8 @@
   },
   {
     "scene_id": 24,
-    "speaker": "تيتا وخالد ونور",
-    "line": "تيتا: اللهم اجعلنا من البارين بوالدينا، وارزقنا رضاهم في الدنيا والآخرة. خالد ونور: آمين!",
+    "speaker": "تيتا وخالد وزينة",
+    "line": "تيتا: اللهم اجعلنا من البارين بوالدينا، وارزقنا رضاهم في الدنيا والآخرة. خالد وزينة: آمين!",
     "visual_prompt": "[ANIMATION STYLE] Khalid and Noor sit with Teta after breakfast. Teta raises her hands in prayer.",
     "duration_est": 8,
     "is_story_shot": false
@@ -194,7 +194,7 @@
   {
     "scene_id": 25,
     "speaker": "راوٍ",
-    "line": "أمي يا أغلى إنسانِ حبك يملأ وجداني إن نادتني أجري حالا أترك لعبي مهما كانَ رضاكِ يا أمي يرضي ربي فأنتِ نورٌ في دربي بالبرّ نرقى للجنانِ وللخيرِ دوماً عنوانِ",
+    "line": "أمي يا أغلى إنسانِ حبك يملأ وجداني إن نادتني أجري حالا أترك لعبي مهما كانَ رضاكِ يا أمي يرضي ربي فأنتِ زينةٌ في دربي بالبرّ نرقى للجنانِ وللخيرِ دوماً عنوانِ",
     "visual_prompt": "[ANIMATION STYLE] A narrator (on-screen or voice-only) begins to sing a light, instrument-free anthem.",
     "duration_est": 15,
     "is_story_shot": false
