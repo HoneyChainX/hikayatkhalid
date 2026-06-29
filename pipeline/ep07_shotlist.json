@@ -50,7 +50,7 @@
   {
     "scene_id": 7,
     "speaker": "خالد وزينة",
-    "line": "(خالد): نبي الله نوح؟ الذي بنى سفينة كبيرة جداً؟ (نور): أخبرينا يا تيتا!",
+    "line": "(خالد): نبي الله نوح؟ الذي بنى سفينة كبيرة جداً؟ (زينة): أخبرينا يا تيتا!",
     "visual_prompt": "[ANIMATION STYLE] Khalid looking at Tita with dawning recognition and interest, Zina eagerly looking at Tita, leaning forward.",
     "duration_est": 6,
     "is_story_shot": false
@@ -242,7 +242,7 @@
   {
     "scene_id": 31,
     "speaker": "خالد وزينة وتيتا",
-    "line": "(خالد): كانت قصة رائعة يا تيتا! شكراً لكِ! (نور): وماذا سنعرف في المرة القادمة؟ (تيتا): في المرة القادمة، سنعرف قصة أخرى عن نبي عظيم، وكيف نجاه الله من النار! هل عرفتم من هو؟",
+    "line": "(خالد): كانت قصة رائعة يا تيتا! شكراً لكِ! (زينة): وماذا سنعرف في المرة القادمة؟ (تيتا): في المرة القادمة، سنعرف قصة أخرى عن نبي عظيم، وكيف نجاه الله من النار! هل عرفتم من هو؟",
     "visual_prompt": "[ANIMATION STYLE] Khalid and Zina looking at Tita with excitement and curiosity. Tita smiling mysteriously at the children.",
     "duration_est": 15,
     "is_story_shot": false

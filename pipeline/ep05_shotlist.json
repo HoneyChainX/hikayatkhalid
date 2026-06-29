@@ -34,7 +34,7 @@
   {
     "scene_id": 5,
     "speaker": "زينة، تيتا، خالد، زينة",
-    "line": "نور: مثلما نحن نحب بعضنا، نحبهم أيضاً؟ تيتا: أحسنتِ يا زينة! بالضبط هكذا. وما رأيكما أن نحكي قصة عن النملة الذكية؟ قصة من زمان بعيد، من زمن نبي عظيم اسمه سليمان عليه السلام. خالد: نبي سليمان! واو! نور: نملة ذكية؟ كيف؟ تيتا: تعالوا لنرى!",
+    "line": "زينة: مثلما نحن نحب بعضنا، نحبهم أيضاً؟ تيتا: أحسنتِ يا زينة! بالضبط هكذا. وما رأيكما أن نحكي قصة عن النملة الذكية؟ قصة من زمان بعيد، من زمن نبي عظيم اسمه سليمان عليه السلام. خالد: نبي سليمان! واو! زينة: نملة ذكية؟ كيف؟ تيتا: تعالوا لنرى!",
     "visual_prompt": "[STYLE] Zina looks lovingly at the ants. Teita proposes a story. Khalid and Zina sit eagerly in front of Teita in the living room, the story lantern glowing softly.",
     "duration_est": 15,
     "is_story_shot": false
@@ -138,7 +138,7 @@
   {
     "scene_id": 18,
     "speaker": "خالد، زينة",
-    "line": "خالد: واو! النملة ذكية جداً! نور: ونبي سليمان سمعها!",
+    "line": "خالد: واو! النملة ذكية جداً! زينة: ونبي سليمان سمعها!",
     "visual_prompt": "[STYLE] The magical light of the lantern fades. Khalid and Zina sit in awe in the living room.",
     "duration_est": 5,
     "is_story_shot": false
@@ -162,7 +162,7 @@
   {
     "scene_id": 21,
     "speaker": "زينة، خالد",
-    "line": "نور: أنا سأكون رحيمة بالنمل! خالد: وأنا أيضاً يا تيتا. لن أؤذي أي حشرة بعد اليوم. سأكون مثل نبي سليمان، رحيماً ومتواضعاً.",
+    "line": "زينة: أنا سأكون رحيمة بالنمل! خالد: وأنا أيضاً يا تيتا. لن أؤذي أي حشرة بعد اليوم. سأكون مثل نبي سليمان، رحيماً ومتواضعاً.",
     "visual_prompt": "[STYLE] Zina smiles. Khalid looks determined, both making a promise.",
     "duration_est": 8,
     "is_story_shot": false
