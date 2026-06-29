@@ -24,9 +24,8 @@
     },
     "abdulrahman": {
       "match": ["عبد الرحمن", "عبدالرحمن", "Abdulrahman", "Abdul Rahman"],
-      "descriptor": "Abdulrahman — ROLE TO CONFIRM (placeholder: the children's father, a kind young-adult Arab Muslim man, short neat dark beard, warm brown eyes, simple modest modern clothing or a plain thobe and kufi)",
-      "ref_3d": "assets/characters/abdulrahman_ref_3d.png",
-      "status": "needs_confirmation"
+      "descriptor": "Abdulrahman is a sweet 4-year-old Arab Muslim boy, Khalid's little brother — similar features to Khalid (short deep-black hair, big warm brown eyes, soft wheat skin) but younger and smaller with chubby toddler cheeks, wearing a small black-and-gold thobe and a little olive-gold kufi cap",
+      "ref_3d": "assets/characters/abdulrahman_ref_3d.png"
     },
     "lantern": {
       "match": ["lantern", "fanous", "فانوس"],
@@ -49,7 +48,7 @@
     "زينة": "nfMYisZqs1GOjTFllho3",
     "تيتا": "mS4cERRqrNy5Kmlx8Udf",
     "جدو": "PENDING_elderly_arabic_male",
-    "عبد الرحمن": "PENDING_young_adult_arabic_male",
+    "عبد الرحمن": "PENDING_young_boy_arabic_4yo",
     "راوٍ": "ocqVw6LVSdCxCra4XhMH",
     "خالد وزينة": "rzNH3PV43Tk38jg31TS6",
     "خالد وزينة وتيتا": "mS4cERRqrNy5Kmlx8Udf",
