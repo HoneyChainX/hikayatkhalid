@@ -3,7 +3,7 @@
     "scene_id": 1,
     "speaker": "زينة",
     "line": "يا خالد، لا تدخل! الحصّالة جائعة جدًا!",
-    "visual_prompt": "[STYLE] A medium shot of Khalid and Noor sitting on the floor. A bear-shaped piggy bank is between them. Noor struggles to insert a small banknote into the piggy bank's slot.",
+    "visual_prompt": "[STYLE] A medium shot of Khalid and Zina sitting on the floor. A bear-shaped piggy bank is between them. Zina struggles to insert a small banknote into the piggy bank's slot.",
     "duration_est": 5,
     "is_story_shot": false
   },
@@ -11,7 +11,7 @@
     "scene_id": 2,
     "speaker": "خالد",
     "line": "ليست جائعة يا زينة، فتحتها صغيرة. أعطيني، سأساعدك.",
-    "visual_prompt": "[STYLE] Khalid laughs gently at Noor's comment. He extends his hand to take the banknote from her.",
+    "visual_prompt": "[STYLE] Khalid laughs gently at Zina's comment. He extends his hand to take the banknote from her.",
     "duration_est": 5,
     "is_story_shot": false
   },
@@ -19,7 +19,7 @@
     "scene_id": 3,
     "speaker": "زينة",
     "line": "شكرًا لك يا أخي! أنت الأقوى!",
-    "visual_prompt": "[STYLE] Close-up shot of Khalid helping Noor insert the banknote into the piggy bank. Noor claps her hands in happiness.",
+    "visual_prompt": "[STYLE] Close-up shot of Khalid helping Zina insert the banknote into the piggy bank. Zina claps her hands in happiness.",
     "duration_est": 4,
     "is_story_shot": false
   },
@@ -27,7 +27,7 @@
     "scene_id": 4,
     "speaker": "خالد",
     "line": "نحن نحفظ المال في الحصّالة لكي لا يضيع، أليس كذلك؟",
-    "visual_prompt": "[STYLE] Khalid smiles at Noor, making eye contact after helping her with the piggy bank.",
+    "visual_prompt": "[STYLE] Khalid smiles at Zina, making eye contact after helping her with the piggy bank.",
     "duration_est": 4,
     "is_story_shot": false
   },
@@ -35,7 +35,7 @@
     "scene_id": 5,
     "speaker": "زينة",
     "line": "نعم! هذا مالي لأشتري به لعبة كبيرة!",
-    "visual_prompt": "[STYLE] Noor hugs the piggy bank tightly with a bright, possessive smile.",
+    "visual_prompt": "[STYLE] Zina hugs the piggy bank tightly with a bright, possessive smile.",
     "duration_est": 3,
     "is_story_shot": false
   },
@@ -43,7 +43,7 @@
     "scene_id": 6,
     "speaker": "تيتا",
     "line": "السلام عليكم يا أحفادي الحلوين!",
-    "visual_prompt": "[STYLE] Teita enters the living room with a warm smile, holding a small gift bag. Khalid and Noor look up.",
+    "visual_prompt": "[STYLE] Teita enters the living room with a warm smile, holding a small gift bag. Khalid and Zina look up.",
     "duration_est": 3,
     "is_story_shot": false
   },
@@ -51,7 +51,7 @@
     "scene_id": 7,
     "speaker": "خالد وزينة",
     "line": "وعليكم السلام يا تيتا!",
-    "visual_prompt": "[STYLE] Khalid and Noor enthusiastically greet Teita.",
+    "visual_prompt": "[STYLE] Khalid and Zina enthusiastically greet Teita.",
     "duration_est": 2,
     "is_story_shot": false
   },
@@ -67,7 +67,7 @@
     "scene_id": 9,
     "speaker": "زينة",
     "line": "واو! شكرًا يا تيتا!",
-    "visual_prompt": "[STYLE] Close-up on Noor's joyful face as she eagerly takes her chocolate and coin.",
+    "visual_prompt": "[STYLE] Close-up on Zina's joyful face as she eagerly takes her chocolate and coin.",
     "duration_est": 3,
     "is_story_shot": false
   },
@@ -75,7 +75,7 @@
     "scene_id": 10,
     "speaker": "زينة",
     "line": "خالد، هل يمكن أن تحتفظ لي بالنقود؟ أنا أريد أن ألعب الآن، وأخاف أن تضيع مني.",
-    "visual_prompt": "[STYLE] Noor quickly eats her chocolate, then looks at Khalid. Khalid puts his own chocolate in his mouth, then notices Noor's coin.",
+    "visual_prompt": "[STYLE] Zina quickly eats her chocolate, then looks at Khalid. Khalid puts his own chocolate in his mouth, then notices Zina's coin.",
     "duration_est": 6,
     "is_story_shot": false
   },
@@ -83,7 +83,7 @@
     "scene_id": 11,
     "speaker": "خالد",
     "line": "بالطبع يا زينة، ضعِيها معي. سأحفظها لك.",
-    "visual_prompt": "[STYLE] Khalid swallows his chocolate, takes the coin from Noor, and carefully places it in his small pocket.",
+    "visual_prompt": "[STYLE] Khalid swallows his chocolate, takes the coin from Zina, and carefully places it in his small pocket.",
     "duration_est": 5,
     "is_story_shot": false
   },
@@ -91,7 +91,7 @@
     "scene_id": 12,
     "speaker": "خالد",
     "line": "يا إلهي، هذه اللعبة رائعة! أريدها حقًا!",
-    "visual_prompt": "[STYLE] Khalid and Noor are playing with colorful balls. Khalid throws a ball to Noor. Khalid's attention is drawn to a toy advertisement in a magazine lying nearby. Close-up on the magazine showing the toy.",
+    "visual_prompt": "[STYLE] Khalid and Zina are playing with colorful balls. Khalid throws a ball to Zina. Khalid's attention is drawn to a toy advertisement in a magazine lying nearby. Close-up on the magazine showing the toy.",
     "duration_est": 5,
     "is_story_shot": false
   },
@@ -99,7 +99,7 @@
     "scene_id": 13,
     "speaker": "خالد",
     "line": "لو أضفت نقود زينة إلى نقودي، يمكن أن أشتري هذه اللعبة الصغيرة. لا أحد سيعرف... زينة لن تتذكر.",
-    "visual_prompt": "[STYLE] Khalid holds the magazine, looking at the toy's price. He subtly touches his pocket where Noor's money is, a hint of temptation on his face.",
+    "visual_prompt": "[STYLE] Khalid holds the magazine, looking at the toy's price. He subtly touches his pocket where Zina's money is, a hint of temptation on his face.",
     "duration_est": 7,
     "is_story_shot": false
   },
@@ -107,7 +107,7 @@
     "scene_id": 14,
     "speaker": "خالد",
     "line": "لكن... هذا ليس مالي. هذه أمانة.",
-    "visual_prompt": "[STYLE] Close-up on Khalid's hand, holding Noor's coin. He glances at Noor, who is playing happily, oblivious. Khalid's face shows internal conflict and hesitation.",
+    "visual_prompt": "[STYLE] Close-up on Khalid's hand, holding Zina's coin. He glances at Zina, who is playing happily, oblivious. Khalid's face shows internal conflict and hesitation.",
     "duration_est": 5,
     "is_story_shot": false
   },
@@ -115,7 +115,7 @@
     "scene_id": 15,
     "speaker": "زينة",
     "line": "خالد! دورك لترمي الكرة!",
-    "visual_prompt": "[STYLE] Noor calls out to Khalid from off-screen, her voice playful.",
+    "visual_prompt": "[STYLE] Zina calls out to Khalid from off-screen, her voice playful.",
     "duration_est": 2,
     "is_story_shot": false
   },
@@ -131,7 +131,7 @@
     "scene_id": 17,
     "speaker": "خالد",
     "line": "لا شيء يا تيتا... فقط...",
-    "visual_prompt": "[STYLE] Khalid sighs, looking briefly at Noor then at his pocket, unable to articulate his dilemma.",
+    "visual_prompt": "[STYLE] Khalid sighs, looking briefly at Zina then at his pocket, unable to articulate his dilemma.",
     "duration_est": 3,
     "is_story_shot": false
   },
@@ -155,7 +155,7 @@
     "scene_id": 20,
     "speaker": "زينة",
     "line": "قصة! قصة!",
-    "visual_prompt": "[STYLE] Noor runs excitedly towards Khalid and Teita, eager for a story.",
+    "visual_prompt": "[STYLE] Zina runs excitedly towards Khalid and Teita, eager for a story.",
     "duration_est": 2,
     "is_story_shot": false
   },
@@ -171,7 +171,7 @@
     "scene_id": 22,
     "speaker": "خالد وزينة",
     "line": "واو!",
-    "visual_prompt": "[STYLE] Khalid and Noor look at the glowing lantern with wide-eyed wonder.",
+    "visual_prompt": "[STYLE] Khalid and Zina look at the glowing lantern with wide-eyed wonder.",
     "duration_est": 1,
     "is_story_shot": false
   },
@@ -179,7 +179,7 @@
     "scene_id": 23,
     "speaker": "راوٍ",
     "line": "",
-    "visual_prompt": "[STYLE] The lantern emits a powerful, magical glow that fills the entire room. Khalid, Noor, and Teita close their eyes as if transported.",
+    "visual_prompt": "[STYLE] The lantern emits a powerful, magical glow that fills the entire room. Khalid, Zina, and Teita close their eyes as if transported.",
     "duration_est": 5,
     "is_story_shot": false
   },
@@ -307,7 +307,7 @@
     "scene_id": 39,
     "speaker": "زينة",
     "line": "واو! الأمانة أنقذتهم!",
-    "visual_prompt": "[STYLE] Khalid, Noor, and Teita are back in the living room. The lantern's glow subsides to normal. Noor looks utterly amazed by the story.",
+    "visual_prompt": "[STYLE] Khalid, Zina, and Teita are back in the living room. The lantern's glow subsides to normal. Zina looks utterly amazed by the story.",
     "duration_est": 4,
     "is_story_shot": false
   },
@@ -331,7 +331,7 @@
     "scene_id": 42,
     "speaker": "خالد",
     "line": "تفضلي يا زينة، نقودك. أنا آسف، كنت أفكر أن آخذها لأشتري بها لعبة. لكن تذكرت قصة الرجل الأمين.",
-    "visual_prompt": "[STYLE] Khalid sincerely takes Noor's money from his pocket and extends it to her, a genuine smile replacing his earlier conflict.",
+    "visual_prompt": "[STYLE] Khalid sincerely takes Zina's money from his pocket and extends it to her, a genuine smile replacing his earlier conflict.",
     "duration_est": 8,
     "is_story_shot": false
   },
@@ -339,7 +339,7 @@
     "scene_id": 43,
     "speaker": "زينة",
     "line": "أنت أمين يا خالد!",
-    "visual_prompt": "[STYLE] Noor accepts her money, looking at Khalid with admiration and trust.",
+    "visual_prompt": "[STYLE] Zina accepts her money, looking at Khalid with admiration and trust.",
     "duration_est": 3,
     "is_story_shot": false
   },
@@ -347,7 +347,7 @@
     "scene_id": 44,
     "speaker": "تيتا",
     "line": "أحسنت يا خالد. الأمانة تجعلك قويًا في عيون الله والناس. وهي طريق لرضا الله ولفعل الخير دائمًا.",
-    "visual_prompt": "[STYLE] Teita affectionately embraces both Khalid and Noor, praising Khalid's integrity.",
+    "visual_prompt": "[STYLE] Teita affectionately embraces both Khalid and Zina, praising Khalid's integrity.",
     "duration_est": 8,
     "is_story_shot": false
   },
@@ -355,7 +355,7 @@
     "scene_id": 45,
     "speaker": "تيتا",
     "line": "اللهم اجعلنا من الأمناء، واحفظنا بحفظك، ووفقنا لفعل الخير دائمًا.",
-    "visual_prompt": "[STYLE] Teita, Khalid, and Noor sit together, a sense of peace and warmth surrounding them as Teita offers a prayer.",
+    "visual_prompt": "[STYLE] Teita, Khalid, and Zina sit together, a sense of peace and warmth surrounding them as Teita offers a prayer.",
     "duration_est": 6,
     "is_story_shot": false
   },
@@ -363,7 +363,7 @@
     "scene_id": 46,
     "speaker": "الراوي للنشيد",
     "line": "يا أطفال يا أحباب\nالأمانة باب الخير\nنحفظ سرًّا، نحفظ مالًا\nمثل النحل يحفظ زهر\nربّي يحب الأمناء\nنحن نحب الأمناء\nنحفظ حقًّا، نحفظ وعدًا\nيا أطفال يا أحباب\nالصدق أساس الأمانة\nنزرع خيرًا في كلّ آن\nيا رب اجعلنا أمناء\nفي كلّ زمان ومكان",
-    "visual_prompt": "[STYLE] Upbeat music begins. Khalid and Noor clap their hands lightly to the rhythm, their faces bright with joy and engagement.",
+    "visual_prompt": "[STYLE] Upbeat music begins. Khalid and Zina clap their hands lightly to the rhythm, their faces bright with joy and engagement.",
     "duration_est": 20,
     "is_story_shot": false
   },
@@ -371,7 +371,7 @@
     "scene_id": 47,
     "speaker": "تيتا",
     "line": "وفي المرة القادمة، سنعرف قصة جديدة عن الشجاعة، وكيف أن الشجاعة لا تعني القوة الجسدية فقط، بل هي قوة القلب والإيمان.",
-    "visual_prompt": "[STYLE] Teita smiles mysteriously at Khalid and Noor, creating anticipation for the next episode's theme.",
+    "visual_prompt": "[STYLE] Teita smiles mysteriously at Khalid and Zina, creating anticipation for the next episode's theme.",
     "duration_est": 10,
     "is_story_shot": false
   },
@@ -379,7 +379,7 @@
     "scene_id": 48,
     "speaker": "خالد وزينة",
     "line": "يا سلام! ننتظرها بفارغ الصبر!",
-    "visual_prompt": "[STYLE] Khalid and Noor exclaim with joyful anticipation, their faces alight with excitement for the upcoming story.",
+    "visual_prompt": "[STYLE] Khalid and Zina exclaim with joyful anticipation, their faces alight with excitement for the upcoming story.",
     "duration_est": 3,
     "is_story_shot": false
   }

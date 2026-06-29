@@ -3,7 +3,7 @@
     "scene_id": 1,
     "speaker": "خالد",
     "line": "آخ! لم أستطع تسجيله هذه المرة!",
-    "visual_prompt": "[STYLE] Khalid and Noor playing football in a garden. Khalid attempts to score but misses, the ball goes far.",
+    "visual_prompt": "[STYLE] Khalid and Zina playing football in a garden. Khalid attempts to score but misses, the ball goes far.",
     "duration_est": 4,
     "is_story_shot": false
   },
@@ -11,7 +11,7 @@
     "scene_id": 2,
     "speaker": "زينة",
     "line": "لا بأس يا خالد، حاول مرة أخرى! الشجاعة هي أن لا تستسلم!",
-    "visual_prompt": "[STYLE] Noor gently laughs, then encourages Khalid.",
+    "visual_prompt": "[STYLE] Zina gently laughs, then encourages Khalid.",
     "duration_est": 5,
     "is_story_shot": false
   },
@@ -43,7 +43,7 @@
     "scene_id": 6,
     "speaker": "تيتا",
     "line": "ما بك يا حبيبي خالد؟ تبدو حزيناً.",
-    "visual_prompt": "[STYLE] At home, Khalid sits next to Teita, looking sad. Noor sits on the floor drawing. Teita looks at Khalid with concern.",
+    "visual_prompt": "[STYLE] At home, Khalid sits next to Teita, looking sad. Zina sits on the floor drawing. Teita looks at Khalid with concern.",
     "duration_est": 5,
     "is_story_shot": false
   },
@@ -75,7 +75,7 @@
     "scene_id": 10,
     "speaker": "زينة",
     "line": "قصة! قصة!",
-    "visual_prompt": "[STYLE] Noor comes running, excited.",
+    "visual_prompt": "[STYLE] Zina comes running, excited.",
     "duration_est": 3,
     "is_story_shot": false
   },
@@ -83,7 +83,7 @@
     "scene_id": 11,
     "speaker": "تيتا",
     "line": "(تضحك) نعم، قصة عن فتية شجعان ثبتوا على الحق رغم كل الصعوبات. هيا، لنجلس حول فانوس الحكايات. خالد وزينة هيا يا تيتا!",
-    "visual_prompt": "[STYLE] Teita laughs gently, then gestures for them to gather. Khalid and Noor look excited.",
+    "visual_prompt": "[STYLE] Teita laughs gently, then gestures for them to gather. Khalid and Zina look excited.",
     "duration_est": 10,
     "is_story_shot": false
   },
@@ -91,7 +91,7 @@
     "scene_id": 12,
     "speaker": "تيتا",
     "line": "هذا الفانوس السحري سيأخذنا في رحلة إلى زمن بعيد، لنتعلم من قصص الأوّلين.",
-    "visual_prompt": "[STYLE] Khalid and Noor sit in front of Teita. Teita places her hand on the storytelling lantern, which begins to glow slowly.",
+    "visual_prompt": "[STYLE] Khalid and Zina sit in front of Teita. Teita places her hand on the storytelling lantern, which begins to glow slowly.",
     "duration_est": 8,
     "is_story_shot": false
   },
@@ -179,7 +179,7 @@
     "scene_id": 23,
     "speaker": "خالد",
     "line": "واو! ناموا كل هذه السنين! زينة والكلب الوفي كان معهم!",
-    "visual_prompt": "[STYLE] The image returns to Khalid, Noor, and Teita in front of the glowing lantern. Khalid looks amazed, and Noor speaks excitedly.",
+    "visual_prompt": "[STYLE] The image returns to Khalid, Zina, and Teita in front of the glowing lantern. Khalid looks amazed, and Zina speaks excitedly.",
     "duration_est": 7,
     "is_story_shot": false
   },
@@ -203,7 +203,7 @@
     "scene_id": 26,
     "speaker": "زينة",
     "line": "وأنا أيضاً سأكون شجاعة وأثبت على الحق!",
-    "visual_prompt": "[STYLE] Noor raises her hand enthusiastically.",
+    "visual_prompt": "[STYLE] Zina raises her hand enthusiastically.",
     "duration_est": 4,
     "is_story_shot": false
   },
@@ -211,7 +211,7 @@
     "scene_id": 27,
     "speaker": "تيتا",
     "line": "اللهم يا مقلب القلوب ثبت قلوبنا على دينك. واجعلنا من الثابتين على الحقّ المتوكلين عليك. آمين. خالد وزينة آمين.",
-    "visual_prompt": "[STYLE] Teita raises her hands in prayer, Khalid and Noor nod reverently and then say \"Ameen\".",
+    "visual_prompt": "[STYLE] Teita raises her hands in prayer, Khalid and Zina nod reverently and then say \"Ameen\".",
     "duration_est": 12,
     "is_story_shot": false
   },
@@ -219,7 +219,7 @@
     "scene_id": 28,
     "speaker": "راوٍ",
     "line": "يا خالدُ كنْ شجاعا، للصِّدقِ دومًا راعيا، في الحقِّ كنْ ثابتاً، لربِّكَ كنْ متوكّلا. مهما تكنْ صعابُ، فاللهُ خيرُ صحابِ، يحميكَ دومًا يحفظُ، بالخيرِ قلبَكَ يملأُ.",
-    "visual_prompt": "[STYLE] A colorful screen with simple Islamic drawings, showing smiling characters of Khalid and Noor, transitioning to the \"Hikayat Khalid\" logo with subtle light effects.",
+    "visual_prompt": "[STYLE] A colorful screen with simple Islamic drawings, showing smiling characters of Khalid and Zina, transitioning to the \"Hikayat Khalid\" logo with subtle light effects.",
     "duration_est": 24,
     "is_story_shot": false
   },

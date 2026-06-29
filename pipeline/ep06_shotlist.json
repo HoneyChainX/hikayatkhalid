@@ -3,7 +3,7 @@
     "scene_id": 1,
     "speaker": "خالد",
     "line": "أسرع يا زينة! لن تستطيعي اللحاق بي!",
-    "visual_prompt": "[ANIMATION STYLE] Khalid running and playing soccer enthusiastically, laughing and jumping. Noor struggling to follow him, trying to catch the ball.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid running and playing soccer enthusiastically, laughing and jumping. Zina struggling to follow him, trying to catch the ball.",
     "duration_est": 4,
     "is_story_shot": false
   },
@@ -19,7 +19,7 @@
     "scene_id": 3,
     "speaker": "خالد وزينة",
     "line": "زينة: ماما تنادي يا خالد! خالد: دقيقة واحدة يا زينة! سأسجل هدفاً أولاً!",
-    "visual_prompt": "[ANIMATION STYLE] Khalid hears his mother but doesn't stop, skillfully dribbling the ball. Noor stops, panting.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid hears his mother but doesn't stop, skillfully dribbling the ball. Zina stops, panting.",
     "duration_est": 6,
     "is_story_shot": false
   },
@@ -35,7 +35,7 @@
     "scene_id": 5,
     "speaker": "خالد وزينة",
     "line": "زينة: ماما زعلانة يا خالد! خالد: ليس الآن يا زينة، أريد أن أفوز!",
-    "visual_prompt": "[ANIMATION STYLE] Khalid is still engrossed in playing, ignoring the call. Noor looks at him with wonder, then gently pulls his shirt.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid is still engrossed in playing, ignoring the call. Zina looks at him with wonder, then gently pulls his shirt.",
     "duration_est": 6,
     "is_story_shot": false
   },
@@ -59,7 +59,7 @@
     "scene_id": 8,
     "speaker": "خالد وتيتا",
     "line": "خالد: هل حقاً أمي حزينة مني يا تيتا؟ تيتا: نعم يا حبيبي، لكنها تحبك جداً. تعال يا خالد، ولنجلس أنا وأنت وزينة، ولنطلب من فانوس الحكايات أن يروي لنا قصة عن أهمية طاعة الأم.",
-    "visual_prompt": "[ANIMATION STYLE] Khalid and Noor sit next to Teta. Khalid looks a little sad. Teta strokes his hair.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid and Zina sit next to Teta. Khalid looks a little sad. Teta strokes his hair.",
     "duration_est": 12,
     "is_story_shot": false
   },
@@ -163,7 +163,7 @@
     "scene_id": 21,
     "speaker": "خالد وتيتا",
     "line": "خالد: يا إلهي! كل هذا حدث لجُريج لأنه لم يجب أمه؟ تيتا: نعم يا خالد. القصة تعلمنا أن إجابة الأم مقدَّمة على الصلاة النافلة، لأن رضا الأم من رضا الله. يجب علينا دائماً أن نجيب أمنا وأبانا بسرعة، ولا نجعلهما ينتظران أو يشعران بالحزن.",
-    "visual_prompt": "[ANIMATION STYLE] The lantern stops shimmering. Khalid and Noor look thoughtfully at Teta.",
+    "visual_prompt": "[ANIMATION STYLE] The lantern stops shimmering. Khalid and Zina look thoughtfully at Teta.",
     "duration_est": 15,
     "is_story_shot": false
   },
@@ -171,7 +171,7 @@
     "scene_id": 22,
     "speaker": "زينة وخالد",
     "line": "زينة: أنا دائماً أجيب ماما بسرعة! خالد: أنا آسف يا تيتا، آسف يا زينة. سأذهب لأعتذر لأمي فوراً!",
-    "visual_prompt": "[ANIMATION STYLE] Noor hugs Teta. Khalid stands up.",
+    "visual_prompt": "[ANIMATION STYLE] Zina hugs Teta. Khalid stands up.",
     "duration_est": 8,
     "is_story_shot": false
   },
@@ -187,7 +187,7 @@
     "scene_id": 24,
     "speaker": "تيتا وخالد وزينة",
     "line": "تيتا: اللهم اجعلنا من البارين بوالدينا، وارزقنا رضاهم في الدنيا والآخرة. خالد وزينة: آمين!",
-    "visual_prompt": "[ANIMATION STYLE] Khalid and Noor sit with Teta after breakfast. Teta raises her hands in prayer.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid and Zina sit with Teta after breakfast. Teta raises her hands in prayer.",
     "duration_est": 8,
     "is_story_shot": false
   },
@@ -203,7 +203,7 @@
     "scene_id": 26,
     "speaker": "خالد وتيتا",
     "line": "خالد: يا تيتا، هل هناك قصص أخرى عن بر الوالدين؟ تيتا: بالطبع يا خالد! وفي الحلقة القادمة، سنعرف قصة أخرى رائعة، فانتظرونا!",
-    "visual_prompt": "[ANIMATION STYLE] Khalid and Noor smile.",
+    "visual_prompt": "[ANIMATION STYLE] Khalid and Zina smile.",
     "duration_est": 9,
     "is_story_shot": false
   }
